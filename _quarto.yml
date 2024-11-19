@@ -2,18 +2,41 @@ project:
   type: website
 
 website:
-  title: "R_Kodamas_Web"
+  title: "R Kodamas"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: manejo-datos.qmd
+        text: Manejo de Datos
+      - href: estadistica.qmd
+        text: Estadística
+      - href: modelizacion.qmd
+        text: Modelización
+      - href: graficos.qmd
+        text: Gráficos
+      - href: shiny.qmd
+        text: Shiny
+      - href: workflows-reporting.qmd
+        text: Workflows y Reporting
+      - href: tutoriales.qmd
+        text: Tutoriales
+      - href: python.qmd
+        text: Python
+      - href: bases-datos.qmd
+        text: Bases de Datos
+      - href: grupos-concursos.qmd
+        text: Grupos Online y Concursos
+      - href: libros.qmd
+        text: Libros
+      - href: imagenes.qmd
+        text: Imágenes
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: journal
+    # theme: [cosmo, theme-dark.scss]
 
 editor: visual
-

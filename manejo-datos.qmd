@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+---
+
+
+dplyr (https://dplyr.tidyverse.org) 
+dplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de "verbos" como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles. 
+
+ 
+
+tidyr (https://tidyr.tidyverse.org) 
+tidyr ayuda a transformar datos a un formato "ordenado", lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R. 
+
+ 
+
+readr (https://readr.tidyverse.org) 
+readr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando "tibbles" que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento. 
+
+ 
+
+lubridate (https://lubridate.tidyverse.org) 
+lubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R. 

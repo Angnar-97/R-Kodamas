@@ -1,0 +1,10 @@
+---
+title: "modelizacion"
+---
+
+
+https://www.tidymodels.org  
+
+ 
+
+DALEX: https://uc-r.github.io/dalex  
