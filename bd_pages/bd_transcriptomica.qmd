@@ -1,0 +1,28 @@
+---
+title: "Bases de Datos de Transcriptómica"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## GEO (Gene Expression Omnibus)
+  
+**Descripción:** Repositorio de datos de expresión génica y estudios de secuenciación a gran escala.
+
+**Temáticas clave:** Transcriptómica, análisis de microarrays y RNA-Seq.
+
+**Aplicaciones:** Estudios de expresión génica diferencial, análisis de datos transcriptómicos y diseño de experimentos de ARN.
+
+**Enlace:** https://www.ncbi.nlm.nih.gov/geo
+
+---
+  
+## EBI Expression Atlas
+  
+**Descripción:** Herramienta que permite explorar datos de expresión génica en diferentes condiciones, tejidos y especies.
+
+**Temáticas clave:** Transcriptómica, expresión génica diferencial, tejidos específicos.
+
+**Aplicaciones:** Análisis de datos transcriptómicos y diseño de experimentos de validación.
+
+**Enlace:** https://www.ebi.ac.uk/gxa

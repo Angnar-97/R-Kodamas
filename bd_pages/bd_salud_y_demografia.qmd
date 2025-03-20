@@ -1,0 +1,46 @@
+---
+title: "Bases de Datos de Salud y Demografía"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## Global Burden of Disease (GBD) - VizHub
+  
+**Descripción:** Herramienta interactiva de visualización desarrollada por el Institute for Health Metrics and Evaluation (IHME) que permite explorar datos sobre la carga global de enfermedades, lesiones y factores de riesgo en diferentes países y regiones.
+
+**Temáticas clave:** Mortalidad, esperanza de vida, discapacidad, enfermedades específicas y factores de riesgo.
+
+**Metodología:** Basado en el análisis sistemático del GBD, utilizando datos recopilados de sistemas de salud, encuestas y registros vitales.
+
+**Aplicaciones:** Útil para el análisis detallado de tendencias de salud pública y planificación de recursos sanitarios.
+
+**Enlace:** https://vizhub.healthdata.org/gbd-compare/
+  
+---
+  
+## WHO Global Health Observatory (GHO)
+  
+**Descripción:** Plataforma de la Organización Mundial de la Salud (OMS) que ofrece acceso a datos y análisis relacionados con indicadores de salud global. Permite explorar estadísticas sobre mortalidad, morbilidad, factores de riesgo y acceso a servicios de salud en todo el mundo.
+
+**Temáticas clave:** Mortalidad, enfermedades transmisibles y no transmisibles, sistemas de salud, nutrición y salud materna e infantil.
+
+**Metodología:** Los datos provienen de informes nacionales de salud, encuestas globales, estudios epidemiológicos y registros vitales.
+
+**Aplicaciones:** Herramienta clave para investigadores en salud pública, organizaciones internacionales y gobiernos que necesitan tomar decisiones informadas basadas en datos.
+
+**Enlace:** https://www.who.int/data/gho
+
+---
+  
+## UNICEF Data
+  
+**Descripción:** Base de datos de UNICEF que recopila información clave sobre el bienestar de la infancia y la adolescencia, incluyendo educación, salud y protección.
+
+**Temáticas clave:** Mortalidad infantil, educación básica, vacunación, nutrición y derechos del niño.
+
+**Metodología:** Datos provenientes de encuestas globales como MICS (Encuestas de Indicadores Múltiples por Conglomerados), censos y reportes gubernamentales.
+
+**Aplicaciones:** Ideal para estudios sobre desarrollo infantil y evaluación de programas de impacto social.
+
+**Enlace:** https://data.unicef.org

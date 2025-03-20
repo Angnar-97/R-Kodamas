@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bases de Datos – R Kodamas</title>
+<title>Bases de Datos Públicas – R Kodamas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,6 +69,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="Bases de Datos Públicas – R Kodamas">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -95,34 +99,49 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./manejo-datos.html"> 
-<span class="menu-text">Manejo de Datos</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r">    
+        <li>
+    <a class="dropdown-item" href="./manejo-datos.html">
+ <span class="dropdown-text">Manejo de Datos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./estadistica.html"> 
-<span class="menu-text">Estadística</span></a>
+        <li>
+    <a class="dropdown-item" href="./graficos.html">
+ <span class="dropdown-text">Gráficos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./modelizacion.html"> 
-<span class="menu-text">Modelización</span></a>
+        <li>
+    <a class="dropdown-item" href="./bioconductor.html">
+ <span class="dropdown-text">Bioconductor</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./graficos.html"> 
-<span class="menu-text">Gráficos</span></a>
+        <li>
+    <a class="dropdown-item" href="./imagenes.html">
+ <span class="dropdown-text">Imágenes</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./shiny.html"> 
-<span class="menu-text">Shiny</span></a>
+        <li>
+    <a class="dropdown-item" href="./mapas.html">
+ <span class="dropdown-text">Mapas</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./workflows-reporting.html"> 
-<span class="menu-text">Workflows y Reporting</span></a>
+        <li>
+    <a class="dropdown-item" href="./estadistica.html">
+ <span class="dropdown-text">Estadística</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tutoriales.html"> 
-<span class="menu-text">Tutoriales</span></a>
+        <li>
+    <a class="dropdown-item" href="./modelizacion.html">
+ <span class="dropdown-text">Modelización</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./shiny.html">
+ <span class="dropdown-text">Shiny</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./quarto.html">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./python.html"> 
 <span class="menu-text">Python</span></a>
@@ -131,18 +150,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./bases-datos.html" aria-current="page"> 
 <span class="menu-text">Bases de Datos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./grupos-concursos.html"> 
-<span class="menu-text">Grupos Online y Concursos</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos">    
+        <li>
+    <a class="dropdown-item" href="./libros.html">
+ <span class="dropdown-text">Libros</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./libros.html"> 
-<span class="menu-text">Libros</span></a>
+        <li>
+    <a class="dropdown-item" href="./grupos-concursos.html">
+ <span class="dropdown-text">Grupos Online y Concursos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./imagenes.html"> 
-<span class="menu-text">Imágenes</span></a>
+        <li>
+    <a class="dropdown-item" href="./referentes.html">
+ <span class="dropdown-text">Referentes</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -156,10 +182,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">PAGE INDEX</h2>
    
   <ul>
-  <li><a href="#ine-instituto-nacional-de-estadística" id="toc-ine-instituto-nacional-de-estadística" class="nav-link active" data-scroll-target="#ine-instituto-nacional-de-estadística">INE (Instituto Nacional de Estadística)</a></li>
+  <li><a href="#alpha-fold" id="toc-alpha-fold" class="nav-link active" data-scroll-target="#alpha-fold">Alpha Fold</a></li>
+  <li><a href="#ine-instituto-nacional-de-estadística" id="toc-ine-instituto-nacional-de-estadística" class="nav-link" data-scroll-target="#ine-instituto-nacional-de-estadística">INE (Instituto Nacional de Estadística)</a></li>
   <li><a href="#our-world-in-data-owid" id="toc-our-world-in-data-owid" class="nav-link" data-scroll-target="#our-world-in-data-owid">Our World in Data (OWID)</a></li>
   <li><a href="#global-burden-of-disease-gbd---vizhub" id="toc-global-burden-of-disease-gbd---vizhub" class="nav-link" data-scroll-target="#global-burden-of-disease-gbd---vizhub">Global Burden of Disease (GBD) - VizHub</a></li>
   <li><a href="#world-bank-open-data" id="toc-world-bank-open-data" class="nav-link" data-scroll-target="#world-bank-open-data">World Bank Open Data</a></li>
@@ -205,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bases de Datos</h1>
+<h1 class="title">Bases de Datos Públicas</h1>
 </div>
 
 
@@ -222,6 +249,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="alpha-fold" class="level2">
+<h2 class="anchored" data-anchor-id="alpha-fold">Alpha Fold</h2>
+<p>https://alphafold.ebi.ac.uk</p>
+</section>
 <section id="ine-instituto-nacional-de-estadística" class="level2">
 <h2 class="anchored" data-anchor-id="ine-instituto-nacional-de-estadística">INE (Instituto Nacional de Estadística)</h2>
 <p>Descripción: El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.</p>
@@ -618,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/r-kodamas\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

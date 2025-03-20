@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Untitled – R Kodamas</title>
+<title>Manejo de Datos – R Kodamas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="Manejo de Datos – R Kodamas">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,54 +99,150 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./manejo-datos.html" aria-current="page"> 
-<span class="menu-text">Manejo de Datos</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r">    
+        <li>
+    <a class="dropdown-item" href="./bioconductor.html">
+ <span class="dropdown-text">Bioconductor</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./estadistica.html"> 
-<span class="menu-text">Estadística</span></a>
+        <li>
+    <a class="dropdown-item" href="./manejo-datos.html">
+ <span class="dropdown-text">Análisis de Datos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./modelizacion.html"> 
-<span class="menu-text">Modelización</span></a>
+        <li>
+    <a class="dropdown-item" href="./graficos.html">
+ <span class="dropdown-text">Visualización</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./graficos.html"> 
-<span class="menu-text">Gráficos</span></a>
+        <li>
+    <a class="dropdown-item" href="./imagenes.html">
+ <span class="dropdown-text">Imágenes</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./shiny.html"> 
-<span class="menu-text">Shiny</span></a>
+        <li>
+    <a class="dropdown-item" href="./mapas.html">
+ <span class="dropdown-text">Mapas</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./workflows-reporting.html"> 
-<span class="menu-text">Workflows y Reporting</span></a>
+        <li>
+    <a class="dropdown-item" href="./estadistica.html">
+ <span class="dropdown-text">Estadística</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tutoriales.html"> 
-<span class="menu-text">Tutoriales</span></a>
+        <li>
+    <a class="dropdown-item" href="./modelizacion.html">
+ <span class="dropdown-text">Modelización</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./python.html"> 
-<span class="menu-text">Python</span></a>
+        <li>
+    <a class="dropdown-item" href="./shiny.html">
+ <span class="dropdown-text">Shiny</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./bases-datos.html"> 
-<span class="menu-text">Bases de Datos</span></a>
+        <li>
+    <a class="dropdown-item" href="./quarto.html">
+ <span class="dropdown-text">Quarto</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./grupos-concursos.html"> 
-<span class="menu-text">Grupos Online y Concursos</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-python" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Python</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-python">    
+        <li>
+    <a class="dropdown-item" href="./analisis_visualizacion_python.html">
+ <span class="dropdown-text">Análisis Exploratorio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./libros.html"> 
-<span class="menu-text">Libros</span></a>
+        <li>
+    <a class="dropdown-item" href="./series_temporales_python.html">
+ <span class="dropdown-text">Series Temporales</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./imagenes.html"> 
-<span class="menu-text">Imágenes</span></a>
+        <li>
+    <a class="dropdown-item" href="./sql_python.html">
+ <span class="dropdown-text">SQL en Python</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./validacion_python.html">
+ <span class="dropdown-text">Validación de Datos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./calidad_codigo.html">
+ <span class="dropdown-text">Calidad de Código</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./documentacion_python.html">
+ <span class="dropdown-text">Documentación</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./integracion_r_python.html">
+ <span class="dropdown-text">Integración R y Python</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bases-de-datos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Bases de Datos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bases-de-datos">    
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_socioeconomicas.html">
+ <span class="dropdown-text">Bases de Datos Socioeconómicas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_salud_y_demografia.html">
+ <span class="dropdown-text">Bases de Datos de Salud y Demografía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_recursos_agricolas_y_medioambientales.html">
+ <span class="dropdown-text">Bases de Datos Medioambientales y de Recursos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_genomica.html">
+ <span class="dropdown-text">Bases de Datos de Genómica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_proteomica.html">
+ <span class="dropdown-text">Bases de Datos de Proteómica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_transcriptomica.html">
+ <span class="dropdown-text">Bases de Datos de Transcriptómica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_metabolismo.html">
+ <span class="dropdown-text">Bases de Datos de Metabolismo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_interacciones_y_redes_moleculares.html">
+ <span class="dropdown-text">Bases de Datos de Interacciones y Redes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_organismos_modelo.html">
+ <span class="dropdown-text">Bases de Datos de Organismos Modelo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bd_pages/bd_variantes_clinicas.html">
+ <span class="dropdown-text">Bases de Datos de Variantes, Fenotipos y Cáncer</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos">    
+        <li>
+    <a class="dropdown-item" href="./libros.html">
+ <span class="dropdown-text">Libros</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./grupos-concursos.html">
+ <span class="dropdown-text">Grupos Online y Concursos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./referentes.html">
+ <span class="dropdown-text">Referentes</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -154,13 +254,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">PAGE INDEX</h2>
+   
+  <ul>
+  <li><a href="#dplyr" id="toc-dplyr" class="nav-link active" data-scroll-target="#dplyr">Dplyr</a></li>
+  <li><a href="#tidyr" id="toc-tidyr" class="nav-link" data-scroll-target="#tidyr">Tidyr</a></li>
+  <li><a href="#readr" id="toc-readr" class="nav-link" data-scroll-target="#readr">Readr</a></li>
+  <li><a href="#lubridate" id="toc-lubridate" class="nav-link" data-scroll-target="#lubridate">Lubridate</a></li>
+  <li><a href="#dlookr" id="toc-dlookr" class="nav-link" data-scroll-target="#dlookr">Dlookr</a></li>
+  <li><a href="#gt" id="toc-gt" class="nav-link" data-scroll-target="#gt">Gt</a></li>
+  <li><a href="#naniar" id="toc-naniar" class="nav-link" data-scroll-target="#naniar">Naniar</a></li>
+  <li><a href="#patientlevelprediction" id="toc-patientlevelprediction" class="nav-link" data-scroll-target="#patientlevelprediction">PatientLevelPrediction</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Untitled</h1>
+<h1 class="title">Manejo de Datos</h1>
 </div>
 
 
@@ -177,12 +292,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>dplyr (https://dplyr.tidyverse.org) dplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de “verbos” como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles.</p>
-<p>tidyr (https://tidyr.tidyverse.org) tidyr ayuda a transformar datos a un formato “ordenado”, lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R.</p>
-<p>readr (https://readr.tidyverse.org) readr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando “tibbles” que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento.</p>
-<p>lubridate (https://lubridate.tidyverse.org) lubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R.</p>
+<section id="dplyr" class="level2">
+<h2 class="anchored" data-anchor-id="dplyr">Dplyr</h2>
+<p><a href="https://dplyr.tidyverse.org">Accede aquí</a></p>
+<p>dplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de “verbos” como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles.</p>
+</section>
+<section id="tidyr" class="level2">
+<h2 class="anchored" data-anchor-id="tidyr">Tidyr</h2>
+<p><a href="https://tidyr.tidyverse.org">Accede aquí</a></p>
+<p>tidyr ayuda a transformar datos a un formato “ordenado”, lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R.</p>
+</section>
+<section id="readr" class="level2">
+<h2 class="anchored" data-anchor-id="readr">Readr</h2>
+<p><a href="https://readr.tidyverse.org">Accede aquí</a></p>
+<p>readr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando “tibbles” que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento.</p>
+</section>
+<section id="lubridate" class="level2">
+<h2 class="anchored" data-anchor-id="lubridate">Lubridate</h2>
+<p><a href="https://lubridate.tidyverse.org">Accede aquí</a></p>
+<p>lubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R.</p>
+</section>
+<section id="dlookr" class="level2">
+<h2 class="anchored" data-anchor-id="dlookr">Dlookr</h2>
+<p><a href="https://choonghyunryu.github.io/dlookr/articles/introduce.html">Accede aquí</a></p>
+</section>
+<section id="gt" class="level2">
+<h2 class="anchored" data-anchor-id="gt">Gt</h2>
+<p><a href="https://gt.rstudio.com/articles/gt.html">Accede aquí</a></p>
+</section>
+<section id="naniar" class="level2">
+<h2 class="anchored" data-anchor-id="naniar">Naniar</h2>
+<p><a href="https://naniar.njtierney.com/articles/naniar.html">Accede aquí</a></p>
+</section>
+<section id="patientlevelprediction" class="level2">
+<h2 class="anchored" data-anchor-id="patientlevelprediction">PatientLevelPrediction</h2>
+<p><a href="https://ohdsi.github.io/PatientLevelPrediction/index.html">Accede aquí</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

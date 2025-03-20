@@ -1,0 +1,14 @@
+---
+title: "SQL en Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+  
+### **SQLFluff**
+  
+[Accede aquí](https://docs.sqlfluff.com/en/stable/gettingstarted.html)
+
+`SQLFluff` es una herramienta de análisis y corrección de sintaxis SQL. Compatible con múltiples dialectos SQL, permite verificar y formatear consultas según las mejores prácticas y estándares configurables, ayudando a mantener código SQL consistente y legible.

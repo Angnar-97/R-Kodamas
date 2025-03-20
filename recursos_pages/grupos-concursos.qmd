@@ -1,0 +1,20 @@
+---
+title: "Grupos de Redes Sociales & Concursos"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+# **Grupos en Redes Sociales**
+
+https://madrid.r-es.org
+
+https://www.meetup.com/es-ES/grupo-de-usuarios-de-r-de-madrid/
+
+# **Concursos Públicos**
+
+## **Quarto** 
+
+- Concurso de Storytelling de Posit con Quarto: https://posit.co/blog/closeread-prize-announcement/
+
+## **Kaggle**

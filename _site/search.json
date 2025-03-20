@@ -1,352 +1,1080 @@
 [
   {
-    "objectID": "workflows-reporting.html",
-    "href": "workflows-reporting.html",
-    "title": "Workflows & Reporting",
+    "objectID": "r_pages/shiny.html",
+    "href": "r_pages/shiny.html",
+    "title": "Recursos de Shiny",
     "section": "",
-    "text": "https://superset.apache.org/docs/intro\nhttps://dagster.io\nhttps://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards"
+    "text": "Accede aquí\nAprende los conceptos básicos de Shiny y cómo iniciar tu primera aplicación interactiva.\n\n\n\nAccede aquí\nExplora la estructura de una aplicación Shiny, incluyendo las funciones ui y server que definen la interacción y el diseño.\n\n\n\nAccede aquí\nDescubre cómo usar widgets interactivos, como botones, deslizadores y menús desplegables, para captar entradas de los usuarios.\n\n\n\nAccede aquí\nEntiende cómo funciona la reactividad en Shiny y cómo actualizar dinámicamente los resultados en función de las entradas del usuario.\n\n\n\nAccede aquí\nAprende a diseñar interfaces atractivas y funcionales utilizando los layouts y herramientas de personalización que ofrece Shiny.\n\n\n\nAccede aquí\nExplora cómo aplicar temas predefinidos o personalizar completamente el estilo visual de tus aplicaciones.\n\n\n\nAccede aquí\nDescubre cómo publicar tus aplicaciones para compartirlas con otros usuarios a través de Shinyapps.io o servidores propios.\n\n\n\nAccede aquí\nAprende a manejar conceptos avanzados de reactividad, incluyendo eventos observables y optimización del flujo de datos.\nNext steps\nhttps://shiny.posit.co/r/getstarted/next-steps/"
   },
   {
-    "objectID": "modelizacion.html",
-    "href": "modelizacion.html",
-    "title": "modelizacion",
+    "objectID": "r_pages/shiny.html#guía-de-aprendizaje-por-shiny",
+    "href": "r_pages/shiny.html#guía-de-aprendizaje-por-shiny",
+    "title": "Recursos de Shiny",
     "section": "",
-    "text": "https://www.tidymodels.org\nDALEX: https://uc-r.github.io/dalex"
+    "text": "Accede aquí\nAprende los conceptos básicos de Shiny y cómo iniciar tu primera aplicación interactiva.\n\n\n\nAccede aquí\nExplora la estructura de una aplicación Shiny, incluyendo las funciones ui y server que definen la interacción y el diseño.\n\n\n\nAccede aquí\nDescubre cómo usar widgets interactivos, como botones, deslizadores y menús desplegables, para captar entradas de los usuarios.\n\n\n\nAccede aquí\nEntiende cómo funciona la reactividad en Shiny y cómo actualizar dinámicamente los resultados en función de las entradas del usuario.\n\n\n\nAccede aquí\nAprende a diseñar interfaces atractivas y funcionales utilizando los layouts y herramientas de personalización que ofrece Shiny.\n\n\n\nAccede aquí\nExplora cómo aplicar temas predefinidos o personalizar completamente el estilo visual de tus aplicaciones.\n\n\n\nAccede aquí\nDescubre cómo publicar tus aplicaciones para compartirlas con otros usuarios a través de Shinyapps.io o servidores propios.\n\n\n\nAccede aquí\nAprende a manejar conceptos avanzados de reactividad, incluyendo eventos observables y optimización del flujo de datos.\nNext steps\nhttps://shiny.posit.co/r/getstarted/next-steps/"
   },
   {
-    "objectID": "libros.html",
-    "href": "libros.html",
-    "title": "libros",
+    "objectID": "r_pages/shiny.html#elementos-esenciales",
+    "href": "r_pages/shiny.html#elementos-esenciales",
+    "title": "Recursos de Shiny",
+    "section": "Elementos Esenciales",
+    "text": "Elementos Esenciales\n\nComponentes\nhttps://shiny.posit.co/r/components/\n\n\nLayouts\nhttps://shiny.posit.co/r/layouts/\n\n\nGallery\nhttps://shiny.posit.co/r/gallery/\n\n\nDeployment\nhttps://shiny.posit.co/r/deploy.html"
+  },
+  {
+    "objectID": "r_pages/shiny.html#paquetes-resolutivos",
+    "href": "r_pages/shiny.html#paquetes-resolutivos",
+    "title": "Recursos de Shiny",
+    "section": "Paquetes Resolutivos",
+    "text": "Paquetes Resolutivos\n\nshinyscreenshot\nhttps://github.com/daattali/shinyscreenshot/\n\n\nShinyJS\nhttps://deanattali.com/shinyjs/\n\n\nShinyalert\nhttps://github.com/daattali/shinyalert\n\n\nShinydisconnect\nhttps://github.com/daattali/shinydisconnect/\n\n\nTimeviz\nhttps://github.com/daattali/timevis/\n\n\nShinybrowser\nhttps://github.com/daattali/shinybrowser\n\n\nShinytip\nhttps://github.com/daattali/shinytip/\n\n\nShinyforms\nhttps://github.com/daattali/shinyforms/\n\n\nShinymixpanel\nhttps://github.com/daattali/shinymixpanel/\n\n\nshinycssloaders\nhttps://github.com/daattali/shinycssloaders\n\n\nColourpicker\nhttps://github.com/daattali/colourpicker/"
+  },
+  {
+    "objectID": "r_pages/shiny.html#galería-de-aplicaciones",
+    "href": "r_pages/shiny.html#galería-de-aplicaciones",
+    "title": "Recursos de Shiny",
+    "section": "Galería de Aplicaciones",
+    "text": "Galería de Aplicaciones\nhttps://shiny.posit.co/r/gallery/#user-showcase"
+  },
+  {
+    "objectID": "r_pages/shiny.html#set-de-iconos-web",
+    "href": "r_pages/shiny.html#set-de-iconos-web",
+    "title": "Recursos de Shiny",
+    "section": "Set de Iconos Web",
+    "text": "Set de Iconos Web\n\nFontawesome\nGlyphicon"
+  },
+  {
+    "objectID": "r_pages/modelizacion.html",
+    "href": "r_pages/modelizacion.html",
+    "title": "Modelización",
     "section": "",
-    "text": "R for Data Science: https://r4ds.hadley.nz\nTidy Modeling with R: https://www.tmwr.org\nR Packages: https://r-pkgs.org\nEfficient R Programming: https://csgillespie.github.io/efficientR/"
+    "text": "Tidymodels\nAccede aquí\nTidymodels es un conjunto de paquetes en R diseñado para realizar modelado estadístico y aprendizaje automático utilizando principios “tidy”. Facilita todo el flujo de trabajo del modelado, desde la preparación de datos hasta la evaluación de modelos. Sus principales características incluyen:\n\nPreparación de datos: Incluye herramientas para limpieza, transformación y preprocesamiento de datos (recipes).\nModelado: Proporciona una interfaz coherente para ajustar y comparar modelos estadísticos y de machine learning (parsnip y workflow).\nEvaluación: Realiza validaciones cruzadas, métricas de rendimiento y análisis de resultados (yardstick).\nVisualización: Ofrece herramientas para interpretar y visualizar modelos (tune y vip).\n\nTidymodels es ideal para quienes buscan integrar el aprendizaje automático en un flujo de trabajo limpio, reproducible y basado en la filosofía tidyverse.\n\n\nDALEX\nAccede aquí\nDALEX es una biblioteca en R para interpretar y explicar modelos de aprendizaje automático de manera fácil y visual. Es especialmente útil para entender cómo los modelos toman decisiones y para evaluar su comportamiento. Sus principales características incluyen:\n\nAnálisis de importancia de variables: Determina qué características tienen mayor impacto en las predicciones.\nDependencias parciales: Examina cómo los valores de entrada individuales afectan las predicciones.\nResiduos y explicaciones locales: Permite analizar el error del modelo y explorar explicaciones a nivel de observaciones individuales.\nCompatibilidad con múltiples modelos: Funciona con modelos ajustados con diferentes paquetes de machine learning como caret, tidymodels, randomForest, entre otros.\n\nEs una herramienta poderosa para auditar y explicar modelos complejos, mejorando la confianza y comprensión en los resultados del aprendizaje automático.\n\n\nRenv\nAccede aquí\nrenv es un paquete de R que gestiona entornos de proyectos, permitiendo a los usuarios aislar dependencias y garantizar la reproducibilidad del análisis. Sus principales funcionalidades incluyen:\n\nAislamiento de paquetes: Cada proyecto puede tener su propio conjunto de versiones de paquetes, evitando conflictos con otros proyectos.\nGestión de dependencias: Automatiza la instalación, actualización y mantenimiento de paquetes necesarios para un proyecto.\nSnapshot y lockfiles: Crea instantáneas del estado de los paquetes (renv.lock) para asegurar que el proyecto pueda ser replicado en cualquier entorno.\nCompatibilidad: Se integra con flujos de trabajo existentes y herramientas como packrat.\n\nrenv es esencial para proyectos colaborativos y de largo plazo, donde la reproducibilidad y estabilidad de los entornos de trabajo son fundamentales."
   },
   {
-    "objectID": "imagenes.html",
-    "href": "imagenes.html",
-    "title": "Untitled",
+    "objectID": "r_pages/manejo-datos.html",
+    "href": "r_pages/manejo-datos.html",
+    "title": "Manejo de Datos",
     "section": "",
-    "text": "Magick: paquete para la edición de imágenes\nEnlace: https://cran.r-project.org/web/packages/magick/vignettes/intro.html#Installing_magick"
+    "text": "Accede aquí\ndplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de “verbos” como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles."
   },
   {
-    "objectID": "graficos.html",
-    "href": "graficos.html",
-    "title": "Untitled",
+    "objectID": "r_pages/manejo-datos.html#dplyr",
+    "href": "r_pages/manejo-datos.html#dplyr",
+    "title": "Manejo de Datos",
     "section": "",
-    "text": "Gganimate:\nEnlace: https://www.appsilon.com/post/r-gganimate\nhttps://r-charts.com/es/colores/"
+    "text": "Accede aquí\ndplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de “verbos” como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles."
   },
   {
-    "objectID": "bases-datos.html",
-    "href": "bases-datos.html",
-    "title": "Bases de Datos",
+    "objectID": "r_pages/manejo-datos.html#tidyr",
+    "href": "r_pages/manejo-datos.html#tidyr",
+    "title": "Manejo de Datos",
+    "section": "Tidyr",
+    "text": "Tidyr\nAccede aquí\ntidyr ayuda a transformar datos a un formato “ordenado”, lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R."
+  },
+  {
+    "objectID": "r_pages/manejo-datos.html#readr",
+    "href": "r_pages/manejo-datos.html#readr",
+    "title": "Manejo de Datos",
+    "section": "Readr",
+    "text": "Readr\nAccede aquí\nreadr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando “tibbles” que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento."
+  },
+  {
+    "objectID": "r_pages/manejo-datos.html#lubridate",
+    "href": "r_pages/manejo-datos.html#lubridate",
+    "title": "Manejo de Datos",
+    "section": "Lubridate",
+    "text": "Lubridate\nAccede aquí\nlubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R."
+  },
+  {
+    "objectID": "r_pages/manejo-datos.html#dlookr",
+    "href": "r_pages/manejo-datos.html#dlookr",
+    "title": "Manejo de Datos",
+    "section": "Dlookr",
+    "text": "Dlookr\nAccede aquí"
+  },
+  {
+    "objectID": "r_pages/manejo-datos.html#gt",
+    "href": "r_pages/manejo-datos.html#gt",
+    "title": "Manejo de Datos",
+    "section": "Gt",
+    "text": "Gt\nAccede aquí"
+  },
+  {
+    "objectID": "r_pages/manejo-datos.html#naniar",
+    "href": "r_pages/manejo-datos.html#naniar",
+    "title": "Manejo de Datos",
+    "section": "Naniar",
+    "text": "Naniar\nAccede aquí"
+  },
+  {
+    "objectID": "r_pages/manejo-datos.html#patientlevelprediction",
+    "href": "r_pages/manejo-datos.html#patientlevelprediction",
+    "title": "Manejo de Datos",
+    "section": "PatientLevelPrediction",
+    "text": "PatientLevelPrediction\nAccede aquí"
+  },
+  {
+    "objectID": "r_pages/graficos.html",
+    "href": "r_pages/graficos.html",
+    "title": "Diseño de Gráficos",
     "section": "",
-    "text": "Descripción: El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.\nTemáticas clave:\n\nDemografía: Población, migraciones, nacimientos, defunciones.\nEconomía: PIB, inflación, empleo, turismo.\nEducación y salud: Indicadores educativos, recursos sanitarios, gasto público.\nCondiciones de vida: Encuestas sobre pobreza, exclusión social, desigualdad.\nMedio ambiente: Emisiones, consumo de energía, agua.\n\nMetodología: Los datos se obtienen de censos, encuestas a hogares y empresas, registros administrativos y estudios específicos.\nAplicaciones:\n\nAnálisis de políticas públicas y regionales.\nEstudios sobre tendencias demográficas y sociales.\nComparación con datos internacionales de fuentes como Our World in Data, Eurostat o el Banco Mundial.\n\nEnlace: https://www.ine.es"
+    "text": "Accede aquí\nggplot2 es una biblioteca de R para la creación de gráficos basados en la gramática de gráficos (“Grammar of Graphics”). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:\n\nModularidad: Construye gráficos por capas (geom_*, facet_*, theme_*) para personalizar visualizaciones paso a paso.\nCompatibilidad con datos “tidy”: Facilita la integración con estructuras como data frames y tibbles.\nDiversidad de gráficos: Soporta gráficos de dispersión, líneas, barras, boxplots, histogramas, entre otros.\nPersonalización avanzada: Permite ajustar todos los aspectos del diseño, como colores, etiquetas y estilos.\n\nEs ideal para explorar datos, comunicar hallazgos y crear visualizaciones de alta calidad en proyectos de análisis y ciencia de datos."
   },
   {
-    "objectID": "bases-datos.html#ine-instituto-nacional-de-estadística",
-    "href": "bases-datos.html#ine-instituto-nacional-de-estadística",
-    "title": "Bases de Datos",
+    "objectID": "r_pages/graficos.html#paquetes-de-r",
+    "href": "r_pages/graficos.html#paquetes-de-r",
+    "title": "Diseño de Gráficos",
     "section": "",
-    "text": "Descripción: El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.\nTemáticas clave:\n\nDemografía: Población, migraciones, nacimientos, defunciones.\nEconomía: PIB, inflación, empleo, turismo.\nEducación y salud: Indicadores educativos, recursos sanitarios, gasto público.\nCondiciones de vida: Encuestas sobre pobreza, exclusión social, desigualdad.\nMedio ambiente: Emisiones, consumo de energía, agua.\n\nMetodología: Los datos se obtienen de censos, encuestas a hogares y empresas, registros administrativos y estudios específicos.\nAplicaciones:\n\nAnálisis de políticas públicas y regionales.\nEstudios sobre tendencias demográficas y sociales.\nComparación con datos internacionales de fuentes como Our World in Data, Eurostat o el Banco Mundial.\n\nEnlace: https://www.ine.es"
+    "text": "Accede aquí\nggplot2 es una biblioteca de R para la creación de gráficos basados en la gramática de gráficos (“Grammar of Graphics”). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:\n\nModularidad: Construye gráficos por capas (geom_*, facet_*, theme_*) para personalizar visualizaciones paso a paso.\nCompatibilidad con datos “tidy”: Facilita la integración con estructuras como data frames y tibbles.\nDiversidad de gráficos: Soporta gráficos de dispersión, líneas, barras, boxplots, histogramas, entre otros.\nPersonalización avanzada: Permite ajustar todos los aspectos del diseño, como colores, etiquetas y estilos.\n\nEs ideal para explorar datos, comunicar hallazgos y crear visualizaciones de alta calidad en proyectos de análisis y ciencia de datos."
   },
   {
-    "objectID": "bases-datos.html#our-world-in-data-owid",
-    "href": "bases-datos.html#our-world-in-data-owid",
-    "title": "Bases de Datos",
-    "section": "Our World in Data (OWID)",
-    "text": "Our World in Data (OWID)\nDescripción: Es una plataforma que proporciona datos globales y gráficos interactivos sobre temas relacionados con el desarrollo humano, como salud, economía, medio ambiente y más. Su objetivo es hacer que los datos sean accesibles y comprensibles para promover políticas basadas en evidencia.\nTemáticas clave: Cambio climático, desigualdad, salud global, energía, educación y crecimiento económico.\nMetodología: Utilizan datos de organismos internacionales como la ONU, el Banco Mundial, y publicaciones científicas revisadas por pares.\nAplicaciones: Es ideal para investigadores, educadores y tomadores de decisiones que necesitan información confiable para análisis o visualización.\nEnlace: https://ourworldindata.org/"
+    "objectID": "r_pages/graficos.html#gganimate",
+    "href": "r_pages/graficos.html#gganimate",
+    "title": "Diseño de Gráficos",
+    "section": "Gganimate",
+    "text": "Gganimate\nAccede aquí\ngganimate es una extensión de ggplot2 que permite agregar animaciones a gráficos en R. Es ideal para visualizar datos dinámicos o que cambian a lo largo del tiempo. Sus principales características incluyen:\n\nTransiciones dinámicas: Facilita la animación de variables con funciones como transition_time() y transition_states().\nCompatibilidad con ggplot2: Aprovecha la sintaxis y funcionalidad de ggplot2, ampliándola con movimiento y cambios dinámicos.\nVisualización temporal: Perfecto para analizar tendencias y patrones que evolucionan en el tiempo.\nOpciones de personalización: Permite ajustar la velocidad, duración y efectos de las animaciones.\n\ngganimate es una herramienta poderosa para transformar gráficos estáticos en visualizaciones impactantes y narrativas."
   },
   {
-    "objectID": "bases-datos.html#global-burden-of-disease-gbd---vizhub",
-    "href": "bases-datos.html#global-burden-of-disease-gbd---vizhub",
-    "title": "Bases de Datos",
-    "section": "Global Burden of Disease (GBD) - VizHub",
-    "text": "Global Burden of Disease (GBD) - VizHub\nDescripción: Herramienta interactiva de visualización desarrollada por el Institute for Health Metrics and Evaluation (IHME) que permite explorar datos sobre la carga global de enfermedades, lesiones y factores de riesgo en diferentes países y regiones.\nTemáticas clave: Mortalidad, esperanza de vida, discapacidad, enfermedades específicas y factores de riesgo.\nMetodología: Basado en el análisis sistemático del GBD, utilizando datos recopilados de sistemas de salud, encuestas y registros vitales.\nAplicaciones: Útil para el análisis detallado de tendencias de salud pública y planificación de recursos sanitarios.\nEnlace: https://vizhub.healthdata.org/gbd-compare/"
+    "objectID": "r_pages/graficos.html#patchwork",
+    "href": "r_pages/graficos.html#patchwork",
+    "title": "Diseño de Gráficos",
+    "section": "Patchwork",
+    "text": "Patchwork\nAccede aquí"
   },
   {
-    "objectID": "bases-datos.html#world-bank-open-data",
-    "href": "bases-datos.html#world-bank-open-data",
-    "title": "Bases de Datos",
-    "section": "World Bank Open Data",
-    "text": "World Bank Open Data\nDescripción: Plataforma que ofrece acceso gratuito a estadísticas globales sobre desarrollo económico, social y ambiental, recopiladas de casi todos los países del mundo. Proporciona datos organizados en indicadores clave para análisis y planificación.\nTemáticas clave: Economía, pobreza, salud, educación, medio ambiente, infraestructura y gobernanza.\nMetodología: Los datos se recopilan de encuestas nacionales, organismos internacionales y otras fuentes verificadas, asegurando calidad y consistencia en los indicadores globales.\nAplicaciones: Ideal para investigadores, economistas, responsables de políticas públicas y académicos que buscan información confiable sobre tendencias globales y nacionales.\nEnlace: https://data.worldbank.org"
+    "objectID": "r_pages/graficos.html#elementos-decorativos-gráficos",
+    "href": "r_pages/graficos.html#elementos-decorativos-gráficos",
+    "title": "Diseño de Gráficos",
+    "section": "Elementos Decorativos Gráficos",
+    "text": "Elementos Decorativos Gráficos\n\nPaleta de Colores en R\nAccede aquí\nEsta guía ofrece una variedad de paletas de colores que puedes usar en gráficos de R, permitiéndote personalizar visualizaciones con combinaciones de colores predefinidas o crear tus propias paletas para representar datos de manera atractiva y clara.\n\n\nFormas de los Puntos\nAccede aquí\nExplora las formas de puntos (pch) disponibles en R para personalizar gráficos. Cada forma tiene un código asociado, lo que facilita su uso para destacar diferentes categorías o series de datos en tus visualizaciones."
   },
   {
-    "objectID": "bases-datos.html#who-global-health-observatory-gho",
-    "href": "bases-datos.html#who-global-health-observatory-gho",
-    "title": "Bases de Datos",
-    "section": "WHO Global Health Observatory (GHO):",
-    "text": "WHO Global Health Observatory (GHO):\nDescripción: Plataforma de la Organización Mundial de la Salud (OMS) que ofrece acceso a datos y análisis relacionados con indicadores de salud global. Permite explorar estadísticas sobre mortalidad, morbilidad, factores de riesgo, y acceso a servicios de salud en todo el mundo.\nTemáticas clave: Mortalidad, enfermedades transmisibles y no transmisibles, sistemas de salud, nutrición y salud materna e infantil.\nMetodología: Los datos provienen de informes nacionales de salud, encuestas globales, estudios epidemiológicos y registros vitales.\nAplicaciones: Es una herramienta clave para investigadores en salud pública, organizaciones internacionales y gobiernos que necesitan tomar decisiones informadas basadas en datos.\nEnlace: https://www.who.int/data/gho"
+    "objectID": "r_pages/bioconductor.html",
+    "href": "r_pages/bioconductor.html",
+    "title": "Bioconductor",
+    "section": "",
+    "text": "Phyloseq\n\nPágina oficial en Bioconductor\n\nDocumentación detallada\n\nPhyloseq es un paquete de R diseñado para el análisis y la visualización de datos microbiológicos y de ecología microbiana. Permite trabajar con datos de secuenciación de alto rendimiento de microbiomas. Sus principales características incluyen:\n\nIntegración de múltiples tipos de datos: Manejo de abundancia de OTUs, taxonomía, metadatos ambientales, etc.\n\nAnálisis de diversidad alfa y beta: Herramientas para explorar la diversidad de comunidades microbianas.\n\nVisualización: Permite crear gráficos de barras, PCA/PCoA, redes microbianas, entre otros.\n\nInteroperabilidad: Compatible con flujos de trabajo de herramientas como QIIME.\n\nEs ampliamente utilizado en estudios relacionados con el microbioma para comprender la composición y dinámica de comunidades microbianas.\n\n\n\nDESeq2\n\nPágina oficial en Bioconductor\n\nDocumentación detallada\n\nDESeq2 es un paquete de R enfocado en el análisis de expresión diferencial para datos de RNA-seq (o conteos de secuenciación). Utiliza modelos estadísticos basados en la distribución binomial negativa para estimar la significancia de los cambios de expresión entre condiciones experimentales. Sus principales características incluyen:\n\nNormalización de datos de conteo: Ajuste estadístico para diferencias de profundidad de secuenciación.\n\nAnálisis de expresión diferencial: Identificación de genes y transcritos que cambian significativamente entre grupos.\n\nCálculo de tamaños de efecto y valores de p ajustados: Minimiza falsos positivos en grandes conjuntos de datos.\n\nVisualizaciones integradas: Funciones para generar MA-plots, PCA y gráficos de dispersión.\n\nDESeq2 es una herramienta estándar para el análisis de datos transcriptómicos en estudios genómicos y de biología molecular.\n\n\n\nedgeR\n\nPágina oficial en Bioconductor\n\nDocumentación detallada\n\nedgeR se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:\n\nEstimación de dispersión: Utiliza métodos empíricos para ajustar la variación en los datos de conteo.\n\nComparaciones múltiples: Manejo de distintos contrastes y condiciones experimentales.\n\nAnálisis de genes de baja expresión: Herramientas específicas para filtrar y evaluar genes con conteos bajos.\n\nCompatibilidad con grandes datasets: Procesamiento eficiente incluso con muestras y genes numerosos.\n\nedgeR es especialmente valorado por su robustez en el tratamiento de datos de conteo y es ampliamente citado en estudios de transcriptómica.\n\n\n\nLimma\n\nPágina oficial en Bioconductor\n\nDocumentación detallada\n\nLimma nació como un paquete para el análisis de microarrays, pero se ha adaptado también para datos de RNA-seq combinándolo con técnicas de transformación de conteos (por ejemplo, voom). Permite modelar datos de expresión génica usando metodologías lineales. Sus principales características incluyen:\n\nModelos lineales: Ajustes flexibles para comparar múltiples grupos o condiciones.\n\nFuncionalidad voom: Transformación de conteos para aplicar metodologías de microarray a RNA-seq.\n\nAnálisis de expresión diferencial: Resultados fiables con correcciones de valores de p y estimaciones de variación.\n\nIntegración con flujos de trabajo: Compatible con otros paquetes de Bioconductor para la visualización y exploración de resultados.\n\nLimma es una de las herramientas más consolidadas para el análisis de expresión génica, siendo muy valorada por su velocidad y robustez.\n\n\n\nSummarizedExperiment\n\nPágina oficial en Bioconductor\n\nDocumentación detallada\n\nSummarizedExperiment proporciona una estructura de datos (clase S4 en R) para almacenar y manipular conjuntamente datos de expresión (o conteos) y la información fenotípica y de características (metadatos). Sus principales características incluyen:\n\nOrganización coherente: Mantiene matrices de expresión, metadatos de filas (genes) y columnas (muestras) unificados.\n\nAcceso eficiente: Funciones rápidas para extraer subconjuntos de filas, columnas o datos combinados.\n\nBase para muchos paquetes: Constituye el formato de entrada estándar para herramientas de análisis de expresión y genómica.\n\nCoherencia y reproducibilidad: Facilita la gestión ordenada de grandes conjuntos de datos ómicos.\n\nEs muy utilizado como estructura base para análisis genómicos y flujos de trabajo complejos en Bioconductor.\n\n\n\nBiostrings\n\nPágina oficial en Bioconductor\n\nDocumentación detallada\n\nBiostrings ofrece herramientas para la manipulación y análisis de secuencias biológicas (ADN, ARN y proteínas) en R. Sus principales características incluyen:\n\nManejo de secuencias: Lectura, escritura y almacenamiento eficiente de secuencias de grandes bases de datos.\n\nBúsqueda de patrones: Funciones para alinear secuencias y encontrar subsecuencias concretas.\n\nAnálisis de calidad: Herramientas para evaluar la calidad y realizar transformaciones de secuencias.\n\nIntegración con otras librerías: Se combina bien con paquetes como IRanges para análisis avanzados de genómica.\n\nBiostrings es fundamental para tareas de bioinformática que involucran la manipulación directa de secuencias."
   },
   {
-    "objectID": "bases-datos.html#undata",
-    "href": "bases-datos.html#undata",
-    "title": "Bases de Datos",
-    "section": "UNdata:",
-    "text": "UNdata:\nDescripción: Plataforma de la Organización de las Naciones Unidas (ONU) que reúne estadísticas de diversas agencias internacionales, cubriendo temas globales relacionados con desarrollo, economía, medio ambiente y población.\nTemáticas clave: Población, comercio, energía, género, indicadores de desarrollo sostenible (ODS) y más.\nMetodología: Consolidación de datos provenientes de agencias especializadas de la ONU, informes nacionales y censos, asegurando estandarización y fiabilidad.\nAplicaciones: Útil para investigadores, estudiantes y planificadores que buscan datos centralizados de múltiples temas globales.\nEnlace: https://data.un.org"
+    "objectID": "recursos_pages/tutoriales.html",
+    "href": "recursos_pages/tutoriales.html",
+    "title": "Sección de Tutoriales",
+    "section": "",
+    "text": "https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/"
   },
   {
-    "objectID": "bases-datos.html#eurostat",
-    "href": "bases-datos.html#eurostat",
-    "title": "Bases de Datos",
-    "section": "Eurostat:",
-    "text": "Eurostat:\nDescripción: La oficina estadística de la Unión Europea (UE) ofrece datos y análisis sobre diversos aspectos económicos, sociales y ambientales de los Estados miembros de la UE.\nTemáticas clave: Economía, empleo, población, comercio, energía, medio ambiente y desarrollo regional.\nMetodología: Los datos se recopilan de estadísticas nacionales armonizadas y bases de datos específicas de la UE, garantizando comparabilidad entre países.\nAplicaciones: Es una fuente fundamental para estudios sobre la UE, análisis de políticas y evaluación de tendencias dentro de la región.\nEnlace: https://ec.europa.eu/eurostat"
+    "objectID": "recursos_pages/tutoriales.html#tutoriales-de-tidymodels",
+    "href": "recursos_pages/tutoriales.html#tutoriales-de-tidymodels",
+    "title": "Sección de Tutoriales",
+    "section": "",
+    "text": "https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/"
   },
   {
-    "objectID": "bases-datos.html#oecd-data",
-    "href": "bases-datos.html#oecd-data",
-    "title": "Bases de Datos",
-    "section": "OECD Data",
-    "text": "OECD Data\nDescripción: Plataforma de la Organización para la Cooperación y el Desarrollo Económicos (OCDE) que ofrece estadísticas sobre economía, educación, salud, gobernanza y otros temas clave en los países miembros y asociados.\nTemáticas clave: PIB, empleo, educación, desigualdad, energía, comercio y políticas públicas.\nMetodología: Basado en estadísticas proporcionadas por gobiernos nacionales, encuestas armonizadas y estudios de caso realizados por la OCDE.\nAplicaciones: Ideal para analizar políticas públicas y tendencias económicas entre países desarrollados y emergentes.\nEnlace: https://data.oecd.org"
+    "objectID": "recursos_pages/libros.html",
+    "href": "recursos_pages/libros.html",
+    "title": "Lecturas Esenciales Recomendadas",
+    "section": "",
+    "text": "R for Data Science\nTidy Modeling with R\nR Packages\nEfficient R Programming\n\nEnlace a Amazon para comprar los libros en físico"
   },
   {
-    "objectID": "bases-datos.html#faostat-fao",
-    "href": "bases-datos.html#faostat-fao",
-    "title": "Bases de Datos",
-    "section": "FAOSTAT (FAO)",
-    "text": "FAOSTAT (FAO)\nDescripción: Plataforma de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) que proporciona datos relacionados con la agricultura, alimentos, comercio y sostenibilidad.\nTemáticas clave: Producción agrícola, consumo de alimentos, seguridad alimentaria, comercio agrícola y cambio climático.\nMetodología: Datos obtenidos de registros nacionales, censos agrícolas y estudios especializados en alimentación y sostenibilidad.\nAplicaciones: Fundamental para investigadores y formuladores de políticas interesados en seguridad alimentaria y sostenibilidad agrícola.\nEnlace: https://www.fao.org/faostat"
+    "objectID": "recursos_pages/libros.html#libros-de-r",
+    "href": "recursos_pages/libros.html#libros-de-r",
+    "title": "Lecturas Esenciales Recomendadas",
+    "section": "",
+    "text": "R for Data Science\nTidy Modeling with R\nR Packages\nEfficient R Programming\n\nEnlace a Amazon para comprar los libros en físico"
   },
   {
-    "objectID": "bases-datos.html#unicef-data",
-    "href": "bases-datos.html#unicef-data",
-    "title": "Bases de Datos",
-    "section": "UNICEF Data",
-    "text": "UNICEF Data\nDescripción: Base de datos de UNICEF que recopila información clave sobre el bienestar de la infancia y la adolescencia, incluyendo educación, salud y protección.\nTemáticas clave: Mortalidad infantil, educación básica, vacunación, nutrición y derechos del niño.\nMetodología: Datos provenientes de encuestas globales como MICS (Encuestas de Indicadores Múltiples por Conglomerados), censos y reportes gubernamentales.\nAplicaciones: Ideal para estudios sobre desarrollo infantil y evaluación de programas de impacto social.\nEnlace: https://data.unicef.org"
+    "objectID": "recursos_pages/libros.html#libros-de-python",
+    "href": "recursos_pages/libros.html#libros-de-python",
+    "title": "Lecturas Esenciales Recomendadas",
+    "section": "Libros de Python",
+    "text": "Libros de Python"
   },
   {
-    "objectID": "bases-datos.html#gapminder",
-    "href": "bases-datos.html#gapminder",
-    "title": "Bases de Datos",
-    "section": "Gapminder",
-    "text": "Gapminder\nDescripción: Una plataforma que utiliza datos globales para visualizar tendencias históricas y actuales sobre desarrollo humano, con un enfoque educativo.\nTemáticas clave: Población, esperanza de vida, ingresos, salud, educación y pobreza.\nMetodología: Integra datos de fuentes como la ONU, el Banco Mundial y otras organizaciones internacionales en gráficos interactivos.\nAplicaciones: Excelente para presentaciones educativas y análisis visuales rápidos.\nEnlace: https://www.gapminder.org/data/"
+    "objectID": "python_pages/validacion_python.html",
+    "href": "python_pages/validacion_python.html",
+    "title": "Validación de Datos en Python",
+    "section": "",
+    "text": "Accede aquí\nProof es una herramienta ligera escrita en Python diseñada para realizar pruebas automatizadas en datos. Es especialmente útil para garantizar la calidad y consistencia de datos en flujos de trabajo de análisis o producción. Sus principales características incluyen:\n\nValidación de datos: Permite definir y verificar reglas para asegurar la integridad de los datos.\nAutomatización de pruebas: Facilita la detección temprana de errores en datasets grandes.\nIntegración sencilla: Puede ser utilizada con scripts personalizados o integrarse en pipelines de datos más amplios.\nLigero y extensible: Diseñado para ser eficiente y fácil de adaptar a necesidades específicas.\n\nProof es ideal para analistas y desarrolladores que buscan una solución sencilla para validar datos de manera automatizada."
   },
   {
-    "objectID": "bases-datos.html#international-monetary-fund-imf-data",
-    "href": "bases-datos.html#international-monetary-fund-imf-data",
-    "title": "Bases de Datos",
-    "section": "International Monetary Fund (IMF) Data",
-    "text": "International Monetary Fund (IMF) Data\nDescripción: Plataforma del Fondo Monetario Internacional que proporciona estadísticas económicas y financieras a nivel global.\nTemáticas clave: PIB, inflación, balanza de pagos, deuda pública y comercio internacional.\nMetodología: Basado en datos proporcionados por gobiernos y bancos centrales, ajustados según estándares internacionales.\nAplicaciones: Fundamental para análisis financieros y económicos internacionales.\nEnlace: https://www.imf.org/en/Data"
+    "objectID": "python_pages/validacion_python.html#paquetes",
+    "href": "python_pages/validacion_python.html#paquetes",
+    "title": "Validación de Datos en Python",
+    "section": "",
+    "text": "Accede aquí\nProof es una herramienta ligera escrita en Python diseñada para realizar pruebas automatizadas en datos. Es especialmente útil para garantizar la calidad y consistencia de datos en flujos de trabajo de análisis o producción. Sus principales características incluyen:\n\nValidación de datos: Permite definir y verificar reglas para asegurar la integridad de los datos.\nAutomatización de pruebas: Facilita la detección temprana de errores en datasets grandes.\nIntegración sencilla: Puede ser utilizada con scripts personalizados o integrarse en pipelines de datos más amplios.\nLigero y extensible: Diseñado para ser eficiente y fácil de adaptar a necesidades específicas.\n\nProof es ideal para analistas y desarrolladores que buscan una solución sencilla para validar datos de manera automatizada."
   },
   {
-    "objectID": "bases-datos.html#data-by-the-world-resources-institute-wri",
-    "href": "bases-datos.html#data-by-the-world-resources-institute-wri",
-    "title": "Bases de Datos",
-    "section": "Data by The World Resources Institute (WRI)",
-    "text": "Data by The World Resources Institute (WRI)\nDescripción: Plataforma enfocada en datos medioambientales y climáticos, abarcando temas de sostenibilidad y recursos naturales.\nTemáticas clave: Cambio climático, deforestación, agua, energía renovable y biodiversidad.\nMetodología: Utiliza datos de satélites, registros gubernamentales y estudios académicos para ofrecer visualizaciones precisas.\nAplicaciones: Ideal para investigadores en medio ambiente y formuladores de políticas sobre sostenibilidad.\nEnlace: https://www.wri.org/data"
+    "objectID": "python_pages/series_temporales_python.html",
+    "href": "python_pages/series_temporales_python.html",
+    "title": "Series Temporales en Python",
+    "section": "",
+    "text": "Accede aquí\nDocumentación oficial\nMerlion es una biblioteca de aprendizaje automático para la detección de anomalías y predicciones de series temporales. Desarrollada por Salesforce, combina modelos avanzados y herramientas de evaluación para resolver problemas de tiempo crítico en aplicaciones empresariales.\n\n\n\nAccede aquí\nDocumentación oficial\nProphet es una biblioteca de modelado de series temporales creada por Meta. Es ideal para realizar predicciones de manera intuitiva incluso con datos con tendencias no lineales y estacionales. Facilita la incorporación de días festivos y eventos especiales en el modelo de predicción."
   },
   {
-    "objectID": "bases-datos.html#global-biodiversity-information-facility-gbif",
-    "href": "bases-datos.html#global-biodiversity-information-facility-gbif",
-    "title": "Bases de Datos",
-    "section": "Global Biodiversity Information Facility (GBIF)",
-    "text": "Global Biodiversity Information Facility (GBIF)\nDescripción: Base de datos abierta que permite el acceso a información sobre biodiversidad global, incluyendo registros de especies y ecosistemas.\nTemáticas clave: Conservación de especies, monitoreo de hábitats, biodiversidad marina y terrestre.\nMetodología: Datos recopilados de museos, instituciones académicas y observaciones ciudadanas.\nAplicaciones: Esencial para investigadores en ecología y biodiversidad.\nEnlace: https://www.gbif.org"
+    "objectID": "python_pages/series_temporales_python.html#paquetes",
+    "href": "python_pages/series_temporales_python.html#paquetes",
+    "title": "Series Temporales en Python",
+    "section": "",
+    "text": "Accede aquí\nDocumentación oficial\nMerlion es una biblioteca de aprendizaje automático para la detección de anomalías y predicciones de series temporales. Desarrollada por Salesforce, combina modelos avanzados y herramientas de evaluación para resolver problemas de tiempo crítico en aplicaciones empresariales.\n\n\n\nAccede aquí\nDocumentación oficial\nProphet es una biblioteca de modelado de series temporales creada por Meta. Es ideal para realizar predicciones de manera intuitiva incluso con datos con tendencias no lineales y estacionales. Facilita la incorporación de días festivos y eventos especiales en el modelo de predicción."
   },
   {
-    "objectID": "bases-datos.html#ncbi-national-center-for-biotechnology-information",
-    "href": "bases-datos.html#ncbi-national-center-for-biotechnology-information",
-    "title": "Bases de Datos",
-    "section": "NCBI (National Center for Biotechnology Information)",
-    "text": "NCBI (National Center for Biotechnology Information)\nDescripción: Plataforma del NIH (National Institutes of Health) que ofrece acceso a una amplia gama de bases de datos para biología molecular y genómica.\nTemáticas clave: Genómica, transcriptómica, proteómica, biología estructural y datos biomédicos.\nBases de datos destacadas dentro del NCBI:\nGenBank: Secuencias genómicas y nucleotídicas.\nPubMed: Artículos científicos en ciencias biomédicas.\nBLAST: Herramienta para comparación de secuencias.\nSNP: Variantes genéticas de un solo nucleótido.\nAplicaciones: Análisis de genomas, estudios evolutivos y búsqueda de información biomédica.\nEnlace: https://www.ncbi.nlm.nih.gov"
+    "objectID": "python_pages/documentacion_python.html",
+    "href": "python_pages/documentacion_python.html",
+    "title": "Documentación en Python",
+    "section": "",
+    "text": "Accede aquí\nSphinx es una herramienta para generar documentación técnica en diversos formatos, como HTML y PDF, directamente desde tu código fuente. Es ampliamente utilizada en proyectos Python para crear documentación elegante, profesional y vinculada automáticamente al código."
   },
   {
-    "objectID": "bases-datos.html#ensembl",
-    "href": "bases-datos.html#ensembl",
-    "title": "Bases de Datos",
-    "section": "Ensembl",
-    "text": "Ensembl\nDescripción: Recurso de acceso abierto para análisis de genomas de vertebrados y otros organismos, proporcionando anotaciones genéticas detalladas.\nTemáticas clave: Genomas de referencia, anotación de genes, variantes genómicas y evolución genética.\nAplicaciones: Análisis comparativo de genomas, búsqueda de variantes genéticas en diferentes organismos y diseño de experimentos genómicos.\nEnlace: https://www.ensembl.org"
+    "objectID": "python_pages/documentacion_python.html#paquetes",
+    "href": "python_pages/documentacion_python.html#paquetes",
+    "title": "Documentación en Python",
+    "section": "",
+    "text": "Accede aquí\nSphinx es una herramienta para generar documentación técnica en diversos formatos, como HTML y PDF, directamente desde tu código fuente. Es ampliamente utilizada en proyectos Python para crear documentación elegante, profesional y vinculada automáticamente al código."
   },
   {
-    "objectID": "bases-datos.html#uniprot",
-    "href": "bases-datos.html#uniprot",
-    "title": "Bases de Datos",
-    "section": "UniProt",
-    "text": "UniProt\nDescripción: Base de datos unificada de proteínas que proporciona información sobre secuencias proteicas y sus funciones.\nTemáticas clave: Anotación funcional de proteínas, dominios estructurales, modificaciones postraduccionales y interacciones proteína-proteína.\nAplicaciones: Investigación proteómica, diseño de fármacos y estudios de bioquímica estructural.\nEnlace: https://www.uniprot.org"
+    "objectID": "python_pages/analisis_visualizacion_python.html",
+    "href": "python_pages/analisis_visualizacion_python.html",
+    "title": "Análisis y Visualización de Datos en Python",
+    "section": "",
+    "text": "Accede aquí\nPandas es una biblioteca de Python para la manipulación y análisis de datos. Ofrece estructuras de datos como DataFrame y Series, que permiten:\n\nLeer y escribir datos desde múltiples formatos (CSV, Excel, SQL, etc.).\nRealizar operaciones de limpieza, filtrado y agregación de datos.\nManipular índices, realizar uniones y pivotes de tablas.\nAnalizar datos estructurados de manera eficiente y legible.\n\nEs una herramienta fundamental para proyectos de ciencia de datos y análisis estadístico.\n\n\n\nAccede aquí\nNumPy es una biblioteca para el cálculo numérico en Python que proporciona soporte para:\n\nArrays multidimensionales (ndarray) y operaciones rápidas sobre ellos.\nFunciones matemáticas y estadísticas avanzadas.\nOperaciones vectorizadas para cálculos eficientes.\nIntegración con otras bibliotecas científicas como SciPy, Pandas y Matplotlib.\n\nEs la base para muchas otras herramientas científicas y es esencial para trabajar con datos numéricos en Python.\n\n\n\nAccede aquí\nPlotnine es una biblioteca de Python inspirada en la gramática de gráficos de R (ggplot2), que facilita la creación de visualizaciones declarativas y personalizables para análisis de datos."
   },
   {
-    "objectID": "bases-datos.html#pdb-protein-data-bank",
-    "href": "bases-datos.html#pdb-protein-data-bank",
-    "title": "Bases de Datos",
-    "section": "PDB (Protein Data Bank)",
-    "text": "PDB (Protein Data Bank)\nDescripción: Base de datos de estructuras tridimensionales de proteínas, ácidos nucleicos y complejos macromoleculares.\nTemáticas clave: Biología estructural, interacciones moleculares y diseño de medicamentos.\nAplicaciones: Estudios de dinámica molecular, diseño de proteínas y simulaciones computacionales.\nEnlace: https://www.rcsb.org"
+    "objectID": "python_pages/analisis_visualizacion_python.html#paquetes",
+    "href": "python_pages/analisis_visualizacion_python.html#paquetes",
+    "title": "Análisis y Visualización de Datos en Python",
+    "section": "",
+    "text": "Accede aquí\nPandas es una biblioteca de Python para la manipulación y análisis de datos. Ofrece estructuras de datos como DataFrame y Series, que permiten:\n\nLeer y escribir datos desde múltiples formatos (CSV, Excel, SQL, etc.).\nRealizar operaciones de limpieza, filtrado y agregación de datos.\nManipular índices, realizar uniones y pivotes de tablas.\nAnalizar datos estructurados de manera eficiente y legible.\n\nEs una herramienta fundamental para proyectos de ciencia de datos y análisis estadístico.\n\n\n\nAccede aquí\nNumPy es una biblioteca para el cálculo numérico en Python que proporciona soporte para:\n\nArrays multidimensionales (ndarray) y operaciones rápidas sobre ellos.\nFunciones matemáticas y estadísticas avanzadas.\nOperaciones vectorizadas para cálculos eficientes.\nIntegración con otras bibliotecas científicas como SciPy, Pandas y Matplotlib.\n\nEs la base para muchas otras herramientas científicas y es esencial para trabajar con datos numéricos en Python.\n\n\n\nAccede aquí\nPlotnine es una biblioteca de Python inspirada en la gramática de gráficos de R (ggplot2), que facilita la creación de visualizaciones declarativas y personalizables para análisis de datos."
   },
   {
-    "objectID": "bases-datos.html#kegg-kyoto-encyclopedia-of-genes-and-genomes",
-    "href": "bases-datos.html#kegg-kyoto-encyclopedia-of-genes-and-genomes",
-    "title": "Bases de Datos",
-    "section": "KEGG (Kyoto Encyclopedia of Genes and Genomes)",
-    "text": "KEGG (Kyoto Encyclopedia of Genes and Genomes)\nDescripción: Recurso que integra información genómica, química y sistémica para mapear procesos biológicos y vías metabólicas.\nTemáticas clave: Metabolismo, señalización celular, redes moleculares y genómica funcional.\nAplicaciones: Estudios de metabolómica, bioquímica sistémica y análisis de redes biológicas.\nEnlace: https://www.kegg.jp"
+    "objectID": "discarded/python.html",
+    "href": "discarded/python.html",
+    "title": "Recursos de Python",
+    "section": "",
+    "text": "Accede aquí\nreticulate es un paquete de R que permite integrar y ejecutar código Python dentro de R de manera fluida. Con este paquete, puedes:\n\nLlamar funciones y módulos de Python directamente desde R.\nCompartir datos entre R y Python usando objetos nativos como data frames y listas.\nCrear entornos virtuales o trabajar con entornos de Python ya existentes.\nConstruir aplicaciones interactivas en R utilizando librerías de Python.\n\nEs especialmente útil para combinar el ecosistema analítico de R con las potentes bibliotecas de Python, permitiendo un enfoque híbrido en proyectos de ciencia de datos y desarrollo.\n\n\n\nAccede aquí\nPandas es una biblioteca de Python para la manipulación y análisis de datos. Ofrece estructuras de datos como DataFrame y Series, que permiten:\n\nLeer y escribir datos desde múltiples formatos (CSV, Excel, SQL, etc.).\nRealizar operaciones de limpieza, filtrado, y agregación de datos.\nManipular índices, realizar uniones y pivotes de tablas.\nAnalizar datos estructurados de manera eficiente y legible.\n\nEs una herramienta fundamental para proyectos de ciencia de datos y análisis estadístico.\n\n\n\nAccede aquí\nNumPy es una biblioteca para el cálculo numérico en Python que proporciona soporte para:\n\nArrays multidimensionales (ndarray) y operaciones rápidas sobre ellos.\nFunciones matemáticas y estadísticas avanzadas.\nOperaciones vectorizadas para cálculos eficientes.\nIntegración con otras bibliotecas científicas como SciPy, Pandas y Matplotlib.\n\nEs la base para muchas otras herramientas científicas y es esencial para trabajar con datos numéricos en Python.\n\n\n\nAccede aquí\n\n\n\nAccede aquí\nPylint es una herramienta de Python para analizar código estático y mejorar su calidad. Es útil para identificar errores, verificar estándares de codificación y optimizar el desarrollo. Sus principales características incluyen:\n\nAnálisis estático: Detecta errores comunes en el código, como variables no definidas o mal uso de métodos.\nEstilo de codificación: Verifica el cumplimiento de las guías de estilo PEP 8.\nPersonalización: Permite configurar reglas según las necesidades del proyecto.\nReportes detallados: Proporciona puntajes de calidad y recomendaciones específicas para mejorar el código.\n\nPylint es una herramienta esencial para desarrolladores que buscan escribir código Python más limpio, eficiente y libre de errores.\n\n\n\nAccede aquí\nProof es una herramienta ligera escrita en Python diseñada para realizar pruebas automatizadas en datos. Es especialmente útil para garantizar la calidad y consistencia de datos en flujos de trabajo de análisis o producción. Sus principales características incluyen:\n\nValidación de datos: Permite definir y verificar reglas para asegurar la integridad de los datos.\nAutomatización de pruebas: Facilita la detección temprana de errores en datasets grandes.\nIntegración sencilla: Puede ser utilizada con scripts personalizados o integrarse en pipelines de datos más amplios.\nLigero y extensible: Diseñado para ser eficiente y fácil de adaptar a necesidades específicas.\n\nProof es ideal para analistas y desarrolladores que buscan una solución sencilla para validar datos de manera automatizada.\n\n\n\nAccede aquí\nSQLFluff es una herramienta de análisis y corrección de sintaxis SQL. Compatible con múltiples dialectos SQL, permite verificar y formatear consultas según las mejores prácticas y estándares configurables, ayudando a mantener código SQL consistente y legible.\n\n\n\nAccede aquí\nSphinx es una herramienta para generar documentación técnica en diversos formatos, como HTML y PDF, directamente desde tu código fuente. Es ampliamente utilizada en proyectos Python para crear documentación elegante, profesional y vinculada automáticamente al código.\n\n\n\nAccede aquí\nDocumentación oficial\nMerlion es una biblioteca de aprendizaje automático para la detección de anomalías y predicciones de series temporales. Desarrollada por Salesforce, combina modelos avanzados y herramientas de evaluación para resolver problemas de tiempo crítico en aplicaciones empresariales.\n\n\n\nAccede aquí\nDocumentación oficial\nProphet es una biblioteca de modelado de series temporales creada por Meta. Es ideal para realizar predicciones de manera intuitiva incluso con datos con tendencias no lineales y estacionales. Facilita la incorporación de días festivos y eventos especiales en el modelo de predicción."
   },
   {
-    "objectID": "bases-datos.html#geo-gene-expression-omnibus",
-    "href": "bases-datos.html#geo-gene-expression-omnibus",
-    "title": "Bases de Datos",
-    "section": "GEO (Gene Expression Omnibus)",
-    "text": "GEO (Gene Expression Omnibus)\nDescripción: Repositorio de datos de expresión génica y estudios de secuenciación a gran escala.\nTemáticas clave: Transcriptómica, análisis de microarrays y RNA-Seq.\nAplicaciones: Estudios de expresión génica diferencial, análisis de datos transcriptómicos y diseño de experimentos de ARN.\nEnlace: https://www.ncbi.nlm.nih.gov/geo"
+    "objectID": "discarded/python.html#paquetes",
+    "href": "discarded/python.html#paquetes",
+    "title": "Recursos de Python",
+    "section": "",
+    "text": "Accede aquí\nreticulate es un paquete de R que permite integrar y ejecutar código Python dentro de R de manera fluida. Con este paquete, puedes:\n\nLlamar funciones y módulos de Python directamente desde R.\nCompartir datos entre R y Python usando objetos nativos como data frames y listas.\nCrear entornos virtuales o trabajar con entornos de Python ya existentes.\nConstruir aplicaciones interactivas en R utilizando librerías de Python.\n\nEs especialmente útil para combinar el ecosistema analítico de R con las potentes bibliotecas de Python, permitiendo un enfoque híbrido en proyectos de ciencia de datos y desarrollo.\n\n\n\nAccede aquí\nPandas es una biblioteca de Python para la manipulación y análisis de datos. Ofrece estructuras de datos como DataFrame y Series, que permiten:\n\nLeer y escribir datos desde múltiples formatos (CSV, Excel, SQL, etc.).\nRealizar operaciones de limpieza, filtrado, y agregación de datos.\nManipular índices, realizar uniones y pivotes de tablas.\nAnalizar datos estructurados de manera eficiente y legible.\n\nEs una herramienta fundamental para proyectos de ciencia de datos y análisis estadístico.\n\n\n\nAccede aquí\nNumPy es una biblioteca para el cálculo numérico en Python que proporciona soporte para:\n\nArrays multidimensionales (ndarray) y operaciones rápidas sobre ellos.\nFunciones matemáticas y estadísticas avanzadas.\nOperaciones vectorizadas para cálculos eficientes.\nIntegración con otras bibliotecas científicas como SciPy, Pandas y Matplotlib.\n\nEs la base para muchas otras herramientas científicas y es esencial para trabajar con datos numéricos en Python.\n\n\n\nAccede aquí\n\n\n\nAccede aquí\nPylint es una herramienta de Python para analizar código estático y mejorar su calidad. Es útil para identificar errores, verificar estándares de codificación y optimizar el desarrollo. Sus principales características incluyen:\n\nAnálisis estático: Detecta errores comunes en el código, como variables no definidas o mal uso de métodos.\nEstilo de codificación: Verifica el cumplimiento de las guías de estilo PEP 8.\nPersonalización: Permite configurar reglas según las necesidades del proyecto.\nReportes detallados: Proporciona puntajes de calidad y recomendaciones específicas para mejorar el código.\n\nPylint es una herramienta esencial para desarrolladores que buscan escribir código Python más limpio, eficiente y libre de errores.\n\n\n\nAccede aquí\nProof es una herramienta ligera escrita en Python diseñada para realizar pruebas automatizadas en datos. Es especialmente útil para garantizar la calidad y consistencia de datos en flujos de trabajo de análisis o producción. Sus principales características incluyen:\n\nValidación de datos: Permite definir y verificar reglas para asegurar la integridad de los datos.\nAutomatización de pruebas: Facilita la detección temprana de errores en datasets grandes.\nIntegración sencilla: Puede ser utilizada con scripts personalizados o integrarse en pipelines de datos más amplios.\nLigero y extensible: Diseñado para ser eficiente y fácil de adaptar a necesidades específicas.\n\nProof es ideal para analistas y desarrolladores que buscan una solución sencilla para validar datos de manera automatizada.\n\n\n\nAccede aquí\nSQLFluff es una herramienta de análisis y corrección de sintaxis SQL. Compatible con múltiples dialectos SQL, permite verificar y formatear consultas según las mejores prácticas y estándares configurables, ayudando a mantener código SQL consistente y legible.\n\n\n\nAccede aquí\nSphinx es una herramienta para generar documentación técnica en diversos formatos, como HTML y PDF, directamente desde tu código fuente. Es ampliamente utilizada en proyectos Python para crear documentación elegante, profesional y vinculada automáticamente al código.\n\n\n\nAccede aquí\nDocumentación oficial\nMerlion es una biblioteca de aprendizaje automático para la detección de anomalías y predicciones de series temporales. Desarrollada por Salesforce, combina modelos avanzados y herramientas de evaluación para resolver problemas de tiempo crítico en aplicaciones empresariales.\n\n\n\nAccede aquí\nDocumentación oficial\nProphet es una biblioteca de modelado de series temporales creada por Meta. Es ideal para realizar predicciones de manera intuitiva incluso con datos con tendencias no lineales y estacionales. Facilita la incorporación de días festivos y eventos especiales en el modelo de predicción."
   },
   {
-    "objectID": "bases-datos.html#ddbj-dna-data-bank-of-japan",
-    "href": "bases-datos.html#ddbj-dna-data-bank-of-japan",
-    "title": "Bases de Datos",
-    "section": "DDBJ (DNA Data Bank of Japan)",
-    "text": "DDBJ (DNA Data Bank of Japan)\nDescripción: Parte del Consorcio Internacional de Secuencias Nucleotídicas, junto con GenBank y EMBL-EBI, centrado en la recolección y distribución de secuencias de ADN.\nTemáticas clave: Secuencias genómicas, transcriptómicas y evolutivas.\nAplicaciones: Compartir datos genéticos entre investigadores globales.\nEnlace: https://www.ddbj.nig.ac.jp"
+    "objectID": "discarded/python.html#redes-sociales",
+    "href": "discarded/python.html#redes-sociales",
+    "title": "Recursos de Python",
+    "section": "Redes Sociales",
+    "text": "Redes Sociales\nhttps://x.com/clcoding?t=s5VH8-upo7lwRF-oJDogpw&s=03"
   },
   {
-    "objectID": "bases-datos.html#embl-ebi-european-bioinformatics-institute",
-    "href": "bases-datos.html#embl-ebi-european-bioinformatics-institute",
-    "title": "Bases de Datos",
-    "section": "EMBL-EBI (European Bioinformatics Institute)",
-    "text": "EMBL-EBI (European Bioinformatics Institute)\nDescripción: Centro europeo de bioinformática que proporciona acceso a múltiples bases de datos relacionadas con genómica, proteómica y biología estructural.\nTemáticas clave:\nArrayExpress: Datos de expresión génica.\nInterPro: Análisis de dominios proteicos.\nReactome: Vías de señalización y rutas metabólicas.\nAplicaciones: Integración de datos biomoleculares, análisis funcional y estructural.\nEnlace: https://www.ebi.ac.uk"
+    "objectID": "bd_pages/bd_variantes_clinicas.html",
+    "href": "bd_pages/bd_variantes_clinicas.html",
+    "title": "Bases de Datos de Variantes, Fenotipos y Cáncer",
+    "section": "",
+    "text": "Descripción: Base de datos de variantes genómicas de miles de individuos, enfocada en variantes raras y comunes.\nTemáticas clave: Variantes genéticas humanas, frecuencias alélicas, variación estructural.\nAplicaciones: Investigación de enfermedades genéticas, interpretación clínica de variantes.\nEnlace: https://gnomad.broadinstitute.org"
   },
   {
-    "objectID": "bases-datos.html#brenda",
-    "href": "bases-datos.html#brenda",
-    "title": "Bases de Datos",
-    "section": "BRENDA",
-    "text": "BRENDA\nDescripción: Base de datos de enzimas y rutas metabólicas, con información detallada sobre funciones y características de enzimas.\nTemáticas clave: Catálisis enzimática, cinética, cofactores y organismos de origen.\nAplicaciones: Diseño de procesos biotecnológicos y estudios enzimáticos.\nEnlace: https://www.brenda-enzymes.org"
+    "objectID": "bd_pages/bd_variantes_clinicas.html#exacgnomad-genome-aggregation-database",
+    "href": "bd_pages/bd_variantes_clinicas.html#exacgnomad-genome-aggregation-database",
+    "title": "Bases de Datos de Variantes, Fenotipos y Cáncer",
+    "section": "",
+    "text": "Descripción: Base de datos de variantes genómicas de miles de individuos, enfocada en variantes raras y comunes.\nTemáticas clave: Variantes genéticas humanas, frecuencias alélicas, variación estructural.\nAplicaciones: Investigación de enfermedades genéticas, interpretación clínica de variantes.\nEnlace: https://gnomad.broadinstitute.org"
   },
   {
-    "objectID": "bases-datos.html#tcga-the-cancer-genome-atlas",
-    "href": "bases-datos.html#tcga-the-cancer-genome-atlas",
-    "title": "Bases de Datos",
-    "section": "TCGA (The Cancer Genome Atlas)",
-    "text": "TCGA (The Cancer Genome Atlas)\nDescripción: Base de datos de perfiles moleculares de cáncer, que incluye información genómica, transcriptómica y epigenómica.\nTemáticas clave: Variantes genéticas en cáncer, expresión génica diferencial y biomarcadores.\nAplicaciones: Investigación oncológica, identificación de dianas terapéuticas y análisis de supervivencia.\nEnlace: https://www.cancer.gov/tcga"
-  },
-  {
-    "objectID": "bases-datos.html#biogrid",
-    "href": "bases-datos.html#biogrid",
-    "title": "Bases de Datos",
-    "section": "BioGRID",
-    "text": "BioGRID\nDescripción: Base de datos de interacciones moleculares que incluye interacciones proteína-proteína y redes genéticas.\nTemáticas clave: Redes de interacción, funcionalidad de proteínas y genética de sistemas.\nAplicaciones: Estudios de redes moleculares y diseño de experimentos funcionales.\nEnlace: https://thebiogrid.org"
-  },
-  {
-    "objectID": "bases-datos.html#string-search-tool-for-the-retrieval-of-interacting-genesproteins",
-    "href": "bases-datos.html#string-search-tool-for-the-retrieval-of-interacting-genesproteins",
-    "title": "Bases de Datos",
-    "section": "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)",
-    "text": "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)\nDescripción: Base de datos de interacciones proteína-proteína y asociaciones funcionales, tanto experimentales como predichas.\nTemáticas clave: Redes de interacción molecular, funcionalidad proteica y biología de sistemas.\nAplicaciones: Estudios de redes moleculares, identificación de complejos proteicos y análisis de vías biológicas.\nEnlace: https://string-db.org"
-  },
-  {
-    "objectID": "bases-datos.html#pfam",
-    "href": "bases-datos.html#pfam",
-    "title": "Bases de Datos",
-    "section": "Pfam",
-    "text": "Pfam\nDescripción: Colección de familias de proteínas basada en alineamientos de secuencias y modelos de ocultación de Markov (HMM).\nTemáticas clave: Dominios y familias proteicas, evolución molecular.\nAplicaciones: Análisis estructural y funcional de proteínas, identificación de dominios conservados.\nEnlace: https://pfam.xfam.org"
-  },
-  {
-    "objectID": "bases-datos.html#flybase",
-    "href": "bases-datos.html#flybase",
-    "title": "Bases de Datos",
-    "section": "FlyBase",
-    "text": "FlyBase\nDescripción: Base de datos genómica y de biología molecular de Drosophila melanogaster y otras especies de insectos relacionados.\nTemáticas clave: Genómica, transcriptómica, mutaciones y interacciones genéticas.\nAplicaciones: Investigación en genética y desarrollo usando Drosophila como modelo.\nEnlace: https://flybase.org"
-  },
-  {
-    "objectID": "bases-datos.html#zfin-zebrafish-information-network",
-    "href": "bases-datos.html#zfin-zebrafish-information-network",
-    "title": "Bases de Datos",
-    "section": "ZFIN (Zebrafish Information Network)",
-    "text": "ZFIN (Zebrafish Information Network)\nDescripción: Base de datos dedicada a la biología y genética del pez cebra (Danio rerio).\nTemáticas clave: Genómica funcional, biología del desarrollo, modelos de enfermedades humanas.\nAplicaciones: Estudios genéticos y biomédicos utilizando el pez cebra como organismo modelo.\nEnlace: https://zfin.org"
-  },
-  {
-    "objectID": "bases-datos.html#mgi-mouse-genome-informatics",
-    "href": "bases-datos.html#mgi-mouse-genome-informatics",
-    "title": "Bases de Datos",
-    "section": "MGI (Mouse Genome Informatics)",
-    "text": "MGI (Mouse Genome Informatics)\nDescripción: Recurso integral para la biología y genética del ratón (Mus musculus).\nTemáticas clave: Genómica, mutaciones, modelos de enfermedades humanas.\nAplicaciones: Investigación en biología del desarrollo y estudios preclínicos con ratones.\nEnlace: http://www.informatics.jax.org"
-  },
-  {
-    "objectID": "bases-datos.html#exacgnomad-genome-aggregation-database",
-    "href": "bases-datos.html#exacgnomad-genome-aggregation-database",
-    "title": "Bases de Datos",
-    "section": "ExAC/gnomAD (Genome Aggregation Database)",
-    "text": "ExAC/gnomAD (Genome Aggregation Database)\nDescripción: Base de datos de variantes genómicas de miles de individuos, enfocada en variantes raras y comunes.\nTemáticas clave: Variantes genéticas humanas, frecuencias alélicas, variación estructural.\nAplicaciones: Investigación de enfermedades genéticas, interpretación clínica de variantes.\nEnlace: https://gnomad.broadinstitute.org"
-  },
-  {
-    "objectID": "bases-datos.html#clinvar",
-    "href": "bases-datos.html#clinvar",
-    "title": "Bases de Datos",
+    "objectID": "bd_pages/bd_variantes_clinicas.html#clinvar",
+    "href": "bd_pages/bd_variantes_clinicas.html#clinvar",
+    "title": "Bases de Datos de Variantes, Fenotipos y Cáncer",
     "section": "ClinVar",
     "text": "ClinVar\nDescripción: Repositorio de variantes genómicas con relevancia clínica, recopiladas de laboratorios y literatura científica.\nTemáticas clave: Mutaciones patogénicas, enfermedades genéticas, variantes asociadas a fenotipos clínicos.\nAplicaciones: Diagnóstico genético y estudios de correlación genotipo-fenotipo.\nEnlace: https://www.ncbi.nlm.nih.gov/clinvar"
   },
   {
-    "objectID": "bases-datos.html#omim-online-mendelian-inheritance-in-man",
-    "href": "bases-datos.html#omim-online-mendelian-inheritance-in-man",
-    "title": "Bases de Datos",
+    "objectID": "bd_pages/bd_variantes_clinicas.html#omim-online-mendelian-inheritance-in-man",
+    "href": "bd_pages/bd_variantes_clinicas.html#omim-online-mendelian-inheritance-in-man",
+    "title": "Bases de Datos de Variantes, Fenotipos y Cáncer",
     "section": "OMIM (Online Mendelian Inheritance in Man)",
     "text": "OMIM (Online Mendelian Inheritance in Man)\nDescripción: Catálogo de genes humanos y fenotipos genéticos, con información sobre enfermedades hereditarias.\nTemáticas clave: Genética humana, enfermedades mendelianas, asociación genotipo-fenotipo.\nAplicaciones: Investigación biomédica, diagnóstico y asesoramiento genético.\nEnlace: https://omim.org"
   },
   {
-    "objectID": "bases-datos.html#biocyc",
-    "href": "bases-datos.html#biocyc",
-    "title": "Bases de Datos",
-    "section": "BioCyc",
-    "text": "BioCyc\nDescripción: Colección de bases de datos de genomas y vías metabólicas de diversos organismos.\nTemáticas clave: Genómica, metabolómica, rutas metabólicas, biología de sistemas.\nAplicaciones: Análisis funcional de genomas y vías metabólicas.\nEnlace: https://biocyc.org"
+    "objectID": "bd_pages/bd_variantes_clinicas.html#tcga-the-cancer-genome-atlas",
+    "href": "bd_pages/bd_variantes_clinicas.html#tcga-the-cancer-genome-atlas",
+    "title": "Bases de Datos de Variantes, Fenotipos y Cáncer",
+    "section": "TCGA (The Cancer Genome Atlas)",
+    "text": "TCGA (The Cancer Genome Atlas)\nDescripción: Base de datos de perfiles moleculares de cáncer, que incluye información genómica, transcriptómica y epigenómica.\nTemáticas clave: Variantes genéticas en cáncer, expresión génica diferencial y biomarcadores.\nAplicaciones: Investigación oncológica, identificación de dianas terapéuticas y análisis de supervivencia.\nEnlace: https://www.cancer.gov/tcga"
   },
   {
-    "objectID": "bases-datos.html#metabolights",
-    "href": "bases-datos.html#metabolights",
-    "title": "Bases de Datos",
-    "section": "MetaboLights",
-    "text": "MetaboLights\nDescripción: Base de datos de estudios y datos metabolómicos, incluida información de metabolitos y experimentos.\nTemáticas clave: Metabolómica, metabolitos, perfiles metabólicos.\nAplicaciones: Investigación metabolómica y estudios sobre metabolismo humano y de organismos modelo.\nEnlace: https://www.ebi.ac.uk/metabolights"
-  },
-  {
-    "objectID": "bases-datos.html#pride-proteomics-identifications-database",
-    "href": "bases-datos.html#pride-proteomics-identifications-database",
-    "title": "Bases de Datos",
-    "section": "PRIDE (Proteomics Identifications Database)",
-    "text": "PRIDE (Proteomics Identifications Database)\nDescripción: Repositorio de datos proteómicos de experimentos de espectrometría de masas.\nTemáticas clave: Proteómica, identificaciones de proteínas, modificaciones postraduccionales.\nAplicaciones: Análisis proteómico y estudios funcionales de proteínas.\nEnlace: https://www.ebi.ac.uk/pride"
-  },
-  {
-    "objectID": "bases-datos.html#toxicogenomics-data-network-ctd",
-    "href": "bases-datos.html#toxicogenomics-data-network-ctd",
-    "title": "Bases de Datos",
+    "objectID": "bd_pages/bd_variantes_clinicas.html#toxicogenomics-data-network-ctd",
+    "href": "bd_pages/bd_variantes_clinicas.html#toxicogenomics-data-network-ctd",
+    "title": "Bases de Datos de Variantes, Fenotipos y Cáncer",
     "section": "Toxicogenomics Data Network (CTD)",
     "text": "Toxicogenomics Data Network (CTD)\nDescripción: Base de datos que integra información sobre interacciones químicas-genómicas y su impacto en la salud.\nTemáticas clave: Toxicología, interacciones químico-genéticas, enfermedades ambientales.\nAplicaciones: Estudios de toxicología, impacto de exposiciones ambientales en la salud.\nEnlace: http://ctdbase.org"
   },
   {
-    "objectID": "bases-datos.html#ebi-expression-atlas",
-    "href": "bases-datos.html#ebi-expression-atlas",
-    "title": "Bases de Datos",
-    "section": "EBI Expression Atlas",
-    "text": "EBI Expression Atlas\nDescripción: Herramienta que permite explorar datos de expresión génica en diferentes condiciones, tejidos y especies.\nTemáticas clave: Transcriptómica, expresión génica diferencial, tejidos específicos.\nAplicaciones: Análisis de datos transcriptómicos y diseño de experimentos de validación.\nEnlace: https://www.ebi.ac.uk/gxa"
+    "objectID": "bd_pages/bd_socioeconomicas.html",
+    "href": "bd_pages/bd_socioeconomicas.html",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "",
+    "text": "Descripción: El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.\nTemáticas clave: - Demografía: Población, migraciones, nacimientos, defunciones. - Economía: PIB, inflación, empleo, turismo. - Educación y salud: Indicadores educativos, recursos sanitarios, gasto público. - Condiciones de vida: Encuestas sobre pobreza, exclusión social, desigualdad. - Medio ambiente: Emisiones, consumo de energía, agua.\nMetodología: Los datos se obtienen de censos, encuestas a hogares y empresas, registros administrativos y estudios específicos.\nAplicaciones: - Análisis de políticas públicas y regionales. - Estudios sobre tendencias demográficas y sociales. - Comparación con datos internacionales de fuentes como Our World in Data, Eurostat o el Banco Mundial.\nEnlace: https://www.ine.es"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#ine-instituto-nacional-de-estadística",
+    "href": "bd_pages/bd_socioeconomicas.html#ine-instituto-nacional-de-estadística",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "",
+    "text": "Descripción: El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.\nTemáticas clave: - Demografía: Población, migraciones, nacimientos, defunciones. - Economía: PIB, inflación, empleo, turismo. - Educación y salud: Indicadores educativos, recursos sanitarios, gasto público. - Condiciones de vida: Encuestas sobre pobreza, exclusión social, desigualdad. - Medio ambiente: Emisiones, consumo de energía, agua.\nMetodología: Los datos se obtienen de censos, encuestas a hogares y empresas, registros administrativos y estudios específicos.\nAplicaciones: - Análisis de políticas públicas y regionales. - Estudios sobre tendencias demográficas y sociales. - Comparación con datos internacionales de fuentes como Our World in Data, Eurostat o el Banco Mundial.\nEnlace: https://www.ine.es"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#our-world-in-data-owid",
+    "href": "bd_pages/bd_socioeconomicas.html#our-world-in-data-owid",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "Our World in Data (OWID)",
+    "text": "Our World in Data (OWID)\nDescripción: Plataforma que proporciona datos globales y gráficos interactivos sobre temas relacionados con el desarrollo humano, como salud, economía, medio ambiente y más. Su objetivo es hacer que los datos sean accesibles y comprensibles para promover políticas basadas en evidencia.\nTemáticas clave: Cambio climático, desigualdad, salud global, energía, educación y crecimiento económico.\nMetodología: Utilizan datos de organismos internacionales como la ONU, el Banco Mundial, y publicaciones científicas revisadas por pares.\nAplicaciones: Ideal para investigadores, educadores y tomadores de decisiones que necesitan información confiable para análisis o visualización.\nEnlace: https://ourworldindata.org/"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#world-bank-open-data",
+    "href": "bd_pages/bd_socioeconomicas.html#world-bank-open-data",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "World Bank Open Data",
+    "text": "World Bank Open Data\nDescripción: Plataforma que ofrece acceso gratuito a estadísticas globales sobre desarrollo económico, social y ambiental, recopiladas de casi todos los países del mundo. Proporciona datos organizados en indicadores clave para análisis y planificación.\nTemáticas clave: Economía, pobreza, salud, educación, medio ambiente, infraestructura y gobernanza.\nMetodología: Los datos se recopilan de encuestas nacionales, organismos internacionales y otras fuentes verificadas, asegurando calidad y consistencia en los indicadores globales.\nAplicaciones: Ideal para investigadores, economistas, responsables de políticas públicas y académicos que buscan información confiable sobre tendencias globales y nacionales.\nEnlace: https://data.worldbank.org"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#undata",
+    "href": "bd_pages/bd_socioeconomicas.html#undata",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "UNdata",
+    "text": "UNdata\nDescripción: Plataforma de la Organización de las Naciones Unidas (ONU) que reúne estadísticas de diversas agencias internacionales, cubriendo temas globales relacionados con desarrollo, economía, medio ambiente y población.\nTemáticas clave: Población, comercio, energía, género, indicadores de desarrollo sostenible (ODS) y más.\nMetodología: Consolidación de datos provenientes de agencias especializadas de la ONU, informes nacionales y censos, asegurando estandarización y fiabilidad.\nAplicaciones: Útil para investigadores, estudiantes y planificadores que buscan datos centralizados de múltiples temas globales.\nEnlace: https://data.un.org"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#eurostat",
+    "href": "bd_pages/bd_socioeconomicas.html#eurostat",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "Eurostat",
+    "text": "Eurostat\nDescripción: La oficina estadística de la Unión Europea (UE) ofrece datos y análisis sobre diversos aspectos económicos, sociales y ambientales de los Estados miembros de la UE.\nTemáticas clave: Economía, empleo, población, comercio, energía, medio ambiente y desarrollo regional.\nMetodología: Los datos se recopilan de estadísticas nacionales armonizadas y bases de datos específicas de la UE, garantizando comparabilidad entre países.\nAplicaciones: Fuente fundamental para estudios sobre la UE, análisis de políticas y evaluación de tendencias dentro de la región.\nEnlace: https://ec.europa.eu/eurostat"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#oecd-data",
+    "href": "bd_pages/bd_socioeconomicas.html#oecd-data",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "OECD Data",
+    "text": "OECD Data\nDescripción: Plataforma de la Organización para la Cooperación y el Desarrollo Económicos (OCDE) que ofrece estadísticas sobre economía, educación, salud, gobernanza y otros temas clave en los países miembros y asociados.\nTemáticas clave: PIB, empleo, educación, desigualdad, energía, comercio y políticas públicas.\nMetodología: Basado en estadísticas proporcionadas por gobiernos nacionales, encuestas armonizadas y estudios de caso realizados por la OCDE.\nAplicaciones: Ideal para analizar políticas públicas y tendencias económicas entre países desarrollados y emergentes.\nEnlace: https://data.oecd.org"
+  },
+  {
+    "objectID": "bd_pages/bd_socioeconomicas.html#international-monetary-fund-imf-data",
+    "href": "bd_pages/bd_socioeconomicas.html#international-monetary-fund-imf-data",
+    "title": "Bases de Datos Socioeconómicas",
+    "section": "International Monetary Fund (IMF) Data",
+    "text": "International Monetary Fund (IMF) Data\nDescripción: Plataforma del Fondo Monetario Internacional que proporciona estadísticas económicas y financieras a nivel global.\nTemáticas clave: PIB, inflación, balanza de pagos, deuda pública y comercio internacional.\nMetodología: Basado en datos proporcionados por gobiernos y bancos centrales, ajustados según estándares internacionales.\nAplicaciones: Fundamental para análisis financieros y económicos internacionales.\nEnlace: https://www.imf.org/en/Data"
+  },
+  {
+    "objectID": "bd_pages/bd_recursos_agricolas_y_medioambientales.html",
+    "href": "bd_pages/bd_recursos_agricolas_y_medioambientales.html",
+    "title": "Bases de Datos Medioambientales y de Recursos",
+    "section": "",
+    "text": "Descripción: Plataforma enfocada en datos medioambientales y climáticos, abarcando temas de sostenibilidad y recursos naturales.\nTemáticas clave: Cambio climático, deforestación, agua, energía renovable y biodiversidad.\nMetodología: Utiliza datos de satélites, registros gubernamentales y estudios académicos para ofrecer visualizaciones precisas.\nAplicaciones: Ideal para investigadores en medio ambiente y formuladores de políticas sobre sostenibilidad.\nEnlace: https://www.wri.org/data"
+  },
+  {
+    "objectID": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#data-by-the-world-resources-institute-wri",
+    "href": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#data-by-the-world-resources-institute-wri",
+    "title": "Bases de Datos Medioambientales y de Recursos",
+    "section": "",
+    "text": "Descripción: Plataforma enfocada en datos medioambientales y climáticos, abarcando temas de sostenibilidad y recursos naturales.\nTemáticas clave: Cambio climático, deforestación, agua, energía renovable y biodiversidad.\nMetodología: Utiliza datos de satélites, registros gubernamentales y estudios académicos para ofrecer visualizaciones precisas.\nAplicaciones: Ideal para investigadores en medio ambiente y formuladores de políticas sobre sostenibilidad.\nEnlace: https://www.wri.org/data"
+  },
+  {
+    "objectID": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#faostat-fao",
+    "href": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#faostat-fao",
+    "title": "Bases de Datos Medioambientales y de Recursos",
+    "section": "FAOSTAT (FAO)",
+    "text": "FAOSTAT (FAO)\nDescripción: Plataforma de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) que proporciona datos relacionados con la agricultura, alimentos, comercio y sostenibilidad.\nTemáticas clave: Producción agrícola, consumo de alimentos, seguridad alimentaria, comercio agrícola y cambio climático.\nMetodología: Datos obtenidos de registros nacionales, censos agrícolas y estudios especializados en alimentación y sostenibilidad.\nAplicaciones: Fundamental para investigadores y formuladores de políticas interesados en seguridad alimentaria y sostenibilidad agrícola.\nEnlace: https://www.fao.org/faostat"
+  },
+  {
+    "objectID": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#gbif-global-biodiversity-information-facility",
+    "href": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#gbif-global-biodiversity-information-facility",
+    "title": "Bases de Datos Medioambientales y de Recursos",
+    "section": "GBIF (Global Biodiversity Information Facility)",
+    "text": "GBIF (Global Biodiversity Information Facility)\nDescripción: Base de datos abierta que permite el acceso a información sobre biodiversidad global, incluyendo registros de especies y ecosistemas.\nTemáticas clave: Conservación de especies, monitoreo de hábitats, biodiversidad marina y terrestre.\nMetodología: Datos recopilados de museos, instituciones académicas y observaciones ciudadanas.\nAplicaciones: Esencial para investigadores en ecología y biodiversidad.\nEnlace: https://www.gbif.org"
+  },
+  {
+    "objectID": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#gapminder",
+    "href": "bd_pages/bd_recursos_agricolas_y_medioambientales.html#gapminder",
+    "title": "Bases de Datos Medioambientales y de Recursos",
+    "section": "Gapminder",
+    "text": "Gapminder\nDescripción: Plataforma que utiliza datos globales para visualizar tendencias históricas y actuales sobre desarrollo humano, con un enfoque educativo.\nTemáticas clave: Población, esperanza de vida, ingresos, salud, educación y pobreza.\nMetodología: Integra datos de fuentes como la ONU, el Banco Mundial y otras organizaciones internacionales en gráficos interactivos.\nAplicaciones: Excelente para presentaciones educativas y análisis visuales rápidos.\nEnlace: https://www.gapminder.org/data/"
+  },
+  {
+    "objectID": "bd_pages/bd_organismos_modelo.html",
+    "href": "bd_pages/bd_organismos_modelo.html",
+    "title": "Bases de Datos de Organismos Modelo",
+    "section": "",
+    "text": "Descripción: Base de datos genómica y de biología molecular de Drosophila melanogaster y otras especies de insectos relacionados.\nTemáticas clave: Genómica, transcriptómica, mutaciones e interacciones genéticas.\nAplicaciones: Investigación en genética y desarrollo usando Drosophila como modelo.\nEnlace: https://flybase.org"
+  },
+  {
+    "objectID": "bd_pages/bd_organismos_modelo.html#flybase",
+    "href": "bd_pages/bd_organismos_modelo.html#flybase",
+    "title": "Bases de Datos de Organismos Modelo",
+    "section": "",
+    "text": "Descripción: Base de datos genómica y de biología molecular de Drosophila melanogaster y otras especies de insectos relacionados.\nTemáticas clave: Genómica, transcriptómica, mutaciones e interacciones genéticas.\nAplicaciones: Investigación en genética y desarrollo usando Drosophila como modelo.\nEnlace: https://flybase.org"
+  },
+  {
+    "objectID": "bd_pages/bd_organismos_modelo.html#zfin-zebrafish-information-network",
+    "href": "bd_pages/bd_organismos_modelo.html#zfin-zebrafish-information-network",
+    "title": "Bases de Datos de Organismos Modelo",
+    "section": "ZFIN (Zebrafish Information Network)",
+    "text": "ZFIN (Zebrafish Information Network)\nDescripción: Base de datos dedicada a la biología y genética del pez cebra (Danio rerio).\nTemáticas clave: Genómica funcional, biología del desarrollo, modelos de enfermedades humanas.\nAplicaciones: Estudios genéticos y biomédicos utilizando el pez cebra como organismo modelo.\nEnlace: https://zfin.org"
+  },
+  {
+    "objectID": "bd_pages/bd_organismos_modelo.html#mgi-mouse-genome-informatics",
+    "href": "bd_pages/bd_organismos_modelo.html#mgi-mouse-genome-informatics",
+    "title": "Bases de Datos de Organismos Modelo",
+    "section": "MGI (Mouse Genome Informatics)",
+    "text": "MGI (Mouse Genome Informatics)\nDescripción: Recurso integral para la biología y genética del ratón (Mus musculus).\nTemáticas clave: Genómica, mutaciones, modelos de enfermedades humanas.\nAplicaciones: Investigación en biología del desarrollo y estudios preclínicos con ratones.\nEnlace: http://www.informatics.jax.org"
+  },
+  {
+    "objectID": "bd_pages/bd_interacciones_y_redes_moleculares.html",
+    "href": "bd_pages/bd_interacciones_y_redes_moleculares.html",
+    "title": "Bases de Datos de Interacciones y Redes Moleculares",
+    "section": "",
+    "text": "Descripción: Base de datos de interacciones moleculares que incluye interacciones proteína-proteína y redes genéticas.\nTemáticas clave: Redes de interacción, funcionalidad de proteínas y genética de sistemas.\nAplicaciones: Estudios de redes moleculares y diseño de experimentos funcionales.\nEnlace: https://thebiogrid.org"
+  },
+  {
+    "objectID": "bd_pages/bd_interacciones_y_redes_moleculares.html#biogrid",
+    "href": "bd_pages/bd_interacciones_y_redes_moleculares.html#biogrid",
+    "title": "Bases de Datos de Interacciones y Redes Moleculares",
+    "section": "",
+    "text": "Descripción: Base de datos de interacciones moleculares que incluye interacciones proteína-proteína y redes genéticas.\nTemáticas clave: Redes de interacción, funcionalidad de proteínas y genética de sistemas.\nAplicaciones: Estudios de redes moleculares y diseño de experimentos funcionales.\nEnlace: https://thebiogrid.org"
+  },
+  {
+    "objectID": "bd_pages/bd_interacciones_y_redes_moleculares.html#string-search-tool-for-the-retrieval-of-interacting-genesproteins",
+    "href": "bd_pages/bd_interacciones_y_redes_moleculares.html#string-search-tool-for-the-retrieval-of-interacting-genesproteins",
+    "title": "Bases de Datos de Interacciones y Redes Moleculares",
+    "section": "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)",
+    "text": "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)\nDescripción: Base de datos de interacciones proteína-proteína y asociaciones funcionales, tanto experimentales como predichas.\nTemáticas clave: Redes de interacción molecular, funcionalidad proteica y biología de sistemas.\nAplicaciones: Estudios de redes moleculares, identificación de complejos proteicos y análisis de vías biológicas.\nEnlace: https://string-db.org"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Telómera es una empresa española especializada en el análisis de datos de salud del mundo real (Real World Evidence), ofreciendo soluciones innovadoras para mejorar la toma de decisiones en el sector sanitario. Su equipo multidisciplinario integra datos clínicos, genéticos y de estilo de vida para proporcionar estudios precisos y personalizados, contribuyendo a una atención médica más eficiente y efectiva.\nEntre nuestros servicios destacados se encuentran:\n\nReal World Evidence & Data Solutions: Análisis de datos de salud para generar evidencia basada en la vida real, profundizando en el conocimiento de enfermedades y aumentando la eficiencia de los sistemas sanitarios.\nHospital Management Solutions (HMS): Consultoría integral para gestores sanitarios, enfocada en mejorar la gestión y organización de instituciones de salud mediante tecnología y análisis de datos.\nSoftware e Inteligencia Artificial: Desarrollo de soluciones de IA para apoyar a profesionales de la salud en diagnósticos y tratamientos, garantizando la interoperabilidad con sistemas existentes y creando entornos tecnológicos coherentes y seguros.\nInstituto de Longevidad Telomera: Investigación interdisciplinaria centrada en el análisis de datos sanitarios para promover una forma de vida saludable, integrando información clínica, genética y de estilo de vida.\n\nCon una sólida experiencia y reconocimiento en el sector, Telomera se posiciona como un aliado estratégico para instituciones sanitarias que buscan transformar datos en soluciones prácticas y efectivas."
   },
   {
-    "objectID": "grupos-concursos.html",
-    "href": "grupos-concursos.html",
-    "title": "Untitled",
+    "objectID": "bd_pages/bd_genomica.html",
+    "href": "bd_pages/bd_genomica.html",
+    "title": "Bases de Datos de Genómica",
     "section": "",
-    "text": "https://madrid.r-es.org\nCONCURSOS\nCurso de Storytelling de Posit con Quarto: https://posit.co/blog/closeread-prize-announcement/"
+    "text": "Enlace: https://alphafold.ebi.ac.uk"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R_Kodamas_Web",
+    "objectID": "bd_pages/bd_genomica.html#alpha-fold",
+    "href": "bd_pages/bd_genomica.html#alpha-fold",
+    "title": "Bases de Datos de Genómica",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Enlace: https://alphafold.ebi.ac.uk"
   },
   {
-    "objectID": "manejo-datos.html",
-    "href": "manejo-datos.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "dplyr (https://dplyr.tidyverse.org) dplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de “verbos” como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles.\ntidyr (https://tidyr.tidyverse.org) tidyr ayuda a transformar datos a un formato “ordenado”, lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R.\nreadr (https://readr.tidyverse.org) readr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando “tibbles” que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento.\nlubridate (https://lubridate.tidyverse.org) lubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R."
+    "objectID": "bd_pages/bd_genomica.html#ncbi-national-center-for-biotechnology-information",
+    "href": "bd_pages/bd_genomica.html#ncbi-national-center-for-biotechnology-information",
+    "title": "Bases de Datos de Genómica",
+    "section": "NCBI (National Center for Biotechnology Information)",
+    "text": "NCBI (National Center for Biotechnology Information)\nDescripción: Plataforma del NIH (National Institutes of Health) que ofrece acceso a una amplia gama de bases de datos para biología molecular y genómica.\nTemáticas clave: Genómica, transcriptómica, proteómica, biología estructural y datos biomédicos.\nBases de datos destacadas dentro del NCBI: - GenBank: Secuencias genómicas y nucleotídicas. - PubMed: Artículos científicos en ciencias biomédicas. - BLAST: Herramienta para comparación de secuencias. - SNP: Variantes genéticas de un solo nucleótido.\nAplicaciones: Análisis de genomas, estudios evolutivos y búsqueda de información biomédica.\nEnlace: https://www.ncbi.nlm.nih.gov"
   },
   {
-    "objectID": "python.html",
-    "href": "python.html",
-    "title": "Python",
-    "section": "",
-    "text": "pylint: paquete para mejorar el código\nEnlace: https://pypi.org/project/pylint/\nhttps://docs.sqlfluff.com/en/stable/gettingstarted.html"
+    "objectID": "bd_pages/bd_genomica.html#ddbj-dna-data-bank-of-japan",
+    "href": "bd_pages/bd_genomica.html#ddbj-dna-data-bank-of-japan",
+    "title": "Bases de Datos de Genómica",
+    "section": "DDBJ (DNA Data Bank of Japan)",
+    "text": "DDBJ (DNA Data Bank of Japan)\nDescripción: Parte del Consorcio Internacional de Secuencias Nucleotídicas, junto con GenBank y EMBL-EBI, centrado en la recolección y distribución de secuencias de ADN.\nTemáticas clave: Secuencias genómicas, transcriptómicas y evolutivas.\nAplicaciones: Compartir datos genéticos entre investigadores globales.\nEnlace: https://www.ddbj.nig.ac.jp"
   },
   {
-    "objectID": "tutoriales.html",
-    "href": "tutoriales.html",
-    "title": "Untitled",
+    "objectID": "bd_pages/bd_genomica.html#embl-ebi-european-bioinformatics-institute",
+    "href": "bd_pages/bd_genomica.html#embl-ebi-european-bioinformatics-institute",
+    "title": "Bases de Datos de Genómica",
+    "section": "EMBL-EBI (European Bioinformatics Institute)",
+    "text": "EMBL-EBI (European Bioinformatics Institute)\nDescripción: Centro europeo de bioinformática que proporciona acceso a múltiples bases de datos relacionadas con genómica, proteómica y biología estructural.\nTemáticas clave: - ArrayExpress: Datos de expresión génica. - InterPro: Análisis de dominios proteicos. - Reactome: Vías de señalización y rutas metabólicas.\nAplicaciones: Integración de datos biomoleculares, análisis funcional y estructural.\nEnlace: https://www.ebi.ac.uk"
+  },
+  {
+    "objectID": "bd_pages/bd_genomica.html#ensembl",
+    "href": "bd_pages/bd_genomica.html#ensembl",
+    "title": "Bases de Datos de Genómica",
+    "section": "Ensembl",
+    "text": "Ensembl\nDescripción: Recurso de acceso abierto para análisis de genomas de vertebrados y otros organismos, proporcionando anotaciones genéticas detalladas.\nTemáticas clave: Genomas de referencia, anotación de genes, variantes genómicas y evolución genética.\nAplicaciones: Análisis comparativo de genomas, búsqueda de variantes genéticas en diferentes organismos y diseño de experimentos genómicos.\nEnlace: https://www.ensembl.org"
+  },
+  {
+    "objectID": "bd_pages/bd_metabolismo.html",
+    "href": "bd_pages/bd_metabolismo.html",
+    "title": "Bases de Datos de Metabolismo",
     "section": "",
-    "text": "https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/"
+    "text": "Descripción: Recurso que integra información genómica, química y sistémica para mapear procesos biológicos y vías metabólicas.\nTemáticas clave: Metabolismo, señalización celular, redes moleculares y genómica funcional.\nAplicaciones: Estudios de metabolómica, bioquímica sistémica y análisis de redes biológicas.\nEnlace: https://www.kegg.jp"
+  },
+  {
+    "objectID": "bd_pages/bd_metabolismo.html#kegg-kyoto-encyclopedia-of-genes-and-genomes",
+    "href": "bd_pages/bd_metabolismo.html#kegg-kyoto-encyclopedia-of-genes-and-genomes",
+    "title": "Bases de Datos de Metabolismo",
+    "section": "",
+    "text": "Descripción: Recurso que integra información genómica, química y sistémica para mapear procesos biológicos y vías metabólicas.\nTemáticas clave: Metabolismo, señalización celular, redes moleculares y genómica funcional.\nAplicaciones: Estudios de metabolómica, bioquímica sistémica y análisis de redes biológicas.\nEnlace: https://www.kegg.jp"
+  },
+  {
+    "objectID": "bd_pages/bd_metabolismo.html#brenda",
+    "href": "bd_pages/bd_metabolismo.html#brenda",
+    "title": "Bases de Datos de Metabolismo",
+    "section": "BRENDA",
+    "text": "BRENDA\nDescripción: Base de datos de enzimas y rutas metabólicas, con información detallada sobre funciones y características de enzimas.\nTemáticas clave: Catálisis enzimática, cinética, cofactores y organismos de origen.\nAplicaciones: Diseño de procesos biotecnológicos y estudios enzimáticos.\nEnlace: https://www.brenda-enzymes.org"
+  },
+  {
+    "objectID": "bd_pages/bd_metabolismo.html#biocyc",
+    "href": "bd_pages/bd_metabolismo.html#biocyc",
+    "title": "Bases de Datos de Metabolismo",
+    "section": "BioCyc",
+    "text": "BioCyc\nDescripción: Colección de bases de datos de genomas y vías metabólicas de diversos organismos.\nTemáticas clave: Genómica, metabolómica, rutas metabólicas, biología de sistemas.\nAplicaciones: Análisis funcional de genomas y vías metabólicas.\nEnlace: https://biocyc.org"
+  },
+  {
+    "objectID": "bd_pages/bd_metabolismo.html#metabolights",
+    "href": "bd_pages/bd_metabolismo.html#metabolights",
+    "title": "Bases de Datos de Metabolismo",
+    "section": "MetaboLights",
+    "text": "MetaboLights\nDescripción: Base de datos de estudios y datos metabolómicos, incluida información de metabolitos y experimentos.\nTemáticas clave: Metabolómica, metabolitos, perfiles metabólicos.\nAplicaciones: Investigación metabolómica y estudios sobre metabolismo humano y de organismos modelo.\nEnlace: https://www.ebi.ac.uk/metabolights"
+  },
+  {
+    "objectID": "bd_pages/bd_proteomica.html",
+    "href": "bd_pages/bd_proteomica.html",
+    "title": "Bases de Datos de Proteómica",
+    "section": "",
+    "text": "Descripción: Base de datos unificada de proteínas que proporciona información sobre secuencias proteicas y sus funciones.\nTemáticas clave: Anotación funcional de proteínas, dominios estructurales, modificaciones postraduccionales e interacciones proteína-proteína.\nAplicaciones: Investigación proteómica, diseño de fármacos y estudios de bioquímica estructural.\nEnlace: https://www.uniprot.org"
+  },
+  {
+    "objectID": "bd_pages/bd_proteomica.html#uniprot",
+    "href": "bd_pages/bd_proteomica.html#uniprot",
+    "title": "Bases de Datos de Proteómica",
+    "section": "",
+    "text": "Descripción: Base de datos unificada de proteínas que proporciona información sobre secuencias proteicas y sus funciones.\nTemáticas clave: Anotación funcional de proteínas, dominios estructurales, modificaciones postraduccionales e interacciones proteína-proteína.\nAplicaciones: Investigación proteómica, diseño de fármacos y estudios de bioquímica estructural.\nEnlace: https://www.uniprot.org"
+  },
+  {
+    "objectID": "bd_pages/bd_proteomica.html#pdb-protein-data-bank",
+    "href": "bd_pages/bd_proteomica.html#pdb-protein-data-bank",
+    "title": "Bases de Datos de Proteómica",
+    "section": "PDB (Protein Data Bank)",
+    "text": "PDB (Protein Data Bank)\nDescripción: Base de datos de estructuras tridimensionales de proteínas, ácidos nucleicos y complejos macromoleculares.\nTemáticas clave: Biología estructural, interacciones moleculares y diseño de medicamentos.\nAplicaciones: Estudios de dinámica molecular, diseño de proteínas y simulaciones computacionales.\nEnlace: https://www.rcsb.org"
+  },
+  {
+    "objectID": "bd_pages/bd_proteomica.html#pride-proteomics-identifications-database",
+    "href": "bd_pages/bd_proteomica.html#pride-proteomics-identifications-database",
+    "title": "Bases de Datos de Proteómica",
+    "section": "PRIDE (Proteomics Identifications Database)",
+    "text": "PRIDE (Proteomics Identifications Database)\nDescripción: Repositorio de datos proteómicos de experimentos de espectrometría de masas.\nTemáticas clave: Proteómica, identificaciones de proteínas, modificaciones postraduccionales.\nAplicaciones: Análisis proteómico y estudios funcionales de proteínas.\nEnlace: https://www.ebi.ac.uk/pride"
+  },
+  {
+    "objectID": "bd_pages/bd_proteomica.html#pfam",
+    "href": "bd_pages/bd_proteomica.html#pfam",
+    "title": "Bases de Datos de Proteómica",
+    "section": "Pfam",
+    "text": "Pfam\nDescripción: Colección de familias de proteínas basada en alineamientos de secuencias y modelos de ocultación de Markov (HMM).\nTemáticas clave: Dominios y familias proteicas, evolución molecular.\nAplicaciones: Análisis estructural y funcional de proteínas, identificación de dominios conservados.\nEnlace: https://pfam.xfam.org"
+  },
+  {
+    "objectID": "bd_pages/bd_salud_y_demografia.html",
+    "href": "bd_pages/bd_salud_y_demografia.html",
+    "title": "Bases de Datos de Salud y Demografía",
+    "section": "",
+    "text": "Descripción: Herramienta interactiva de visualización desarrollada por el Institute for Health Metrics and Evaluation (IHME) que permite explorar datos sobre la carga global de enfermedades, lesiones y factores de riesgo en diferentes países y regiones.\nTemáticas clave: Mortalidad, esperanza de vida, discapacidad, enfermedades específicas y factores de riesgo.\nMetodología: Basado en el análisis sistemático del GBD, utilizando datos recopilados de sistemas de salud, encuestas y registros vitales.\nAplicaciones: Útil para el análisis detallado de tendencias de salud pública y planificación de recursos sanitarios.\nEnlace: https://vizhub.healthdata.org/gbd-compare/"
+  },
+  {
+    "objectID": "bd_pages/bd_salud_y_demografia.html#global-burden-of-disease-gbd---vizhub",
+    "href": "bd_pages/bd_salud_y_demografia.html#global-burden-of-disease-gbd---vizhub",
+    "title": "Bases de Datos de Salud y Demografía",
+    "section": "",
+    "text": "Descripción: Herramienta interactiva de visualización desarrollada por el Institute for Health Metrics and Evaluation (IHME) que permite explorar datos sobre la carga global de enfermedades, lesiones y factores de riesgo en diferentes países y regiones.\nTemáticas clave: Mortalidad, esperanza de vida, discapacidad, enfermedades específicas y factores de riesgo.\nMetodología: Basado en el análisis sistemático del GBD, utilizando datos recopilados de sistemas de salud, encuestas y registros vitales.\nAplicaciones: Útil para el análisis detallado de tendencias de salud pública y planificación de recursos sanitarios.\nEnlace: https://vizhub.healthdata.org/gbd-compare/"
+  },
+  {
+    "objectID": "bd_pages/bd_salud_y_demografia.html#who-global-health-observatory-gho",
+    "href": "bd_pages/bd_salud_y_demografia.html#who-global-health-observatory-gho",
+    "title": "Bases de Datos de Salud y Demografía",
+    "section": "WHO Global Health Observatory (GHO)",
+    "text": "WHO Global Health Observatory (GHO)\nDescripción: Plataforma de la Organización Mundial de la Salud (OMS) que ofrece acceso a datos y análisis relacionados con indicadores de salud global. Permite explorar estadísticas sobre mortalidad, morbilidad, factores de riesgo y acceso a servicios de salud en todo el mundo.\nTemáticas clave: Mortalidad, enfermedades transmisibles y no transmisibles, sistemas de salud, nutrición y salud materna e infantil.\nMetodología: Los datos provienen de informes nacionales de salud, encuestas globales, estudios epidemiológicos y registros vitales.\nAplicaciones: Herramienta clave para investigadores en salud pública, organizaciones internacionales y gobiernos que necesitan tomar decisiones informadas basadas en datos.\nEnlace: https://www.who.int/data/gho"
+  },
+  {
+    "objectID": "bd_pages/bd_salud_y_demografia.html#unicef-data",
+    "href": "bd_pages/bd_salud_y_demografia.html#unicef-data",
+    "title": "Bases de Datos de Salud y Demografía",
+    "section": "UNICEF Data",
+    "text": "UNICEF Data\nDescripción: Base de datos de UNICEF que recopila información clave sobre el bienestar de la infancia y la adolescencia, incluyendo educación, salud y protección.\nTemáticas clave: Mortalidad infantil, educación básica, vacunación, nutrición y derechos del niño.\nMetodología: Datos provenientes de encuestas globales como MICS (Encuestas de Indicadores Múltiples por Conglomerados), censos y reportes gubernamentales.\nAplicaciones: Ideal para estudios sobre desarrollo infantil y evaluación de programas de impacto social.\nEnlace: https://data.unicef.org"
+  },
+  {
+    "objectID": "bd_pages/bd_transcriptomica.html",
+    "href": "bd_pages/bd_transcriptomica.html",
+    "title": "Bases de Datos de Transcriptómica",
+    "section": "",
+    "text": "Descripción: Repositorio de datos de expresión génica y estudios de secuenciación a gran escala.\nTemáticas clave: Transcriptómica, análisis de microarrays y RNA-Seq.\nAplicaciones: Estudios de expresión génica diferencial, análisis de datos transcriptómicos y diseño de experimentos de ARN.\nEnlace: https://www.ncbi.nlm.nih.gov/geo"
+  },
+  {
+    "objectID": "bd_pages/bd_transcriptomica.html#geo-gene-expression-omnibus",
+    "href": "bd_pages/bd_transcriptomica.html#geo-gene-expression-omnibus",
+    "title": "Bases de Datos de Transcriptómica",
+    "section": "",
+    "text": "Descripción: Repositorio de datos de expresión génica y estudios de secuenciación a gran escala.\nTemáticas clave: Transcriptómica, análisis de microarrays y RNA-Seq.\nAplicaciones: Estudios de expresión génica diferencial, análisis de datos transcriptómicos y diseño de experimentos de ARN.\nEnlace: https://www.ncbi.nlm.nih.gov/geo"
+  },
+  {
+    "objectID": "bd_pages/bd_transcriptomica.html#ebi-expression-atlas",
+    "href": "bd_pages/bd_transcriptomica.html#ebi-expression-atlas",
+    "title": "Bases de Datos de Transcriptómica",
+    "section": "EBI Expression Atlas",
+    "text": "EBI Expression Atlas\nDescripción: Herramienta que permite explorar datos de expresión génica en diferentes condiciones, tejidos y especies.\nTemáticas clave: Transcriptómica, expresión génica diferencial, tejidos específicos.\nAplicaciones: Análisis de datos transcriptómicos y diseño de experimentos de validación.\nEnlace: https://www.ebi.ac.uk/gxa"
+  },
+  {
+    "objectID": "discarded/bases-datos.html",
+    "href": "discarded/bases-datos.html",
+    "title": "Bases de Datos Públicas",
+    "section": "",
+    "text": "https://alphafold.ebi.ac.uk"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#alpha-fold",
+    "href": "discarded/bases-datos.html#alpha-fold",
+    "title": "Bases de Datos Públicas",
+    "section": "",
+    "text": "https://alphafold.ebi.ac.uk"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#ine-instituto-nacional-de-estadística",
+    "href": "discarded/bases-datos.html#ine-instituto-nacional-de-estadística",
+    "title": "Bases de Datos Públicas",
+    "section": "INE (Instituto Nacional de Estadística)",
+    "text": "INE (Instituto Nacional de Estadística)\nDescripción: El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.\nTemáticas clave:\n\nDemografía: Población, migraciones, nacimientos, defunciones.\nEconomía: PIB, inflación, empleo, turismo.\nEducación y salud: Indicadores educativos, recursos sanitarios, gasto público.\nCondiciones de vida: Encuestas sobre pobreza, exclusión social, desigualdad.\nMedio ambiente: Emisiones, consumo de energía, agua.\n\nMetodología: Los datos se obtienen de censos, encuestas a hogares y empresas, registros administrativos y estudios específicos.\nAplicaciones:\n\nAnálisis de políticas públicas y regionales.\nEstudios sobre tendencias demográficas y sociales.\nComparación con datos internacionales de fuentes como Our World in Data, Eurostat o el Banco Mundial.\n\nEnlace: https://www.ine.es"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#our-world-in-data-owid",
+    "href": "discarded/bases-datos.html#our-world-in-data-owid",
+    "title": "Bases de Datos Públicas",
+    "section": "Our World in Data (OWID)",
+    "text": "Our World in Data (OWID)\nDescripción: Es una plataforma que proporciona datos globales y gráficos interactivos sobre temas relacionados con el desarrollo humano, como salud, economía, medio ambiente y más. Su objetivo es hacer que los datos sean accesibles y comprensibles para promover políticas basadas en evidencia.\nTemáticas clave: Cambio climático, desigualdad, salud global, energía, educación y crecimiento económico.\nMetodología: Utilizan datos de organismos internacionales como la ONU, el Banco Mundial, y publicaciones científicas revisadas por pares.\nAplicaciones: Es ideal para investigadores, educadores y tomadores de decisiones que necesitan información confiable para análisis o visualización.\nEnlace: https://ourworldindata.org/"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#global-burden-of-disease-gbd---vizhub",
+    "href": "discarded/bases-datos.html#global-burden-of-disease-gbd---vizhub",
+    "title": "Bases de Datos Públicas",
+    "section": "Global Burden of Disease (GBD) - VizHub",
+    "text": "Global Burden of Disease (GBD) - VizHub\nDescripción: Herramienta interactiva de visualización desarrollada por el Institute for Health Metrics and Evaluation (IHME) que permite explorar datos sobre la carga global de enfermedades, lesiones y factores de riesgo en diferentes países y regiones.\nTemáticas clave: Mortalidad, esperanza de vida, discapacidad, enfermedades específicas y factores de riesgo.\nMetodología: Basado en el análisis sistemático del GBD, utilizando datos recopilados de sistemas de salud, encuestas y registros vitales.\nAplicaciones: Útil para el análisis detallado de tendencias de salud pública y planificación de recursos sanitarios.\nEnlace: https://vizhub.healthdata.org/gbd-compare/"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#world-bank-open-data",
+    "href": "discarded/bases-datos.html#world-bank-open-data",
+    "title": "Bases de Datos Públicas",
+    "section": "World Bank Open Data",
+    "text": "World Bank Open Data\nDescripción: Plataforma que ofrece acceso gratuito a estadísticas globales sobre desarrollo económico, social y ambiental, recopiladas de casi todos los países del mundo. Proporciona datos organizados en indicadores clave para análisis y planificación.\nTemáticas clave: Economía, pobreza, salud, educación, medio ambiente, infraestructura y gobernanza.\nMetodología: Los datos se recopilan de encuestas nacionales, organismos internacionales y otras fuentes verificadas, asegurando calidad y consistencia en los indicadores globales.\nAplicaciones: Ideal para investigadores, economistas, responsables de políticas públicas y académicos que buscan información confiable sobre tendencias globales y nacionales.\nEnlace: https://data.worldbank.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#who-global-health-observatory-gho",
+    "href": "discarded/bases-datos.html#who-global-health-observatory-gho",
+    "title": "Bases de Datos Públicas",
+    "section": "WHO Global Health Observatory (GHO):",
+    "text": "WHO Global Health Observatory (GHO):\nDescripción: Plataforma de la Organización Mundial de la Salud (OMS) que ofrece acceso a datos y análisis relacionados con indicadores de salud global. Permite explorar estadísticas sobre mortalidad, morbilidad, factores de riesgo, y acceso a servicios de salud en todo el mundo.\nTemáticas clave: Mortalidad, enfermedades transmisibles y no transmisibles, sistemas de salud, nutrición y salud materna e infantil.\nMetodología: Los datos provienen de informes nacionales de salud, encuestas globales, estudios epidemiológicos y registros vitales.\nAplicaciones: Es una herramienta clave para investigadores en salud pública, organizaciones internacionales y gobiernos que necesitan tomar decisiones informadas basadas en datos.\nEnlace: https://www.who.int/data/gho"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#undata",
+    "href": "discarded/bases-datos.html#undata",
+    "title": "Bases de Datos Públicas",
+    "section": "UNdata:",
+    "text": "UNdata:\nDescripción: Plataforma de la Organización de las Naciones Unidas (ONU) que reúne estadísticas de diversas agencias internacionales, cubriendo temas globales relacionados con desarrollo, economía, medio ambiente y población.\nTemáticas clave: Población, comercio, energía, género, indicadores de desarrollo sostenible (ODS) y más.\nMetodología: Consolidación de datos provenientes de agencias especializadas de la ONU, informes nacionales y censos, asegurando estandarización y fiabilidad.\nAplicaciones: Útil para investigadores, estudiantes y planificadores que buscan datos centralizados de múltiples temas globales.\nEnlace: https://data.un.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#eurostat",
+    "href": "discarded/bases-datos.html#eurostat",
+    "title": "Bases de Datos Públicas",
+    "section": "Eurostat:",
+    "text": "Eurostat:\nDescripción: La oficina estadística de la Unión Europea (UE) ofrece datos y análisis sobre diversos aspectos económicos, sociales y ambientales de los Estados miembros de la UE.\nTemáticas clave: Economía, empleo, población, comercio, energía, medio ambiente y desarrollo regional.\nMetodología: Los datos se recopilan de estadísticas nacionales armonizadas y bases de datos específicas de la UE, garantizando comparabilidad entre países.\nAplicaciones: Es una fuente fundamental para estudios sobre la UE, análisis de políticas y evaluación de tendencias dentro de la región.\nEnlace: https://ec.europa.eu/eurostat"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#oecd-data",
+    "href": "discarded/bases-datos.html#oecd-data",
+    "title": "Bases de Datos Públicas",
+    "section": "OECD Data",
+    "text": "OECD Data\nDescripción: Plataforma de la Organización para la Cooperación y el Desarrollo Económicos (OCDE) que ofrece estadísticas sobre economía, educación, salud, gobernanza y otros temas clave en los países miembros y asociados.\nTemáticas clave: PIB, empleo, educación, desigualdad, energía, comercio y políticas públicas.\nMetodología: Basado en estadísticas proporcionadas por gobiernos nacionales, encuestas armonizadas y estudios de caso realizados por la OCDE.\nAplicaciones: Ideal para analizar políticas públicas y tendencias económicas entre países desarrollados y emergentes.\nEnlace: https://data.oecd.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#faostat-fao",
+    "href": "discarded/bases-datos.html#faostat-fao",
+    "title": "Bases de Datos Públicas",
+    "section": "FAOSTAT (FAO)",
+    "text": "FAOSTAT (FAO)\nDescripción: Plataforma de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) que proporciona datos relacionados con la agricultura, alimentos, comercio y sostenibilidad.\nTemáticas clave: Producción agrícola, consumo de alimentos, seguridad alimentaria, comercio agrícola y cambio climático.\nMetodología: Datos obtenidos de registros nacionales, censos agrícolas y estudios especializados en alimentación y sostenibilidad.\nAplicaciones: Fundamental para investigadores y formuladores de políticas interesados en seguridad alimentaria y sostenibilidad agrícola.\nEnlace: https://www.fao.org/faostat"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#unicef-data",
+    "href": "discarded/bases-datos.html#unicef-data",
+    "title": "Bases de Datos Públicas",
+    "section": "UNICEF Data",
+    "text": "UNICEF Data\nDescripción: Base de datos de UNICEF que recopila información clave sobre el bienestar de la infancia y la adolescencia, incluyendo educación, salud y protección.\nTemáticas clave: Mortalidad infantil, educación básica, vacunación, nutrición y derechos del niño.\nMetodología: Datos provenientes de encuestas globales como MICS (Encuestas de Indicadores Múltiples por Conglomerados), censos y reportes gubernamentales.\nAplicaciones: Ideal para estudios sobre desarrollo infantil y evaluación de programas de impacto social.\nEnlace: https://data.unicef.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#gapminder",
+    "href": "discarded/bases-datos.html#gapminder",
+    "title": "Bases de Datos Públicas",
+    "section": "Gapminder",
+    "text": "Gapminder\nDescripción: Una plataforma que utiliza datos globales para visualizar tendencias históricas y actuales sobre desarrollo humano, con un enfoque educativo.\nTemáticas clave: Población, esperanza de vida, ingresos, salud, educación y pobreza.\nMetodología: Integra datos de fuentes como la ONU, el Banco Mundial y otras organizaciones internacionales en gráficos interactivos.\nAplicaciones: Excelente para presentaciones educativas y análisis visuales rápidos.\nEnlace: https://www.gapminder.org/data/"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#international-monetary-fund-imf-data",
+    "href": "discarded/bases-datos.html#international-monetary-fund-imf-data",
+    "title": "Bases de Datos Públicas",
+    "section": "International Monetary Fund (IMF) Data",
+    "text": "International Monetary Fund (IMF) Data\nDescripción: Plataforma del Fondo Monetario Internacional que proporciona estadísticas económicas y financieras a nivel global.\nTemáticas clave: PIB, inflación, balanza de pagos, deuda pública y comercio internacional.\nMetodología: Basado en datos proporcionados por gobiernos y bancos centrales, ajustados según estándares internacionales.\nAplicaciones: Fundamental para análisis financieros y económicos internacionales.\nEnlace: https://www.imf.org/en/Data"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#data-by-the-world-resources-institute-wri",
+    "href": "discarded/bases-datos.html#data-by-the-world-resources-institute-wri",
+    "title": "Bases de Datos Públicas",
+    "section": "Data by The World Resources Institute (WRI)",
+    "text": "Data by The World Resources Institute (WRI)\nDescripción: Plataforma enfocada en datos medioambientales y climáticos, abarcando temas de sostenibilidad y recursos naturales.\nTemáticas clave: Cambio climático, deforestación, agua, energía renovable y biodiversidad.\nMetodología: Utiliza datos de satélites, registros gubernamentales y estudios académicos para ofrecer visualizaciones precisas.\nAplicaciones: Ideal para investigadores en medio ambiente y formuladores de políticas sobre sostenibilidad.\nEnlace: https://www.wri.org/data"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#global-biodiversity-information-facility-gbif",
+    "href": "discarded/bases-datos.html#global-biodiversity-information-facility-gbif",
+    "title": "Bases de Datos Públicas",
+    "section": "Global Biodiversity Information Facility (GBIF)",
+    "text": "Global Biodiversity Information Facility (GBIF)\nDescripción: Base de datos abierta que permite el acceso a información sobre biodiversidad global, incluyendo registros de especies y ecosistemas.\nTemáticas clave: Conservación de especies, monitoreo de hábitats, biodiversidad marina y terrestre.\nMetodología: Datos recopilados de museos, instituciones académicas y observaciones ciudadanas.\nAplicaciones: Esencial para investigadores en ecología y biodiversidad.\nEnlace: https://www.gbif.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#ncbi-national-center-for-biotechnology-information",
+    "href": "discarded/bases-datos.html#ncbi-national-center-for-biotechnology-information",
+    "title": "Bases de Datos Públicas",
+    "section": "NCBI (National Center for Biotechnology Information)",
+    "text": "NCBI (National Center for Biotechnology Information)\nDescripción: Plataforma del NIH (National Institutes of Health) que ofrece acceso a una amplia gama de bases de datos para biología molecular y genómica.\nTemáticas clave: Genómica, transcriptómica, proteómica, biología estructural y datos biomédicos.\nBases de datos destacadas dentro del NCBI:\nGenBank: Secuencias genómicas y nucleotídicas.\nPubMed: Artículos científicos en ciencias biomédicas.\nBLAST: Herramienta para comparación de secuencias.\nSNP: Variantes genéticas de un solo nucleótido.\nAplicaciones: Análisis de genomas, estudios evolutivos y búsqueda de información biomédica.\nEnlace: https://www.ncbi.nlm.nih.gov"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#ensembl",
+    "href": "discarded/bases-datos.html#ensembl",
+    "title": "Bases de Datos Públicas",
+    "section": "Ensembl",
+    "text": "Ensembl\nDescripción: Recurso de acceso abierto para análisis de genomas de vertebrados y otros organismos, proporcionando anotaciones genéticas detalladas.\nTemáticas clave: Genomas de referencia, anotación de genes, variantes genómicas y evolución genética.\nAplicaciones: Análisis comparativo de genomas, búsqueda de variantes genéticas en diferentes organismos y diseño de experimentos genómicos.\nEnlace: https://www.ensembl.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#uniprot",
+    "href": "discarded/bases-datos.html#uniprot",
+    "title": "Bases de Datos Públicas",
+    "section": "UniProt",
+    "text": "UniProt\nDescripción: Base de datos unificada de proteínas que proporciona información sobre secuencias proteicas y sus funciones.\nTemáticas clave: Anotación funcional de proteínas, dominios estructurales, modificaciones postraduccionales y interacciones proteína-proteína.\nAplicaciones: Investigación proteómica, diseño de fármacos y estudios de bioquímica estructural.\nEnlace: https://www.uniprot.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#pdb-protein-data-bank",
+    "href": "discarded/bases-datos.html#pdb-protein-data-bank",
+    "title": "Bases de Datos Públicas",
+    "section": "PDB (Protein Data Bank)",
+    "text": "PDB (Protein Data Bank)\nDescripción: Base de datos de estructuras tridimensionales de proteínas, ácidos nucleicos y complejos macromoleculares.\nTemáticas clave: Biología estructural, interacciones moleculares y diseño de medicamentos.\nAplicaciones: Estudios de dinámica molecular, diseño de proteínas y simulaciones computacionales.\nEnlace: https://www.rcsb.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#kegg-kyoto-encyclopedia-of-genes-and-genomes",
+    "href": "discarded/bases-datos.html#kegg-kyoto-encyclopedia-of-genes-and-genomes",
+    "title": "Bases de Datos Públicas",
+    "section": "KEGG (Kyoto Encyclopedia of Genes and Genomes)",
+    "text": "KEGG (Kyoto Encyclopedia of Genes and Genomes)\nDescripción: Recurso que integra información genómica, química y sistémica para mapear procesos biológicos y vías metabólicas.\nTemáticas clave: Metabolismo, señalización celular, redes moleculares y genómica funcional.\nAplicaciones: Estudios de metabolómica, bioquímica sistémica y análisis de redes biológicas.\nEnlace: https://www.kegg.jp"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#geo-gene-expression-omnibus",
+    "href": "discarded/bases-datos.html#geo-gene-expression-omnibus",
+    "title": "Bases de Datos Públicas",
+    "section": "GEO (Gene Expression Omnibus)",
+    "text": "GEO (Gene Expression Omnibus)\nDescripción: Repositorio de datos de expresión génica y estudios de secuenciación a gran escala.\nTemáticas clave: Transcriptómica, análisis de microarrays y RNA-Seq.\nAplicaciones: Estudios de expresión génica diferencial, análisis de datos transcriptómicos y diseño de experimentos de ARN.\nEnlace: https://www.ncbi.nlm.nih.gov/geo"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#ddbj-dna-data-bank-of-japan",
+    "href": "discarded/bases-datos.html#ddbj-dna-data-bank-of-japan",
+    "title": "Bases de Datos Públicas",
+    "section": "DDBJ (DNA Data Bank of Japan)",
+    "text": "DDBJ (DNA Data Bank of Japan)\nDescripción: Parte del Consorcio Internacional de Secuencias Nucleotídicas, junto con GenBank y EMBL-EBI, centrado en la recolección y distribución de secuencias de ADN.\nTemáticas clave: Secuencias genómicas, transcriptómicas y evolutivas.\nAplicaciones: Compartir datos genéticos entre investigadores globales.\nEnlace: https://www.ddbj.nig.ac.jp"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#embl-ebi-european-bioinformatics-institute",
+    "href": "discarded/bases-datos.html#embl-ebi-european-bioinformatics-institute",
+    "title": "Bases de Datos Públicas",
+    "section": "EMBL-EBI (European Bioinformatics Institute)",
+    "text": "EMBL-EBI (European Bioinformatics Institute)\nDescripción: Centro europeo de bioinformática que proporciona acceso a múltiples bases de datos relacionadas con genómica, proteómica y biología estructural.\nTemáticas clave:\nArrayExpress: Datos de expresión génica.\nInterPro: Análisis de dominios proteicos.\nReactome: Vías de señalización y rutas metabólicas.\nAplicaciones: Integración de datos biomoleculares, análisis funcional y estructural.\nEnlace: https://www.ebi.ac.uk"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#brenda",
+    "href": "discarded/bases-datos.html#brenda",
+    "title": "Bases de Datos Públicas",
+    "section": "BRENDA",
+    "text": "BRENDA\nDescripción: Base de datos de enzimas y rutas metabólicas, con información detallada sobre funciones y características de enzimas.\nTemáticas clave: Catálisis enzimática, cinética, cofactores y organismos de origen.\nAplicaciones: Diseño de procesos biotecnológicos y estudios enzimáticos.\nEnlace: https://www.brenda-enzymes.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#tcga-the-cancer-genome-atlas",
+    "href": "discarded/bases-datos.html#tcga-the-cancer-genome-atlas",
+    "title": "Bases de Datos Públicas",
+    "section": "TCGA (The Cancer Genome Atlas)",
+    "text": "TCGA (The Cancer Genome Atlas)\nDescripción: Base de datos de perfiles moleculares de cáncer, que incluye información genómica, transcriptómica y epigenómica.\nTemáticas clave: Variantes genéticas en cáncer, expresión génica diferencial y biomarcadores.\nAplicaciones: Investigación oncológica, identificación de dianas terapéuticas y análisis de supervivencia.\nEnlace: https://www.cancer.gov/tcga"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#biogrid",
+    "href": "discarded/bases-datos.html#biogrid",
+    "title": "Bases de Datos Públicas",
+    "section": "BioGRID",
+    "text": "BioGRID\nDescripción: Base de datos de interacciones moleculares que incluye interacciones proteína-proteína y redes genéticas.\nTemáticas clave: Redes de interacción, funcionalidad de proteínas y genética de sistemas.\nAplicaciones: Estudios de redes moleculares y diseño de experimentos funcionales.\nEnlace: https://thebiogrid.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#string-search-tool-for-the-retrieval-of-interacting-genesproteins",
+    "href": "discarded/bases-datos.html#string-search-tool-for-the-retrieval-of-interacting-genesproteins",
+    "title": "Bases de Datos Públicas",
+    "section": "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)",
+    "text": "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)\nDescripción: Base de datos de interacciones proteína-proteína y asociaciones funcionales, tanto experimentales como predichas.\nTemáticas clave: Redes de interacción molecular, funcionalidad proteica y biología de sistemas.\nAplicaciones: Estudios de redes moleculares, identificación de complejos proteicos y análisis de vías biológicas.\nEnlace: https://string-db.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#pfam",
+    "href": "discarded/bases-datos.html#pfam",
+    "title": "Bases de Datos Públicas",
+    "section": "Pfam",
+    "text": "Pfam\nDescripción: Colección de familias de proteínas basada en alineamientos de secuencias y modelos de ocultación de Markov (HMM).\nTemáticas clave: Dominios y familias proteicas, evolución molecular.\nAplicaciones: Análisis estructural y funcional de proteínas, identificación de dominios conservados.\nEnlace: https://pfam.xfam.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#flybase",
+    "href": "discarded/bases-datos.html#flybase",
+    "title": "Bases de Datos Públicas",
+    "section": "FlyBase",
+    "text": "FlyBase\nDescripción: Base de datos genómica y de biología molecular de Drosophila melanogaster y otras especies de insectos relacionados.\nTemáticas clave: Genómica, transcriptómica, mutaciones y interacciones genéticas.\nAplicaciones: Investigación en genética y desarrollo usando Drosophila como modelo.\nEnlace: https://flybase.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#zfin-zebrafish-information-network",
+    "href": "discarded/bases-datos.html#zfin-zebrafish-information-network",
+    "title": "Bases de Datos Públicas",
+    "section": "ZFIN (Zebrafish Information Network)",
+    "text": "ZFIN (Zebrafish Information Network)\nDescripción: Base de datos dedicada a la biología y genética del pez cebra (Danio rerio).\nTemáticas clave: Genómica funcional, biología del desarrollo, modelos de enfermedades humanas.\nAplicaciones: Estudios genéticos y biomédicos utilizando el pez cebra como organismo modelo.\nEnlace: https://zfin.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#mgi-mouse-genome-informatics",
+    "href": "discarded/bases-datos.html#mgi-mouse-genome-informatics",
+    "title": "Bases de Datos Públicas",
+    "section": "MGI (Mouse Genome Informatics)",
+    "text": "MGI (Mouse Genome Informatics)\nDescripción: Recurso integral para la biología y genética del ratón (Mus musculus).\nTemáticas clave: Genómica, mutaciones, modelos de enfermedades humanas.\nAplicaciones: Investigación en biología del desarrollo y estudios preclínicos con ratones.\nEnlace: http://www.informatics.jax.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#exacgnomad-genome-aggregation-database",
+    "href": "discarded/bases-datos.html#exacgnomad-genome-aggregation-database",
+    "title": "Bases de Datos Públicas",
+    "section": "ExAC/gnomAD (Genome Aggregation Database)",
+    "text": "ExAC/gnomAD (Genome Aggregation Database)\nDescripción: Base de datos de variantes genómicas de miles de individuos, enfocada en variantes raras y comunes.\nTemáticas clave: Variantes genéticas humanas, frecuencias alélicas, variación estructural.\nAplicaciones: Investigación de enfermedades genéticas, interpretación clínica de variantes.\nEnlace: https://gnomad.broadinstitute.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#clinvar",
+    "href": "discarded/bases-datos.html#clinvar",
+    "title": "Bases de Datos Públicas",
+    "section": "ClinVar",
+    "text": "ClinVar\nDescripción: Repositorio de variantes genómicas con relevancia clínica, recopiladas de laboratorios y literatura científica.\nTemáticas clave: Mutaciones patogénicas, enfermedades genéticas, variantes asociadas a fenotipos clínicos.\nAplicaciones: Diagnóstico genético y estudios de correlación genotipo-fenotipo.\nEnlace: https://www.ncbi.nlm.nih.gov/clinvar"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#omim-online-mendelian-inheritance-in-man",
+    "href": "discarded/bases-datos.html#omim-online-mendelian-inheritance-in-man",
+    "title": "Bases de Datos Públicas",
+    "section": "OMIM (Online Mendelian Inheritance in Man)",
+    "text": "OMIM (Online Mendelian Inheritance in Man)\nDescripción: Catálogo de genes humanos y fenotipos genéticos, con información sobre enfermedades hereditarias.\nTemáticas clave: Genética humana, enfermedades mendelianas, asociación genotipo-fenotipo.\nAplicaciones: Investigación biomédica, diagnóstico y asesoramiento genético.\nEnlace: https://omim.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#biocyc",
+    "href": "discarded/bases-datos.html#biocyc",
+    "title": "Bases de Datos Públicas",
+    "section": "BioCyc",
+    "text": "BioCyc\nDescripción: Colección de bases de datos de genomas y vías metabólicas de diversos organismos.\nTemáticas clave: Genómica, metabolómica, rutas metabólicas, biología de sistemas.\nAplicaciones: Análisis funcional de genomas y vías metabólicas.\nEnlace: https://biocyc.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#metabolights",
+    "href": "discarded/bases-datos.html#metabolights",
+    "title": "Bases de Datos Públicas",
+    "section": "MetaboLights",
+    "text": "MetaboLights\nDescripción: Base de datos de estudios y datos metabolómicos, incluida información de metabolitos y experimentos.\nTemáticas clave: Metabolómica, metabolitos, perfiles metabólicos.\nAplicaciones: Investigación metabolómica y estudios sobre metabolismo humano y de organismos modelo.\nEnlace: https://www.ebi.ac.uk/metabolights"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#pride-proteomics-identifications-database",
+    "href": "discarded/bases-datos.html#pride-proteomics-identifications-database",
+    "title": "Bases de Datos Públicas",
+    "section": "PRIDE (Proteomics Identifications Database)",
+    "text": "PRIDE (Proteomics Identifications Database)\nDescripción: Repositorio de datos proteómicos de experimentos de espectrometría de masas.\nTemáticas clave: Proteómica, identificaciones de proteínas, modificaciones postraduccionales.\nAplicaciones: Análisis proteómico y estudios funcionales de proteínas.\nEnlace: https://www.ebi.ac.uk/pride"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#toxicogenomics-data-network-ctd",
+    "href": "discarded/bases-datos.html#toxicogenomics-data-network-ctd",
+    "title": "Bases de Datos Públicas",
+    "section": "Toxicogenomics Data Network (CTD)",
+    "text": "Toxicogenomics Data Network (CTD)\nDescripción: Base de datos que integra información sobre interacciones químicas-genómicas y su impacto en la salud.\nTemáticas clave: Toxicología, interacciones químico-genéticas, enfermedades ambientales.\nAplicaciones: Estudios de toxicología, impacto de exposiciones ambientales en la salud.\nEnlace: http://ctdbase.org"
+  },
+  {
+    "objectID": "discarded/bases-datos.html#ebi-expression-atlas",
+    "href": "discarded/bases-datos.html#ebi-expression-atlas",
+    "title": "Bases de Datos Públicas",
+    "section": "EBI Expression Atlas",
+    "text": "EBI Expression Atlas\nDescripción: Herramienta que permite explorar datos de expresión génica en diferentes condiciones, tejidos y especies.\nTemáticas clave: Transcriptómica, expresión génica diferencial, tejidos específicos.\nAplicaciones: Análisis de datos transcriptómicos y diseño de experimentos de validación.\nEnlace: https://www.ebi.ac.uk/gxa"
+  },
+  {
+    "objectID": "index.html#qué-encontrarás-en-r-kodamas",
+    "href": "index.html#qué-encontrarás-en-r-kodamas",
+    "title": "R Kodamas",
+    "section": "¿Qué encontrarás en R Kodamas?",
+    "text": "¿Qué encontrarás en R Kodamas?\nTe ofrecemos contenido cuidadosamente estructurado para ayudarte en tu aprendizaje y proyectos:\n\nManejo de Datos: Aprende a limpiar, transformar y manejar grandes volúmenes de datos.\nGráficos: Diseña visualizaciones impactantes y claras para comunicar tus hallazgos.\nBioconductor: Explora recursos específicos para análisis bioinformáticos.\nImágenes: Descubre herramientas y técnicas para el manejo de gráficos y visuales.\nMapas: Crea mapas interactivos y estáticos con datos geoespaciales.\nEstadística: Desde estadística descriptiva hasta análisis más complejos.\nModelización: Construcción de modelos predictivos y análisis avanzado.\nShiny: Diseña aplicaciones web interactivas con R para compartir resultados.\nQuarto: Aprende a crear reportes y sitios web dinámicos como este.\nPython: Amplía las capacidades de tu análisis integrando R y Python.\nBases de Datos: Conéctate a bases de datos para análisis robustos y eficientes.\nLibros: Recomendaciones esenciales para aprender más sobre R y análisis de datos.\nGrupos Online y Concursos: Encuentra comunidades y desafíos para mejorar tus habilidades.\nReferentes: Conoce expertos y recursos clave que inspiran el desarrollo en R."
+  },
+  {
+    "objectID": "index.html#nuestro-propósito",
+    "href": "index.html#nuestro-propósito",
+    "title": "R Kodamas",
+    "section": "Nuestro propósito",
+    "text": "Nuestro propósito\nEn R Kodamas, creemos que el conocimiento es la base para resolver desafíos complejos y potenciar el análisis de datos. Nuestro propósito es ser un punto de referencia en la comunidad de R, ofreciendo recursos de calidad que sean útiles tanto para principiantes como para expertos.\nQueremos inspirarte a:\n\nExplorar nuevas herramientas: Descubrir funcionalidades de R que transformen la forma en que trabajas con datos.\nDesarrollar habilidades prácticas: Proporcionarte guías, tutoriales y ejemplos que puedas aplicar directamente en tus proyectos.\nFomentar la colaboración: Crear un espacio donde la comunidad comparta conocimientos, mejores prácticas e ideas innovadoras.\nImpulsar la creatividad: Ayudarte a diseñar soluciones únicas a través de visualizaciones impactantes y técnicas avanzadas.\n\nYa sea que estés iniciando tu camino en el análisis de datos o busques perfeccionar tus competencias, nuestro objetivo es acompañarte con recursos prácticos, actualizados y accesibles que te permitan crecer profesionalmente."
+  },
+  {
+    "objectID": "index.html#conecta-con-nosotros",
+    "href": "index.html#conecta-con-nosotros",
+    "title": "R Kodamas",
+    "section": "Conecta con nosotros",
+    "text": "Conecta con nosotros\nSi tienes ideas, sugerencias o simplemente necesitas ayuda, no dudes en visitar nuestra sección de Contacto."
+  },
+  {
+    "objectID": "python_pages/calidad_codigo.html",
+    "href": "python_pages/calidad_codigo.html",
+    "title": "Calidad de Código en Python",
+    "section": "",
+    "text": "Accede aquí\nPylint es una herramienta de Python para analizar código estático y mejorar su calidad. Es útil para identificar errores, verificar estándares de codificación y optimizar el desarrollo. Sus principales características incluyen:\n\nAnálisis estático: Detecta errores comunes en el código, como variables no definidas o mal uso de métodos.\nEstilo de codificación: Verifica el cumplimiento de las guías de estilo PEP 8.\nPersonalización: Permite configurar reglas según las necesidades del proyecto.\nReportes detallados: Proporciona puntajes de calidad y recomendaciones específicas para mejorar el código.\n\nPylint es una herramienta esencial para desarrolladores que buscan escribir código Python más limpio, eficiente y libre de errores."
+  },
+  {
+    "objectID": "python_pages/calidad_codigo.html#paquetes",
+    "href": "python_pages/calidad_codigo.html#paquetes",
+    "title": "Calidad de Código en Python",
+    "section": "",
+    "text": "Accede aquí\nPylint es una herramienta de Python para analizar código estático y mejorar su calidad. Es útil para identificar errores, verificar estándares de codificación y optimizar el desarrollo. Sus principales características incluyen:\n\nAnálisis estático: Detecta errores comunes en el código, como variables no definidas o mal uso de métodos.\nEstilo de codificación: Verifica el cumplimiento de las guías de estilo PEP 8.\nPersonalización: Permite configurar reglas según las necesidades del proyecto.\nReportes detallados: Proporciona puntajes de calidad y recomendaciones específicas para mejorar el código.\n\nPylint es una herramienta esencial para desarrolladores que buscan escribir código Python más limpio, eficiente y libre de errores."
+  },
+  {
+    "objectID": "python_pages/integracion_r_python.html",
+    "href": "python_pages/integracion_r_python.html",
+    "title": "Integración R-Python",
+    "section": "",
+    "text": "Accede aquí\nreticulate es un paquete de R que permite integrar y ejecutar código Python dentro de R de manera fluida. Con este paquete, puedes:\n\nLlamar funciones y módulos de Python directamente desde R.\nCompartir datos entre R y Python usando objetos nativos como data frames y listas.\nCrear entornos virtuales o trabajar con entornos de Python ya existentes.\nConstruir aplicaciones interactivas en R utilizando librerías de Python.\n\nEs especialmente útil para combinar el ecosistema analítico de R con las potentes bibliotecas de Python, permitiendo un enfoque híbrido en proyectos de ciencia de datos y desarrollo."
+  },
+  {
+    "objectID": "python_pages/integracion_r_python.html#paquetes",
+    "href": "python_pages/integracion_r_python.html#paquetes",
+    "title": "Integración R-Python",
+    "section": "",
+    "text": "Accede aquí\nreticulate es un paquete de R que permite integrar y ejecutar código Python dentro de R de manera fluida. Con este paquete, puedes:\n\nLlamar funciones y módulos de Python directamente desde R.\nCompartir datos entre R y Python usando objetos nativos como data frames y listas.\nCrear entornos virtuales o trabajar con entornos de Python ya existentes.\nConstruir aplicaciones interactivas en R utilizando librerías de Python.\n\nEs especialmente útil para combinar el ecosistema analítico de R con las potentes bibliotecas de Python, permitiendo un enfoque híbrido en proyectos de ciencia de datos y desarrollo."
+  },
+  {
+    "objectID": "python_pages/sql_python.html",
+    "href": "python_pages/sql_python.html",
+    "title": "SQL en Python",
+    "section": "",
+    "text": "Accede aquí\nSQLFluff es una herramienta de análisis y corrección de sintaxis SQL. Compatible con múltiples dialectos SQL, permite verificar y formatear consultas según las mejores prácticas y estándares configurables, ayudando a mantener código SQL consistente y legible."
+  },
+  {
+    "objectID": "python_pages/sql_python.html#paquetes",
+    "href": "python_pages/sql_python.html#paquetes",
+    "title": "SQL en Python",
+    "section": "",
+    "text": "Accede aquí\nSQLFluff es una herramienta de análisis y corrección de sintaxis SQL. Compatible con múltiples dialectos SQL, permite verificar y formatear consultas según las mejores prácticas y estándares configurables, ayudando a mantener código SQL consistente y legible."
+  },
+  {
+    "objectID": "recursos_pages/grupos-concursos.html",
+    "href": "recursos_pages/grupos-concursos.html",
+    "title": "Grupos de Redes Sociales & Concursos",
+    "section": "",
+    "text": "https://madrid.r-es.org\nhttps://www.meetup.com/es-ES/grupo-de-usuarios-de-r-de-madrid/"
+  },
+  {
+    "objectID": "recursos_pages/grupos-concursos.html#quarto",
+    "href": "recursos_pages/grupos-concursos.html#quarto",
+    "title": "Grupos de Redes Sociales & Concursos",
+    "section": "Quarto",
+    "text": "Quarto\n\nConcurso de Storytelling de Posit con Quarto: https://posit.co/blog/closeread-prize-announcement/"
+  },
+  {
+    "objectID": "recursos_pages/grupos-concursos.html#kaggle",
+    "href": "recursos_pages/grupos-concursos.html#kaggle",
+    "title": "Grupos de Redes Sociales & Concursos",
+    "section": "Kaggle",
+    "text": "Kaggle"
+  },
+  {
+    "objectID": "recursos_pages/referentes.html",
+    "href": "recursos_pages/referentes.html",
+    "title": "Referentes",
+    "section": "",
+    "text": "https://www.maximaformacion.es/blog-ciencia-datos/"
+  },
+  {
+    "objectID": "recursos_pages/referentes.html#rosana-ferrero",
+    "href": "recursos_pages/referentes.html#rosana-ferrero",
+    "title": "Referentes",
+    "section": "",
+    "text": "https://www.maximaformacion.es/blog-ciencia-datos/"
+  },
+  {
+    "objectID": "recursos_pages/workflows-reporting.html",
+    "href": "recursos_pages/workflows-reporting.html",
+    "title": "Workflows & Reporting",
+    "section": "",
+    "text": "https://superset.apache.org/docs/intro"
+  },
+  {
+    "objectID": "recursos_pages/workflows-reporting.html#herramientas-de-reporting",
+    "href": "recursos_pages/workflows-reporting.html#herramientas-de-reporting",
+    "title": "Workflows & Reporting",
+    "section": "",
+    "text": "https://superset.apache.org/docs/intro"
+  },
+  {
+    "objectID": "recursos_pages/workflows-reporting.html#herramientas-de-workflow",
+    "href": "recursos_pages/workflows-reporting.html#herramientas-de-workflow",
+    "title": "Workflows & Reporting",
+    "section": "Herramientas de Workflow",
+    "text": "Herramientas de Workflow\nhttps://dagster.io\nhttps://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards"
+  },
+  {
+    "objectID": "r_pages/estadistica.html",
+    "href": "r_pages/estadistica.html",
+    "title": "Estadística",
+    "section": "",
+    "text": "Accede aquí\nInfer es un paquete de R que facilita la realización de inferencias estadísticas utilizando un enfoque “tidy”. Permite realizar análisis reproducibles y comprender mejor los datos mediante simulaciones y pruebas estadísticas. Sus principales características incluyen:\n\nPruebas de hipótesis: Realiza pruebas estadísticas de manera intuitiva.\nIntervalos de confianza: Calcula intervalos de confianza para estimaciones.\nDistribuciones de muestreo: Construye distribuciones de muestreo basadas en datos simulados.\nEnfoque “tidy”: Integra perfectamente con otros paquetes del tidyverse para un flujo de trabajo coherente."
+  },
+  {
+    "objectID": "r_pages/estadistica.html#infer",
+    "href": "r_pages/estadistica.html#infer",
+    "title": "Estadística",
+    "section": "",
+    "text": "Accede aquí\nInfer es un paquete de R que facilita la realización de inferencias estadísticas utilizando un enfoque “tidy”. Permite realizar análisis reproducibles y comprender mejor los datos mediante simulaciones y pruebas estadísticas. Sus principales características incluyen:\n\nPruebas de hipótesis: Realiza pruebas estadísticas de manera intuitiva.\nIntervalos de confianza: Calcula intervalos de confianza para estimaciones.\nDistribuciones de muestreo: Construye distribuciones de muestreo basadas en datos simulados.\nEnfoque “tidy”: Integra perfectamente con otros paquetes del tidyverse para un flujo de trabajo coherente."
+  },
+  {
+    "objectID": "r_pages/estadistica.html#ggstatsplot",
+    "href": "r_pages/estadistica.html#ggstatsplot",
+    "title": "Estadística",
+    "section": "Ggstatsplot",
+    "text": "Ggstatsplot\nAccede aquí\nGgstatsplot es un paquete de R que combina análisis estadísticos y visualización de datos en gráficos basados en ggplot2. Sus principales características incluyen:\n\nGráficos enriquecidos: Añade directamente resultados estadísticos (valores p, intervalos de confianza, tamaños del efecto) en los gráficos.\nCompatibilidad con múltiples análisis: Realiza comparaciones de grupos, correlaciones, análisis de tendencias, entre otros.\nVisualización de datos interactiva: Ofrece opciones para gráficos dinámicos con plotly.\nEnfoque automatizado: Simplifica la creación de gráficos estadísticos sin necesidad de múltiples pasos manuales.\n\nggstatsplot es ideal para explorar y comunicar datos de forma estadísticamente informativa y visualmente impactante."
+  },
+  {
+    "objectID": "r_pages/estadistica.html#tableone",
+    "href": "r_pages/estadistica.html#tableone",
+    "title": "Estadística",
+    "section": "Tableone",
+    "text": "Tableone\nAccede aquí\nTableone es un paquete de R que facilita la creación de la “tabla uno” (o table one) comúnmente utilizada en estudios estadísticos y clínicos. Esta tabla resume las características de los datos, especialmente cuando se comparan diferentes grupos, como grupos de tratamiento o de control.\nSus principales características incluyen:\n\nResumen de variables: Permite resumir variables continuas y categóricas de forma concisa.\nComparaciones entre grupos: Incluye valores p para comparar la distribución de variables entre grupos.\nConfiguración flexible: Admite distintas opciones de formato para adaptarse a las necesidades de presentación.\nUso amplio en estudios clínicos: Es particularmente útil en análisis epidemiológicos y estudios de cohortes."
+  },
+  {
+    "objectID": "r_pages/estadistica.html#effectsize",
+    "href": "r_pages/estadistica.html#effectsize",
+    "title": "Estadística",
+    "section": "Effectsize",
+    "text": "Effectsize\nAccede aquí\nEffectsize forma parte del ecosistema easystats y se centra en el cálculo de tamaños del efecto y de diferencias estandarizadas en diversos contextos estadísticos. Proporciona una manera coherente de obtener medidas de impacto que ayudan a interpretar la relevancia práctica de los resultados.\nSus principales características incluyen:\n\nCálculo de tamaños de efecto: Incluye medidas como Cohen’s d, r, eta^2, odds ratios, entre otros.\nCompatibilidad con múltiples modelos: Permite extraer tamaños de efecto de modelos lineales, generalizados, mixtos, etc.\nInterpretación facilitada: Ofrece funciones para la interpretación y conversión de distintos tamaños de efecto.\nIntegración con el tidyverse: Se combina bien con paquetes como dplyr o broom para facilitar flujos de trabajo reproducibles."
+  },
+  {
+    "objectID": "r_pages/imagenes.html",
+    "href": "r_pages/imagenes.html",
+    "title": "Edición de Imágenes",
+    "section": "",
+    "text": "Magick\nAccede aquí\nMagick es un paquete de R que proporciona herramientas avanzadas para la edición, manipulación y transformación de imágenes. Basado en la biblioteca ImageMagick, permite:\n\nLeer y escribir imágenes en múltiples formatos (JPEG, PNG, GIF, etc.).\nRealizar transformaciones como redimensionar, rotar, recortar y cambiar la resolución.\nAplicar efectos como filtros, desenfoques y ajustes de color.\nCrear imágenes animadas (GIFs) y combinar múltiples imágenes en una sola.\n\nEs una herramienta poderosa para proyectos que requieren procesamiento de imágenes directamente en R."
+  },
+  {
+    "objectID": "r_pages/quarto.html",
+    "href": "r_pages/quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "https://posit.co/resources/cheatsheets/"
+  },
+  {
+    "objectID": "r_pages/quarto.html#lista-de-cheatsheets",
+    "href": "r_pages/quarto.html#lista-de-cheatsheets",
+    "title": "Quarto",
+    "section": "",
+    "text": "https://posit.co/resources/cheatsheets/"
+  },
+  {
+    "objectID": "r_pages/quarto.html#publishing",
+    "href": "r_pages/quarto.html#publishing",
+    "title": "Quarto",
+    "section": "Publishing",
+    "text": "Publishing\nhttps://quarto.org/docs/publishing/\n\nAbout Pages\nhttps://quarto.org/docs/websites/website-about.html\n\n\nGitHub Pages\nhttps://quarto.org/docs/publishing/github-pages.html\n\n\nNetlify\nhttps://quarto.org/docs/publishing/netlify.html"
   }
 ]

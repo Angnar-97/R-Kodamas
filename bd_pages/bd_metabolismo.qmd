@@ -1,0 +1,52 @@
+---
+title: "Bases de Datos de Metabolismo"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## KEGG (Kyoto Encyclopedia of Genes and Genomes)
+  
+**Descripción:** Recurso que integra información genómica, química y sistémica para mapear procesos biológicos y vías metabólicas.
+
+**Temáticas clave:** Metabolismo, señalización celular, redes moleculares y genómica funcional.
+
+**Aplicaciones:** Estudios de metabolómica, bioquímica sistémica y análisis de redes biológicas.
+
+**Enlace:** https://www.kegg.jp
+
+---
+  
+## BRENDA
+
+**Descripción:** Base de datos de enzimas y rutas metabólicas, con información detallada sobre funciones y características de enzimas.
+
+**Temáticas clave:** Catálisis enzimática, cinética, cofactores y organismos de origen.
+
+**Aplicaciones:** Diseño de procesos biotecnológicos y estudios enzimáticos.
+
+**Enlace:** https://www.brenda-enzymes.org
+
+---
+  
+## BioCyc
+  
+**Descripción:** Colección de bases de datos de genomas y vías metabólicas de diversos organismos.
+
+**Temáticas clave:** Genómica, metabolómica, rutas metabólicas, biología de sistemas.
+
+**Aplicaciones:** Análisis funcional de genomas y vías metabólicas.
+
+**Enlace:** https://biocyc.org
+
+---
+  
+## MetaboLights
+
+**Descripción:** Base de datos de estudios y datos metabolómicos, incluida información de metabolitos y experimentos.
+
+**Temáticas clave:** Metabolómica, metabolitos, perfiles metabólicos.
+
+**Aplicaciones:** Investigación metabolómica y estudios sobre metabolismo humano y de organismos modelo.
+
+**Enlace:** https://www.ebi.ac.uk/metabolights

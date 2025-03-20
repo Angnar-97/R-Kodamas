@@ -1,0 +1,32 @@
+---
+title: "Bases de Datos de Interacciones y Redes Moleculares"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## BioGRID
+  
+**Descripción:** Base de datos de interacciones moleculares que incluye interacciones proteína-proteína y redes genéticas.
+
+**Temáticas clave:** Redes de interacción, funcionalidad de proteínas y genética de sistemas.
+
+**Aplicaciones:** Estudios de redes moleculares y diseño de experimentos funcionales.
+
+**Enlace:** https://thebiogrid.org
+
+---
+  
+## STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)
+  
+**Descripción:** Base de datos de interacciones proteína-proteína y asociaciones funcionales, tanto experimentales como predichas.
+
+**Temáticas clave:** Redes de interacción molecular, funcionalidad proteica y biología de sistemas.
+
+**Aplicaciones:** Estudios de redes moleculares, identificación de complejos proteicos y análisis de vías biológicas.
+
+**Enlace:** https://string-db.org
+
+---
+  
+

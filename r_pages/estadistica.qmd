@@ -1,0 +1,61 @@
+---
+title: "Estadística"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+
+## **Infer**
+
+[Accede aquí](https://infer.netlify.app)
+
+`Infer` es un paquete de R que facilita la realización de inferencias estadísticas utilizando un enfoque "tidy". Permite realizar análisis reproducibles y comprender mejor los datos mediante simulaciones y pruebas estadísticas. Sus principales características incluyen:
+
+- **Pruebas de hipótesis**: Realiza pruebas estadísticas de manera intuitiva.
+- **Intervalos de confianza**: Calcula intervalos de confianza para estimaciones.
+- **Distribuciones de muestreo**: Construye distribuciones de muestreo basadas en datos simulados.
+- **Enfoque "tidy"**: Integra perfectamente con otros paquetes del tidyverse para un flujo de trabajo coherente.
+
+
+## **Ggstatsplot** 
+
+[Accede aquí](https://indrajeetpatil.github.io/ggstatsplot/)
+
+`Ggstatsplot` es un paquete de R que combina análisis estadísticos y visualización de datos en gráficos basados en `ggplot2`. Sus principales características incluyen:
+
+- **Gráficos enriquecidos**: Añade directamente resultados estadísticos (valores p, intervalos de confianza, tamaños del efecto) en los gráficos.
+- **Compatibilidad con múltiples análisis**: Realiza comparaciones de grupos, correlaciones, análisis de tendencias, entre otros.
+- **Visualización de datos interactiva**: Ofrece opciones para gráficos dinámicos con `plotly`.
+- **Enfoque automatizado**: Simplifica la creación de gráficos estadísticos sin necesidad de múltiples pasos manuales.
+
+`ggstatsplot` es ideal para explorar y comunicar datos de forma estadísticamente informativa y visualmente impactante.
+
+
+## **Tableone**
+
+[Accede aquí](https://github.com/kaz-yos/tableone)
+
+`Tableone` es un paquete de R que facilita la creación de la "tabla uno" (o **table one**) comúnmente utilizada en estudios estadísticos y clínicos. Esta tabla resume las características de los datos, especialmente cuando se comparan diferentes grupos, como grupos de tratamiento o de control. 
+
+Sus principales características incluyen:
+
+- **Resumen de variables**: Permite resumir variables continuas y categóricas de forma concisa.
+- **Comparaciones entre grupos**: Incluye valores p para comparar la distribución de variables entre grupos.
+- **Configuración flexible**: Admite distintas opciones de formato para adaptarse a las necesidades de presentación.
+- **Uso amplio en estudios clínicos**: Es particularmente útil en análisis epidemiológicos y estudios de cohortes.
+
+---
+
+## **Effectsize**
+
+[Accede aquí](https://easystats.github.io/effectsize/)
+
+`Effectsize` forma parte del ecosistema `easystats` y se centra en el cálculo de tamaños del efecto y de diferencias estandarizadas en diversos contextos estadísticos. Proporciona una manera coherente de obtener medidas de impacto que ayudan a interpretar la relevancia práctica de los resultados. 
+
+Sus principales características incluyen:
+
+- **Cálculo de tamaños de efecto**: Incluye medidas como Cohen’s *d*, *r*, *eta^2*, *odds ratios*, entre otros.
+- **Compatibilidad con múltiples modelos**: Permite extraer tamaños de efecto de modelos lineales, generalizados, mixtos, etc.
+- **Interpretación facilitada**: Ofrece funciones para la interpretación y conversión de distintos tamaños de efecto.
+- **Integración con el tidyverse**: Se combina bien con paquetes como dplyr o broom para facilitar flujos de trabajo reproducibles.

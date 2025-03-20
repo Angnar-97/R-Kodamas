@@ -1,0 +1,47 @@
+---
+title: "Modelización"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+### **Tidymodels**  
+
+[Accede aquí](https://www.tidymodels.org)  
+
+`Tidymodels` es un conjunto de paquetes en R diseñado para realizar modelado estadístico y aprendizaje automático utilizando principios "tidy". Facilita todo el flujo de trabajo del modelado, desde la preparación de datos hasta la evaluación de modelos. Sus principales características incluyen:
+
+- **Preparación de datos**: Incluye herramientas para limpieza, transformación y preprocesamiento de datos (`recipes`).
+- **Modelado**: Proporciona una interfaz coherente para ajustar y comparar modelos estadísticos y de machine learning (`parsnip` y `workflow`).
+- **Evaluación**: Realiza validaciones cruzadas, métricas de rendimiento y análisis de resultados (`yardstick`).
+- **Visualización**: Ofrece herramientas para interpretar y visualizar modelos (`tune` y `vip`).
+
+`Tidymodels` es ideal para quienes buscan integrar el aprendizaje automático en un flujo de trabajo limpio, reproducible y basado en la filosofía tidyverse.
+
+
+### **DALEX**  
+
+[Accede aquí](https://uc-r.github.io/dalex/)  
+
+`DALEX` es una biblioteca en R para interpretar y explicar modelos de aprendizaje automático de manera fácil y visual. Es especialmente útil para entender cómo los modelos toman decisiones y para evaluar su comportamiento. Sus principales características incluyen:
+
+- **Análisis de importancia de variables**: Determina qué características tienen mayor impacto en las predicciones.
+- **Dependencias parciales**: Examina cómo los valores de entrada individuales afectan las predicciones.
+- **Residuos y explicaciones locales**: Permite analizar el error del modelo y explorar explicaciones a nivel de observaciones individuales.
+- **Compatibilidad con múltiples modelos**: Funciona con modelos ajustados con diferentes paquetes de machine learning como `caret`, `tidymodels`, `randomForest`, entre otros.
+
+Es una herramienta poderosa para auditar y explicar modelos complejos, mejorando la confianza y comprensión en los resultados del aprendizaje automático.
+
+
+### **Renv**  
+[Accede aquí](https://rstudio.github.io/renv/articles/renv.html)  
+
+`renv` es un paquete de R que gestiona entornos de proyectos, permitiendo a los usuarios aislar dependencias y garantizar la reproducibilidad del análisis. Sus principales funcionalidades incluyen:
+
+- **Aislamiento de paquetes**: Cada proyecto puede tener su propio conjunto de versiones de paquetes, evitando conflictos con otros proyectos.
+- **Gestión de dependencias**: Automatiza la instalación, actualización y mantenimiento de paquetes necesarios para un proyecto.
+- **Snapshot y lockfiles**: Crea instantáneas del estado de los paquetes (`renv.lock`) para asegurar que el proyecto pueda ser replicado en cualquier entorno.
+- **Compatibilidad**: Se integra con flujos de trabajo existentes y herramientas como `packrat`.
+
+`renv` es esencial para proyectos colaborativos y de largo plazo, donde la reproducibilidad y estabilidad de los entornos de trabajo son fundamentales.
+

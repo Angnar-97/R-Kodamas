@@ -1,0 +1,16 @@
+---
+title: "Workflows & Reporting"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+## Herramientas de Reporting
+
+https://superset.apache.org/docs/intro
+
+## Herramientas de Workflow
+
+https://dagster.io
+
+https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards

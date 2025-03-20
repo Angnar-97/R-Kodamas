@@ -1,0 +1,40 @@
+---
+title: "Bases de Datos de Organismos Modelo"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **FlyBase**
+  
+**Descripción:** Base de datos genómica y de biología molecular de *Drosophila melanogaster* y otras especies de insectos relacionados.
+
+**Temáticas clave:** Genómica, transcriptómica, mutaciones e interacciones genéticas.
+
+**Aplicaciones:** Investigación en genética y desarrollo usando Drosophila como modelo.
+
+**Enlace:** https://flybase.org
+
+---
+  
+## ZFIN (Zebrafish Information Network)
+  
+**Descripción:** Base de datos dedicada a la biología y genética del pez cebra (*Danio rerio*).
+
+**Temáticas clave:** Genómica funcional, biología del desarrollo, modelos de enfermedades humanas.
+
+**Aplicaciones:** Estudios genéticos y biomédicos utilizando el pez cebra como organismo modelo.
+
+**Enlace:** https://zfin.org
+
+---
+  
+## MGI (Mouse Genome Informatics)
+  
+**Descripción:** Recurso integral para la biología y genética del ratón (*Mus musculus*).
+
+**Temáticas clave:** Genómica, mutaciones, modelos de enfermedades humanas.
+
+**Aplicaciones:** Investigación en biología del desarrollo y estudios preclínicos con ratones.
+
+**Enlace:** http://www.informatics.jax.org

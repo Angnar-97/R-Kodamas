@@ -1,7 +1,0 @@
----
-title: "Untitled"
----
-
-Magick: paquete para la edición de imágenes 
-
-Enlace: https://cran.r-project.org/web/packages/magick/vignettes/intro.html#Installing_magick 

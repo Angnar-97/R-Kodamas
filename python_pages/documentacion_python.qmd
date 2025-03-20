@@ -1,0 +1,14 @@
+---
+title: "Documentación en Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+
+### **Sphinx**
+
+[Accede aquí](https://www.sphinx-doc.org/en/master/)
+
+`Sphinx` es una herramienta para generar documentación técnica en diversos formatos, como HTML y PDF, directamente desde tu código fuente. Es ampliamente utilizada en proyectos Python para crear documentación elegante, profesional y vinculada automáticamente al código.

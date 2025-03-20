@@ -1,0 +1,137 @@
+---
+title: "Recursos de Shiny"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+
+## **Guía de Aprendizaje por Shiny**
+
+### **1. Introducción a Shiny**  
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/) 
+
+Aprende los conceptos básicos de Shiny y cómo iniciar tu primera aplicación interactiva.
+
+### **2. Estructura de una Aplicación Shiny**  
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/shiny-basics/lesson2/)  
+
+Explora la estructura de una aplicación Shiny, incluyendo las funciones `ui` y `server` que definen la interacción y el diseño.
+
+### **3. Widgets y Entradas Interactivas**  
+[Accede aquí](https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/)  
+
+Descubre cómo usar widgets interactivos, como botones, deslizadores y menús desplegables, para captar entradas de los usuarios.
+
+### **4. Reactividad en Shiny** 
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/shiny-basics/lesson4/)  
+
+Entiende cómo funciona la reactividad en Shiny y cómo actualizar dinámicamente los resultados en función de las entradas del usuario.
+
+### **5. Diseño de la Interfaz de Usuario**  
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/build-an-app/customizing-ui/interface.html)  
+
+Aprende a diseñar interfaces atractivas y funcionales utilizando los layouts y herramientas de personalización que ofrece Shiny.
+
+### **6. Temas y Estilos Personalizados** 
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/build-an-app/customizing-ui/theming.html) 
+
+Explora cómo aplicar temas predefinidos o personalizar completamente el estilo visual de tus aplicaciones.
+
+### **7. Publicación de Aplicaciones Shiny**  
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/shiny-basics/lesson7/)
+
+Descubre cómo publicar tus aplicaciones para compartirlas con otros usuarios a través de **Shinyapps.io** o servidores propios.
+
+### **8. Tutorial Avanzado de Reactividad**  
+
+[Accede aquí](https://shiny.posit.co/r/getstarted/shiny-basics/lesson5/)  
+
+Aprende a manejar conceptos avanzados de reactividad, incluyendo eventos observables y optimización del flujo de datos.
+
+
+Next steps
+
+https://shiny.posit.co/r/getstarted/next-steps/
+
+## Elementos Esenciales
+
+### Componentes 
+
+https://shiny.posit.co/r/components/
+
+
+### Layouts
+
+https://shiny.posit.co/r/layouts/
+
+
+### Gallery
+
+https://shiny.posit.co/r/gallery/
+
+### Deployment 
+
+https://shiny.posit.co/r/deploy.html
+
+## Paquetes Resolutivos
+
+### shinyscreenshot
+
+https://github.com/daattali/shinyscreenshot/
+
+### ShinyJS
+
+https://deanattali.com/shinyjs/
+
+### Shinyalert
+
+https://github.com/daattali/shinyalert
+
+### Shinydisconnect
+
+https://github.com/daattali/shinydisconnect/
+
+### Timeviz
+
+https://github.com/daattali/timevis/
+
+### Shinybrowser
+
+https://github.com/daattali/shinybrowser
+
+### Shinytip
+
+https://github.com/daattali/shinytip/
+
+### Shinyforms
+
+https://github.com/daattali/shinyforms/
+
+### Shinymixpanel
+
+https://github.com/daattali/shinymixpanel/
+
+### shinycssloaders
+
+https://github.com/daattali/shinycssloaders
+
+### Colourpicker
+
+https://github.com/daattali/colourpicker/
+
+## Galería de Aplicaciones
+
+https://shiny.posit.co/r/gallery/#user-showcase
+
+## Set de Iconos Web
+
+- [Fontawesome](https://fontawesome.com/search?o=r&m=free)
+
+- [Glyphicon](https://icons.getbootstrap.com)

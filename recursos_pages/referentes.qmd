@@ -1,0 +1,20 @@
+---
+title: "Referentes"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+# Referentes R
+
+## Rosana Ferrero
+
+https://www.maximaformacion.es/blog-ciencia-datos/
+
+## Hadley Wickham
+
+## Garret Grolemund
+
+## Jesse Mostipak
+
+# Referentes Python

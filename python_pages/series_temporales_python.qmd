@@ -1,0 +1,22 @@
+---
+title: "Series Temporales en Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+  
+### **Merlion**
+  
+[Accede aquí](https://pypi.org/project/salesforce-merlion/)  
+[Documentación oficial](https://opensource.salesforce.com/Merlion/v1.0.0/index.html)
+
+`Merlion` es una biblioteca de aprendizaje automático para la detección de anomalías y predicciones de series temporales. Desarrollada por Salesforce, combina modelos avanzados y herramientas de evaluación para resolver problemas de tiempo crítico en aplicaciones empresariales.
+
+### **Prophet**
+
+[Accede aquí](https://pypi.org/project/prophet/)  
+[Documentación oficial](https://facebook.github.io/prophet/docs/quick_start.html)
+
+`Prophet` es una biblioteca de modelado de series temporales creada por Meta. Es ideal para realizar predicciones de manera intuitiva incluso con datos con tendencias no lineales y estacionales. Facilita la incorporación de días festivos y eventos especiales en el modelo de predicción.

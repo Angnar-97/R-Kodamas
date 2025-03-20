@@ -1,9 +1,35 @@
 ---
 title: "About"
+about:
+  template: jolla
+  image: images/telomera_favicon.png
+  links:
+    - icon: globe
+      text: Telómera
+      href: https://www.telomera.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/telomera/posts/?feedView=all
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/telomerahealth
+editor: source
 ---
 
-About this site
+<div style="text-align: left;">
 
-```{r}
-1 + 1
-```
+**Telómera** es una empresa española especializada en el análisis de datos de salud del mundo real (*Real World Evidence*), ofreciendo soluciones innovadoras para mejorar la toma de decisiones en el sector sanitario. Su equipo multidisciplinario integra datos clínicos, genéticos y de estilo de vida para proporcionar estudios precisos y personalizados, contribuyendo a una atención médica más eficiente y efectiva.
+
+Entre nuestros servicios destacados se encuentran:
+
+- **Real World Evidence & Data Solutions:** Análisis de datos de salud para generar evidencia basada en la vida real, profundizando en el conocimiento de enfermedades y aumentando la eficiencia de los sistemas sanitarios.
+
+- **Hospital Management Solutions (HMS):** Consultoría integral para gestores sanitarios, enfocada en mejorar la gestión y organización de instituciones de salud mediante tecnología y análisis de datos.
+
+- **Software e Inteligencia Artificial:** Desarrollo de soluciones de IA para apoyar a profesionales de la salud en diagnósticos y tratamientos, garantizando la interoperabilidad con sistemas existentes y creando entornos tecnológicos coherentes y seguros.
+
+- **Instituto de Longevidad Telomera:** Investigación interdisciplinaria centrada en el análisis de datos sanitarios para promover una forma de vida saludable, integrando información clínica, genética y de estilo de vida.
+
+Con una sólida experiencia y reconocimiento en el sector, Telomera se posiciona como un aliado estratégico para instituciones sanitarias que buscan transformar datos en soluciones prácticas y efectivas.
+
+</div>

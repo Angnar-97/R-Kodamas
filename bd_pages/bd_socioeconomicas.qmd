@@ -1,0 +1,110 @@
+---
+title: "Bases de Datos Socioeconómicas"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## INE (Instituto Nacional de Estadística)
+  
+**Descripción:** El INE es la principal fuente oficial de datos estadísticos en España. Proporciona información detallada sobre aspectos demográficos, económicos, sociales y medioambientales del país.
+
+**Temáticas clave:**
+  - Demografía: Población, migraciones, nacimientos, defunciones.
+- Economía: PIB, inflación, empleo, turismo.
+- Educación y salud: Indicadores educativos, recursos sanitarios, gasto público.
+- Condiciones de vida: Encuestas sobre pobreza, exclusión social, desigualdad.
+- Medio ambiente: Emisiones, consumo de energía, agua.
+
+**Metodología:** Los datos se obtienen de censos, encuestas a hogares y empresas, registros administrativos y estudios específicos.
+
+**Aplicaciones:**
+  - Análisis de políticas públicas y regionales.
+- Estudios sobre tendencias demográficas y sociales.
+- Comparación con datos internacionales de fuentes como Our World in Data, Eurostat o el Banco Mundial.
+
+**Enlace:** https://www.ine.es
+
+---
+  
+## Our World in Data (OWID)
+  
+**Descripción:** Plataforma que proporciona datos globales y gráficos interactivos sobre temas relacionados con el desarrollo humano, como salud, economía, medio ambiente y más. Su objetivo es hacer que los datos sean accesibles y comprensibles para promover políticas basadas en evidencia.
+
+**Temáticas clave:** Cambio climático, desigualdad, salud global, energía, educación y crecimiento económico.
+
+**Metodología:** Utilizan datos de organismos internacionales como la ONU, el Banco Mundial, y publicaciones científicas revisadas por pares.
+
+**Aplicaciones:** Ideal para investigadores, educadores y tomadores de decisiones que necesitan información confiable para análisis o visualización.
+
+**Enlace:** https://ourworldindata.org/
+  
+  ---
+  
+## World Bank Open Data
+  
+**Descripción:** Plataforma que ofrece acceso gratuito a estadísticas globales sobre desarrollo económico, social y ambiental, recopiladas de casi todos los países del mundo. Proporciona datos organizados en indicadores clave para análisis y planificación.
+
+**Temáticas clave:** Economía, pobreza, salud, educación, medio ambiente, infraestructura y gobernanza.
+
+**Metodología:** Los datos se recopilan de encuestas nacionales, organismos internacionales y otras fuentes verificadas, asegurando calidad y consistencia en los indicadores globales.
+
+**Aplicaciones:** Ideal para investigadores, economistas, responsables de políticas públicas y académicos que buscan información confiable sobre tendencias globales y nacionales.
+
+**Enlace:** https://data.worldbank.org
+
+---
+  
+## UNdata
+  
+**Descripción:** Plataforma de la Organización de las Naciones Unidas (ONU) que reúne estadísticas de diversas agencias internacionales, cubriendo temas globales relacionados con desarrollo, economía, medio ambiente y población.
+
+**Temáticas clave:** Población, comercio, energía, género, indicadores de desarrollo sostenible (ODS) y más.
+
+**Metodología:** Consolidación de datos provenientes de agencias especializadas de la ONU, informes nacionales y censos, asegurando estandarización y fiabilidad.
+
+**Aplicaciones:** Útil para investigadores, estudiantes y planificadores que buscan datos centralizados de múltiples temas globales.
+
+**Enlace:** https://data.un.org
+
+---
+  
+## Eurostat
+  
+**Descripción:** La oficina estadística de la Unión Europea (UE) ofrece datos y análisis sobre diversos aspectos económicos, sociales y ambientales de los Estados miembros de la UE.
+
+**Temáticas clave:** Economía, empleo, población, comercio, energía, medio ambiente y desarrollo regional.
+
+**Metodología:** Los datos se recopilan de estadísticas nacionales armonizadas y bases de datos específicas de la UE, garantizando comparabilidad entre países.
+
+**Aplicaciones:** Fuente fundamental para estudios sobre la UE, análisis de políticas y evaluación de tendencias dentro de la región.
+
+**Enlace:** https://ec.europa.eu/eurostat
+
+---
+  
+## OECD Data
+  
+**Descripción:** Plataforma de la Organización para la Cooperación y el Desarrollo Económicos (OCDE) que ofrece estadísticas sobre economía, educación, salud, gobernanza y otros temas clave en los países miembros y asociados.
+
+**Temáticas clave:** PIB, empleo, educación, desigualdad, energía, comercio y políticas públicas.
+
+**Metodología:** Basado en estadísticas proporcionadas por gobiernos nacionales, encuestas armonizadas y estudios de caso realizados por la OCDE.
+
+**Aplicaciones:** Ideal para analizar políticas públicas y tendencias económicas entre países desarrollados y emergentes.
+
+**Enlace:** https://data.oecd.org
+
+---
+  
+## International Monetary Fund (IMF) Data
+  
+**Descripción:** Plataforma del Fondo Monetario Internacional que proporciona estadísticas económicas y financieras a nivel global.
+
+**Temáticas clave:** PIB, inflación, balanza de pagos, deuda pública y comercio internacional.
+
+**Metodología:** Basado en datos proporcionados por gobiernos y bancos centrales, ajustados según estándares internacionales.
+
+**Aplicaciones:** Fundamental para análisis financieros y económicos internacionales.
+
+**Enlace:** https://www.imf.org/en/Data

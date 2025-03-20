@@ -1,0 +1,21 @@
+---
+title: "Calidad de Código en Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+
+### **Pylint**
+
+[Accede aquí](https://pypi.org/project/pylint/)
+
+`Pylint` es una herramienta de Python para analizar código estático y mejorar su calidad. Es útil para identificar errores, verificar estándares de codificación y optimizar el desarrollo. Sus principales características incluyen:
+  
+- **Análisis estático**: Detecta errores comunes en el código, como variables no definidas o mal uso de métodos.
+- **Estilo de codificación**: Verifica el cumplimiento de las guías de estilo PEP 8.
+- **Personalización**: Permite configurar reglas según las necesidades del proyecto.
+- **Reportes detallados**: Proporciona puntajes de calidad y recomendaciones específicas para mejorar el código.
+
+`Pylint` es una herramienta esencial para desarrolladores que buscan escribir código Python más limpio, eficiente y libre de errores.

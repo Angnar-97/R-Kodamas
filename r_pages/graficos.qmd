@@ -1,0 +1,58 @@
+---
+title: "Diseño de Gráficos"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+## **Paquetes de R**
+
+### **Ggplot2**
+
+[Accede aquí](ggplot2.tidyverse.org)
+
+
+`ggplot2` es una biblioteca de R para la creación de gráficos basados en la **gramática de gráficos** ("Grammar of Graphics"). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:
+
+- **Modularidad**: Construye gráficos por capas (`geom_*`, `facet_*`, `theme_*`) para personalizar visualizaciones paso a paso.
+- **Compatibilidad con datos "tidy"**: Facilita la integración con estructuras como data frames y tibbles.
+- **Diversidad de gráficos**: Soporta gráficos de dispersión, líneas, barras, boxplots, histogramas, entre otros.
+- **Personalización avanzada**: Permite ajustar todos los aspectos del diseño, como colores, etiquetas y estilos.
+
+Es ideal para explorar datos, comunicar hallazgos y crear visualizaciones de alta calidad en proyectos de análisis y ciencia de datos.
+
+## **Gganimate** 
+
+[Accede aquí](appsilon.com/post/r-gganimate)
+
+`gganimate` es una extensión de `ggplot2` que permite agregar animaciones a gráficos en R. Es ideal para visualizar datos dinámicos o que cambian a lo largo del tiempo. Sus principales características incluyen:
+
+- **Transiciones dinámicas**: Facilita la animación de variables con funciones como `transition_time()` y `transition_states()`.
+- **Compatibilidad con ggplot2**: Aprovecha la sintaxis y funcionalidad de `ggplot2`, ampliándola con movimiento y cambios dinámicos.
+- **Visualización temporal**: Perfecto para analizar tendencias y patrones que evolucionan en el tiempo.
+- **Opciones de personalización**: Permite ajustar la velocidad, duración y efectos de las animaciones.
+
+`gganimate` es una herramienta poderosa para transformar gráficos estáticos en visualizaciones impactantes y narrativas.
+
+
+
+## **Patchwork**
+
+[Accede aquí](https://patchwork.data-imaginist.com)
+
+
+
+
+## **Elementos Decorativos Gráficos**
+
+### **Paleta de Colores en R**
+
+[Accede aquí](https://r-charts.com/es/colores/)
+
+Esta guía ofrece una variedad de paletas de colores que puedes usar en gráficos de R, permitiéndote personalizar visualizaciones con combinaciones de colores predefinidas o crear tus propias paletas para representar datos de manera atractiva y clara.
+
+### **Formas de los Puntos**
+
+[Accede aquí](https://www.sthda.com/english/wiki/r-plot-pch-symbols-the-different-point-shapes-available-in-r)
+
+Explora las formas de puntos (pch) disponibles en R para personalizar gráficos. Cada forma tiene un código asociado, lo que facilita su uso para destacar diferentes categorías o series de datos en tus visualizaciones.

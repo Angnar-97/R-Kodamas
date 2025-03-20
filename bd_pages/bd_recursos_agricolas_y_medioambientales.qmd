@@ -1,0 +1,61 @@
+---
+title: "Bases de Datos Medioambientales y de Recursos"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## Data by The World Resources Institute (WRI)
+  
+**Descripción:** Plataforma enfocada en datos medioambientales y climáticos, abarcando temas de sostenibilidad y recursos naturales.
+
+**Temáticas clave:** Cambio climático, deforestación, agua, energía renovable y biodiversidad.
+
+**Metodología:** Utiliza datos de satélites, registros gubernamentales y estudios académicos para ofrecer visualizaciones precisas.
+
+**Aplicaciones:** Ideal para investigadores en medio ambiente y formuladores de políticas sobre sostenibilidad.
+
+**Enlace:** https://www.wri.org/data
+
+---
+  
+## FAOSTAT (FAO)
+  
+**Descripción:** Plataforma de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) que proporciona datos relacionados con la agricultura, alimentos, comercio y sostenibilidad.
+
+**Temáticas clave:** Producción agrícola, consumo de alimentos, seguridad alimentaria, comercio agrícola y cambio climático.
+
+**Metodología:** Datos obtenidos de registros nacionales, censos agrícolas y estudios especializados en alimentación y sostenibilidad.
+
+**Aplicaciones:** Fundamental para investigadores y formuladores de políticas interesados en seguridad alimentaria y sostenibilidad agrícola.
+
+**Enlace:** https://www.fao.org/faostat
+
+---
+  
+## GBIF (Global Biodiversity Information Facility)
+  
+**Descripción:** Base de datos abierta que permite el acceso a información sobre biodiversidad global, incluyendo registros de especies y ecosistemas.
+
+**Temáticas clave:** Conservación de especies, monitoreo de hábitats, biodiversidad marina y terrestre.
+
+**Metodología:** Datos recopilados de museos, instituciones académicas y observaciones ciudadanas.
+
+**Aplicaciones:** Esencial para investigadores en ecología y biodiversidad.
+
+**Enlace:** https://www.gbif.org
+
+---
+  
+## Gapminder
+  
+**Descripción:** Plataforma que utiliza datos globales para visualizar tendencias históricas y actuales sobre desarrollo humano, con un enfoque educativo.
+
+**Temáticas clave:** Población, esperanza de vida, ingresos, salud, educación y pobreza.
+
+**Metodología:** Integra datos de fuentes como la ONU, el Banco Mundial y otras organizaciones internacionales en gráficos interactivos.
+
+**Aplicaciones:** Excelente para presentaciones educativas y análisis visuales rápidos.
+
+**Enlace:** https://www.gapminder.org/data/
+  

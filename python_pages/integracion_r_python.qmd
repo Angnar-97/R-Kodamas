@@ -1,0 +1,21 @@
+---
+title: "Integración R-Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+  
+### **Reticulate**
+  
+[Accede aquí](https://rstudio.github.io/reticulate/)  
+
+`reticulate` es un paquete de R que permite integrar y ejecutar código Python dentro de R de manera fluida. Con este paquete, puedes:
+  
+- Llamar funciones y módulos de Python directamente desde R.
+- Compartir datos entre R y Python usando objetos nativos como data frames y listas.
+- Crear entornos virtuales o trabajar con entornos de Python ya existentes.
+- Construir aplicaciones interactivas en R utilizando librerías de Python.
+
+Es especialmente útil para combinar el ecosistema analítico de R con las potentes bibliotecas de Python, permitiendo un enfoque híbrido en proyectos de ciencia de datos y desarrollo.

@@ -1,0 +1,67 @@
+---
+title: "Bases de Datos de Genómica"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## Alpha Fold
+  
+**Enlace:** https://alphafold.ebi.ac.uk
+
+---
+  
+## NCBI (National Center for Biotechnology Information)
+  
+**Descripción:** Plataforma del NIH (National Institutes of Health) que ofrece acceso a una amplia gama de bases de datos para biología molecular y genómica.
+
+**Temáticas clave:** Genómica, transcriptómica, proteómica, biología estructural y datos biomédicos.
+
+**Bases de datos destacadas dentro del NCBI:**
+  - GenBank: Secuencias genómicas y nucleotídicas.
+- PubMed: Artículos científicos en ciencias biomédicas.
+- BLAST: Herramienta para comparación de secuencias.
+- SNP: Variantes genéticas de un solo nucleótido.
+
+**Aplicaciones:** Análisis de genomas, estudios evolutivos y búsqueda de información biomédica.
+
+**Enlace:** https://www.ncbi.nlm.nih.gov
+
+---
+  
+## DDBJ (DNA Data Bank of Japan)
+  
+**Descripción:** Parte del Consorcio Internacional de Secuencias Nucleotídicas, junto con GenBank y EMBL-EBI, centrado en la recolección y distribución de secuencias de ADN.
+
+**Temáticas clave:** Secuencias genómicas, transcriptómicas y evolutivas.
+
+**Aplicaciones:** Compartir datos genéticos entre investigadores globales.
+
+**Enlace:** https://www.ddbj.nig.ac.jp
+
+---
+  
+## EMBL-EBI (European Bioinformatics Institute)
+  
+**Descripción:** Centro europeo de bioinformática que proporciona acceso a múltiples bases de datos relacionadas con genómica, proteómica y biología estructural.
+
+**Temáticas clave:**
+  - ArrayExpress: Datos de expresión génica.
+- InterPro: Análisis de dominios proteicos.
+- Reactome: Vías de señalización y rutas metabólicas.
+
+**Aplicaciones:** Integración de datos biomoleculares, análisis funcional y estructural.
+
+**Enlace:** https://www.ebi.ac.uk
+
+---
+  
+## Ensembl
+  
+**Descripción:** Recurso de acceso abierto para análisis de genomas de vertebrados y otros organismos, proporcionando anotaciones genéticas detalladas.
+
+**Temáticas clave:** Genomas de referencia, anotación de genes, variantes genómicas y evolución genética.
+
+**Aplicaciones:** Análisis comparativo de genomas, búsqueda de variantes genéticas en diferentes organismos y diseño de experimentos genómicos.
+
+**Enlace:** https://www.ensembl.org

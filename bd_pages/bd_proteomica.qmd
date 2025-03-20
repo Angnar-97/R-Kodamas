@@ -1,0 +1,52 @@
+---
+title: "Bases de Datos de Proteómica"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## UniProt
+  
+**Descripción:** Base de datos unificada de proteínas que proporciona información sobre secuencias proteicas y sus funciones.
+
+**Temáticas clave:** Anotación funcional de proteínas, dominios estructurales, modificaciones postraduccionales e interacciones proteína-proteína.
+
+**Aplicaciones:** Investigación proteómica, diseño de fármacos y estudios de bioquímica estructural.
+
+**Enlace:** https://www.uniprot.org
+
+---
+  
+## PDB (Protein Data Bank)
+  
+**Descripción:** Base de datos de estructuras tridimensionales de proteínas, ácidos nucleicos y complejos macromoleculares.
+
+**Temáticas clave:** Biología estructural, interacciones moleculares y diseño de medicamentos.
+
+**Aplicaciones:** Estudios de dinámica molecular, diseño de proteínas y simulaciones computacionales.
+
+**Enlace:** https://www.rcsb.org
+
+---
+  
+## PRIDE (Proteomics Identifications Database)
+  
+**Descripción:** Repositorio de datos proteómicos de experimentos de espectrometría de masas.
+
+**Temáticas clave:** Proteómica, identificaciones de proteínas, modificaciones postraduccionales.
+
+**Aplicaciones:** Análisis proteómico y estudios funcionales de proteínas.
+
+**Enlace:** https://www.ebi.ac.uk/pride
+
+---
+
+## Pfam
+  
+**Descripción:** Colección de familias de proteínas basada en alineamientos de secuencias y modelos de ocultación de Markov (HMM).
+
+**Temáticas clave:** Dominios y familias proteicas, evolución molecular.
+
+**Aplicaciones:** Análisis estructural y funcional de proteínas, identificación de dominios conservados.
+
+**Enlace:** https://pfam.xfam.org

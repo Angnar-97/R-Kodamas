@@ -1,0 +1,102 @@
+---
+title: "Bioconductor"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+### **Phyloseq**
+
+- [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/phyloseq.html)  
+- [Documentación detallada](https://joey711.github.io/phyloseq/)  
+
+`Phyloseq` es un paquete de R diseñado para el análisis y la visualización de datos microbiológicos y de ecología microbiana. Permite trabajar con datos de secuenciación de alto rendimiento de microbiomas. Sus principales características incluyen:
+
+- **Integración de múltiples tipos de datos**: Manejo de abundancia de OTUs, taxonomía, metadatos ambientales, etc.  
+- **Análisis de diversidad alfa y beta**: Herramientas para explorar la diversidad de comunidades microbianas.  
+- **Visualización**: Permite crear gráficos de barras, PCA/PCoA, redes microbianas, entre otros.  
+- **Interoperabilidad**: Compatible con flujos de trabajo de herramientas como QIIME.
+
+Es ampliamente utilizado en estudios relacionados con el microbioma para comprender la composición y dinámica de comunidades microbianas.
+
+---
+
+### **DESeq2**
+
+- [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html)  
+- [Documentación detallada](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)  
+
+`DESeq2` es un paquete de R enfocado en el análisis de expresión diferencial para datos de RNA-seq (o conteos de secuenciación). Utiliza modelos estadísticos basados en la distribución binomial negativa para estimar la significancia de los cambios de expresión entre condiciones experimentales. Sus principales características incluyen:
+
+- **Normalización de datos de conteo**: Ajuste estadístico para diferencias de profundidad de secuenciación.  
+- **Análisis de expresión diferencial**: Identificación de genes y transcritos que cambian significativamente entre grupos.  
+- **Cálculo de tamaños de efecto y valores de p ajustados**: Minimiza falsos positivos en grandes conjuntos de datos.  
+- **Visualizaciones integradas**: Funciones para generar MA-plots, PCA y gráficos de dispersión.  
+
+DESeq2 es una herramienta estándar para el análisis de datos transcriptómicos en estudios genómicos y de biología molecular.
+
+---
+
+### **edgeR**
+
+- [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/edgeR.html)  
+- [Documentación detallada](https://www.bioconductor.org/packages/devel/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)  
+
+`edgeR` se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:
+
+- **Estimación de dispersión**: Utiliza métodos empíricos para ajustar la variación en los datos de conteo.  
+- **Comparaciones múltiples**: Manejo de distintos contrastes y condiciones experimentales.  
+- **Análisis de genes de baja expresión**: Herramientas específicas para filtrar y evaluar genes con conteos bajos.  
+- **Compatibilidad con grandes datasets**: Procesamiento eficiente incluso con muestras y genes numerosos.
+
+edgeR es especialmente valorado por su robustez en el tratamiento de datos de conteo y es ampliamente citado en estudios de transcriptómica.
+
+---
+
+### **Limma**
+
+- [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/limma.html)  
+- [Documentación detallada](https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf)  
+
+`Limma` nació como un paquete para el análisis de microarrays, pero se ha adaptado también para datos de RNA-seq combinándolo con técnicas de transformación de conteos (por ejemplo, *voom*). Permite modelar datos de expresión génica usando metodologías lineales. Sus principales características incluyen:
+
+- **Modelos lineales**: Ajustes flexibles para comparar múltiples grupos o condiciones.  
+- **Funcionalidad *voom***: Transformación de conteos para aplicar metodologías de microarray a RNA-seq.  
+- **Análisis de expresión diferencial**: Resultados fiables con correcciones de valores de p y estimaciones de variación.  
+- **Integración con flujos de trabajo**: Compatible con otros paquetes de Bioconductor para la visualización y exploración de resultados.
+
+`Limma` es una de las herramientas más consolidadas para el análisis de expresión génica, siendo muy valorada por su velocidad y robustez.
+
+---
+
+### **SummarizedExperiment**
+
+- [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html)  
+- [Documentación detallada](https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html)  
+
+`SummarizedExperiment` proporciona una estructura de datos (clase S4 en R) para almacenar y manipular conjuntamente datos de expresión (o conteos) y la información fenotípica y de características (metadatos). Sus principales características incluyen:
+
+- **Organización coherente**: Mantiene matrices de expresión, metadatos de filas (genes) y columnas (muestras) unificados.  
+- **Acceso eficiente**: Funciones rápidas para extraer subconjuntos de filas, columnas o datos combinados.  
+- **Base para muchos paquetes**: Constituye el formato de entrada estándar para herramientas de análisis de expresión y genómica.  
+- **Coherencia y reproducibilidad**: Facilita la gestión ordenada de grandes conjuntos de datos ómicos.
+
+Es muy utilizado como estructura base para análisis genómicos y flujos de trabajo complejos en Bioconductor.
+
+---
+
+### **Biostrings**
+
+- [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/Biostrings.html)  
+- [Documentación detallada](https://kasperdanielhansen.github.io/genbioconductor/html/Biostrings.html)  
+
+`Biostrings` ofrece herramientas para la manipulación y análisis de secuencias biológicas (ADN, ARN y proteínas) en R. Sus principales características incluyen:
+
+- **Manejo de secuencias**: Lectura, escritura y almacenamiento eficiente de secuencias de grandes bases de datos.  
+- **Búsqueda de patrones**: Funciones para alinear secuencias y encontrar subsecuencias concretas.  
+- **Análisis de calidad**: Herramientas para evaluar la calidad y realizar transformaciones de secuencias.  
+- **Integración con otras librerías**: Se combina bien con paquetes como `IRanges` para análisis avanzados de genómica.
+
+`Biostrings` es fundamental para tareas de bioinformática que involucran la manipulación directa de secuencias.
+
+---

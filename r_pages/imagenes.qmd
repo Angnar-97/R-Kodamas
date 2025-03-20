@@ -1,0 +1,19 @@
+---
+title: "Edición de Imágenes"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+### **Magick**  
+
+[Accede aquí](https://cran.r-project.org/web/packages/magick/vignettes/intro.html#Installing_magick)  
+
+`Magick` es un paquete de R que proporciona herramientas avanzadas para la edición, manipulación y transformación de imágenes. Basado en la biblioteca **ImageMagick**, permite:
+
+- Leer y escribir imágenes en múltiples formatos (JPEG, PNG, GIF, etc.).
+- Realizar transformaciones como redimensionar, rotar, recortar y cambiar la resolución.
+- Aplicar efectos como filtros, desenfoques y ajustes de color.
+- Crear imágenes animadas (GIFs) y combinar múltiples imágenes en una sola.
+
+Es una herramienta poderosa para proyectos que requieren procesamiento de imágenes directamente en R.

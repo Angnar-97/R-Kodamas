@@ -1,0 +1,10 @@
+---
+title: "Sección de Tutoriales"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+## Tutoriales de Tidymodels
+
+https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/

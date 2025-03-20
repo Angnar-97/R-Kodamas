@@ -1,0 +1,40 @@
+---
+title: "Análisis y Visualización de Datos en Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+  
+### **Pandas**
+  
+[Accede aquí](https://pandas.pydata.org/)  
+
+`Pandas` es una biblioteca de Python para la manipulación y análisis de datos. Ofrece estructuras de datos como `DataFrame` y `Series`, que permiten:
+  
+- Leer y escribir datos desde múltiples formatos (CSV, Excel, SQL, etc.).
+- Realizar operaciones de limpieza, filtrado y agregación de datos.
+- Manipular índices, realizar uniones y pivotes de tablas.
+- Analizar datos estructurados de manera eficiente y legible.
+
+Es una herramienta fundamental para proyectos de ciencia de datos y análisis estadístico.
+
+### **NumPy**
+
+[Accede aquí](https://numpy.org/)  
+
+`NumPy` es una biblioteca para el cálculo numérico en Python que proporciona soporte para:
+  
+  - Arrays multidimensionales (`ndarray`) y operaciones rápidas sobre ellos.
+- Funciones matemáticas y estadísticas avanzadas.
+- Operaciones vectorizadas para cálculos eficientes.
+- Integración con otras bibliotecas científicas como `SciPy`, `Pandas` y `Matplotlib`.
+
+Es la base para muchas otras herramientas científicas y es esencial para trabajar con datos numéricos en Python.
+
+### **Plotnine**
+
+[Accede aquí](https://plotnine.org)
+
+`Plotnine` es una biblioteca de Python inspirada en la gramática de gráficos de R (ggplot2), que facilita la creación de visualizaciones declarativas y personalizables para análisis de datos.

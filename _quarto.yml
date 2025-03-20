@@ -3,36 +3,80 @@ project:
 
 website:
   title: "R Kodamas"
+  favicon: images/icon.png
+  twitter-card: true
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: manejo-datos.qmd
-        text: Manejo de Datos
-      - href: estadistica.qmd
-        text: Estadística
-      - href: modelizacion.qmd
-        text: Modelización
-      - href: graficos.qmd
-        text: Gráficos
-      - href: shiny.qmd
-        text: Shiny
-      - href: workflows-reporting.qmd
-        text: Workflows y Reporting
-      - href: tutoriales.qmd
-        text: Tutoriales
-      - href: python.qmd
-        text: Python
-      - href: bases-datos.qmd
-        text: Bases de Datos
-      - href: grupos-concursos.qmd
-        text: Grupos Online y Concursos
-      - href: libros.qmd
-        text: Libros
-      - href: imagenes.qmd
-        text: Imágenes
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: R
+        menu:
+          - text: Bioconductor
+            href: r_pages/bioconductor.qmd
+          - text: Análisis de Datos
+            href: r_pages/manejo-datos.qmd
+          - text: Visualización 
+            href: r_pages/graficos.qmd
+          - text: Imágenes
+            href: r_pages/imagenes.qmd
+          - text: Mapas
+            href: r_pages/mapas.qmd
+          - text: Estadística
+            href: r_pages/estadistica.qmd
+          - text: Modelización
+            href: r_pages/modelizacion.qmd
+          - text: Shiny
+            href: r_pages/shiny.qmd
+          - text: Quarto
+            href: r_pages/quarto.qmd
+      - text: Python
+        menu: 
+          - text: Análisis Exploratorio
+            href: python_pages/analisis_visualizacion_python.qmd
+          - text: Series Temporales
+            href: python_pages/series_temporales_python.qmd
+          - text: SQL en Python
+            href: python_pages/sql_python.qmd
+          - text: Validación de Datos
+            href: python_pages/validacion_python.qmd            
+          - text: Calidad de Código 
+            href: python_pages/calidad_codigo.qmd
+          - text: Documentación
+            href: python_pages/documentacion_python.qmd
+          - text: Integración R y Python 
+            href: python_pages/integracion_r_python.qmd
+      - text: Bases de Datos
+        menu: 
+          - text: Bases de Datos Socioeconómicas
+            href: bd_pages/bd_socioeconomicas.qmd
+          - text: Bases de Datos de Salud y Demografía
+            href: bd_pages/bd_salud_y_demografia.qmd
+          - text: Bases de Datos Medioambientales y de Recursos
+            href: bd_pages/bd_recursos_agricolas_y_medioambientales.qmd
+          - text: Bases de Datos de Genómica
+            href: bd_pages/bd_genomica.qmd
+          - text: Bases de Datos de Proteómica
+            href: bd_pages/bd_proteomica.qmd
+          - text: Bases de Datos de Transcriptómica
+            href: bd_pages/bd_transcriptomica.qmd
+          - text: Bases de Datos de Metabolismo
+            href: bd_pages/bd_metabolismo.qmd
+          - text: Bases de Datos de Interacciones y Redes
+            href: bd_pages/bd_interacciones_y_redes_moleculares.qmd
+          - text: Bases de Datos de Organismos Modelo
+            href: bd_pages/bd_organismos_modelo.qmd
+          - text: Bases de Datos de Variantes, Fenotipos y Cáncer
+            href: bd_pages/bd_variantes_clinicas.qmd
+      - text: Recursos
+        menu:
+          - text: Libros
+            href: recursos_pages/libros.qmd
+          - text: Grupos Online y Concursos
+            href: recursos_pages/grupos-concursos.qmd
+          - text: Referentes
+            href: recursos_pages/referentes.qmd
 
 format:
   html:

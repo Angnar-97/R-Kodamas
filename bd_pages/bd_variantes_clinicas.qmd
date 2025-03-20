@@ -1,0 +1,64 @@
+---
+title: "Bases de Datos de Variantes, Fenotipos y Cáncer"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## ExAC/gnomAD (Genome Aggregation Database)
+  
+**Descripción:** Base de datos de variantes genómicas de miles de individuos, enfocada en variantes raras y comunes.
+
+**Temáticas clave:** Variantes genéticas humanas, frecuencias alélicas, variación estructural.
+
+**Aplicaciones:** Investigación de enfermedades genéticas, interpretación clínica de variantes.
+
+**Enlace:** https://gnomad.broadinstitute.org
+
+---
+  
+## ClinVar
+  
+**Descripción:** Repositorio de variantes genómicas con relevancia clínica, recopiladas de laboratorios y literatura científica.
+
+**Temáticas clave:** Mutaciones patogénicas, enfermedades genéticas, variantes asociadas a fenotipos clínicos.
+
+**Aplicaciones:** Diagnóstico genético y estudios de correlación genotipo-fenotipo.
+
+**Enlace:** https://www.ncbi.nlm.nih.gov/clinvar
+
+---
+  
+## OMIM (Online Mendelian Inheritance in Man)
+  
+**Descripción:** Catálogo de genes humanos y fenotipos genéticos, con información sobre enfermedades hereditarias.
+
+**Temáticas clave:** Genética humana, enfermedades mendelianas, asociación genotipo-fenotipo.
+
+**Aplicaciones:** Investigación biomédica, diagnóstico y asesoramiento genético.
+
+**Enlace:** https://omim.org
+
+---
+  
+## TCGA (The Cancer Genome Atlas)
+  
+**Descripción:** Base de datos de perfiles moleculares de cáncer, que incluye información genómica, transcriptómica y epigenómica.
+
+**Temáticas clave:** Variantes genéticas en cáncer, expresión génica diferencial y biomarcadores.
+
+**Aplicaciones:** Investigación oncológica, identificación de dianas terapéuticas y análisis de supervivencia.
+
+**Enlace:** https://www.cancer.gov/tcga
+
+---
+  
+## Toxicogenomics Data Network (CTD)
+  
+**Descripción:** Base de datos que integra información sobre interacciones químicas-genómicas y su impacto en la salud.
+
+**Temáticas clave:** Toxicología, interacciones químico-genéticas, enfermedades ambientales.
+
+**Aplicaciones:** Estudios de toxicología, impacto de exposiciones ambientales en la salud.
+
+**Enlace:** http://ctdbase.org

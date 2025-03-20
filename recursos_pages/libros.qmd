@@ -1,0 +1,20 @@
+---
+title: "Lecturas Esenciales Recomendadas"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+## Libros de R
+
+- [R for Data Science](https://r4ds.hadley.nz)
+
+- [Tidy Modeling with R](https://www.tmwr.org)
+
+- [R Packages](https://r-pkgs.org)
+
+- [Efficient R Programming](https://csgillespie.github.io/efficientR/)
+
+[Enlace a Amazon para comprar los libros en físico](https://www.amazon.com/stores/page/62315E1B-683D-4081-B276-F4D33F2FACA2)
+
+## Libros de Python 

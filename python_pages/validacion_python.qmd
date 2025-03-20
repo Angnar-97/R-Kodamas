@@ -1,0 +1,21 @@
+---
+title: "Validación de Datos en Python"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+  
+## **Paquetes**
+  
+### **Proof**
+  
+[Accede aquí](https://github.com/wireservice/proof)
+
+`Proof` es una herramienta ligera escrita en Python diseñada para realizar pruebas automatizadas en datos. Es especialmente útil para garantizar la calidad y consistencia de datos en flujos de trabajo de análisis o producción. Sus principales características incluyen:
+  
+- **Validación de datos**: Permite definir y verificar reglas para asegurar la integridad de los datos.
+- **Automatización de pruebas**: Facilita la detección temprana de errores en datasets grandes.
+- **Integración sencilla**: Puede ser utilizada con scripts personalizados o integrarse en pipelines de datos más amplios.
+- **Ligero y extensible**: Diseñado para ser eficiente y fácil de adaptar a necesidades específicas.
+
+`Proof` es ideal para analistas y desarrolladores que buscan una solución sencilla para validar datos de manera automatizada.
