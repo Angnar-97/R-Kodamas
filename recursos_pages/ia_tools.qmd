@@ -1,0 +1,413 @@
+---
+title: "Herramientas de Inteligencia Artificial"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+# **Herramientas de Inteligencia Artificial**
+
+---
+
+## **1. Generales**
+
+### **ChatGPT**  
+  
+[Accede aquí](https://chatgpt.com)  
+  
+ChatGPT es un modelo de lenguaje desarrollado por OpenAI que se especializa en la generación y comprensión de texto en conversaciones naturales. Ofrece respuestas contextuales y detalladas, cubriendo una amplia variedad de temas y aportando ideas para proyectos, investigaciones o simplemente para satisfacer curiosidades. Gracias a su extensa base de entrenamiento, puede adaptarse a diferentes estilos de comunicación y necesidades de información.
+
+### **Gemini (Google AI)**
+
+[Accede aquí](https://gemini.google.com)  
+
+Gemini es un proyecto de Google enfocado en desarrollar un modelo de IA de última generación que combine capacidades multimodales y un alto nivel de razonamiento. Aún en fase previa al lanzamiento público, se espera que mejore sustancialmente la interacción con el usuario en tareas que van desde la asistencia conversacional hasta la generación de contenido complejo. La visión de Google es integrar Gemini en todo su ecosistema de productos, aumentando la eficiencia y la creatividad en múltiples ámbitos.
+
+### **Bing Chat**
+
+[Accede aquí](https://www.bing.com/chat)
+
+### **Perplexity**  
+
+[Accede aquí](https://www.perplexity.ai/)
+
+### **Claude** (Anthropic)  
+
+[Accede aquí](https://claude.ai/)
+
+### **Elicit**  
+
+[Accede aquí](https://elicit.org/)  
+
+
+### **Deepseekr (DeepSeek)**  
+
+[Accede aquí](https://chat.deepseek.com/)  
+
+---
+
+## **2. Diseño de Páginas Web **
+
+### **Dora**
+
+[Accede aquí](https://www.dora.run/)
+
+### **Durable**  
+
+[Accede aquí](https://durable.co/)
+
+### **Wegic**  
+
+[Accede aquí](https://wegic.co/)
+
+### **Framer**  
+
+[Accede aquí](https://www.framer.com/)
+
+### **10Web** 
+
+[Accede aquí](https://10web.io/)
+
+---
+
+## **3. Herramientas de Escritura**
+
+### **Jasper**  
+
+[Accede aquí](https://www.jasper.ai/)
+
+### **Rytr**  
+
+[Accede aquí](https://rytr.me/)
+
+### **TextBlaze**  
+
+[Accede aquí](https://blaze.today/)
+
+### **Sudowrite**  
+
+[Accede aquí](https://www.sudowrite.com/)
+
+### **Writesonic**  
+
+[Accede aquí](https://writesonic.com/)
+
+### **Paperpal**  
+
+[Accede aquí](https://paperpal.com/)  
+
+---
+
+## **4. Para Reuniones**
+
+### **TLDV**  
+  
+[Accede aquí](https://tldv.io/)
+
+### **Krisp**  
+
+[Accede aquí](https://krisp.ai/)
+
+### **Otter**  
+
+[Accede aquí](https://otter.ai/)
+
+### **Avoma**  
+
+[Accede aquí](https://www.avoma.com/)
+
+### **Fireflies**  
+
+[Accede aquí](https://fireflies.ai/)
+
+---
+
+## **5. Chatbots**
+
+### **Monica AI**  
+
+[Accede aquí](https://monica.im/)
+
+### **MaxiAI.me**  
+
+[Accede aquí](https://maxiai.me/)
+
+### **Poe**  
+
+[Accede aquí](https://poe.com/)
+
+### **Copilot** (GitHub Copilot)  
+
+[Accede aquí](https://github.com/features/copilot)
+
+### **Liner**  
+
+[Accede aquí](https://getliner.com/)
+
+
+---
+
+## **6. Herramientas de Marketing**
+
+### **AdCopy**  
+
+[Accede aquí](https://adcopy.ai/)
+
+### **Predis AI**  
+
+[Accede aquí](https://predis.ai/)
+
+### **Howler AI**  
+
+[Accede aquí](https://howler.ai/)
+
+### **Bardeen AI**  
+
+[Accede aquí](https://www.bardeen.ai/)
+
+### **AdCreative**  
+
+[Accede aquí](https://www.adcreative.ai/)
+
+---
+
+## **7. Herramientas Speech to Text**
+
+### **FluentlyAI**  
+
+[Accede aquí](https://fluently.ai/)
+
+### **Descript**  
+
+[Accede aquí](https://www.descript.com/)
+
+### **Rev AI**  
+
+[Accede aquí](https://www.rev.ai/)
+
+### **Clipto**  
+
+[Accede aquí](https://clipto.app/)
+
+### **TextCortex**  
+
+[Accede aquí](https://textcortex.com/)
+
+---
+
+## **8. Herramientas Text to Speech**
+
+### **Udio**  
+
+[Accede aquí](https://udio.ai/)
+
+### **Suno AI**  
+
+[Accede aquí](https://suno.ai/)
+
+### **Deepgram**  
+
+[Accede aquí](https://deepgram.com/)
+
+### **Speechify**  
+
+[Accede aquí](https://speechify.com/)
+
+### **ElevenLabs**  
+
+[Accede aquí](https://elevenlabs.io/)
+
+---
+
+## **9. Diseño UI/UX**
+
+### **Galileo AI**  
+
+[Accede aquí](https://www.usegalileo.ai/)
+
+### **Khroma**  
+
+[Accede aquí](https://khroma.co/)
+
+### **Uizard**  
+
+[Accede aquí](https://uizard.io/)
+
+### **Visily**  
+
+[Accede aquí](https://www.visily.ai/)
+
+### **VisualEyes**  
+
+[Accede aquí](https://visualeyes.design/)
+
+---
+
+## **10. Imagen**
+
+### **Dzine**  
+  *(No se ha localizado un enlace oficial fiable; podría corresponder a otros proyectos con nombre similar.)*
+
+### **Freepik**  
+
+[Accede aquí](https://www.freepik.com/)
+
+### **Phygital+**  
+
+[Accede aquí](https://phygitalplus.com/)
+
+### **DALL·E**  
+
+[Accede aquí](https://labs.openai.com/)
+
+### **Bing Create**  
+
+[Accede aquí](https://bing.com/create)
+
+---
+
+## **11. Vídeo**
+
+### **Pictory**  
+
+[Accede aquí](https://pictory.ai/)
+
+### **HeyGen**  
+
+[Accede aquí](https://www.heygen.com/)
+
+### **Nullface AI**  
+
+[Accede aquí](https://nullface.ai/)
+
+### **Invideo AI**  
+
+[Accede aquí](https://invideo.io/)
+
+### **Synthesia**  
+
+[Accede aquí](https://www.synthesia.io/)
+
+---
+
+## **12. Diseño**
+
+### **Looka**  
+
+[Accede aquí](https://looka.com/)
+
+### **Clipdrop**  
+
+[Accede aquí](https://clipdrop.co/)
+
+### **Autodraw**  
+
+[Accede aquí](https://www.autodraw.com/)
+
+### **Vance AI**  
+
+[Accede aquí](https://vanceai.com/)
+
+### **Designs AI**  
+
+[Accede aquí](https://designs.ai/)
+
+---
+
+## **13. Generación de Presentaciones**
+
+### **Beautiful.ai**  
+
+[Accede aquí](https://www.beautiful.ai/)
+
+### **Slidebean**  
+  
+[Accede aquí](https://slidebean.com/)
+
+### **Pitch**  
+
+[Accede aquí](https://pitch.com/)
+
+### **Gamma**  
+
+[Accede aquí](https://gamma.app/)
+
+### **Tome**  
+
+[Accede aquí](https://tome.app/)
+
+---
+
+## **14. Automatización**
+
+### **Phrasee**  
+
+[Accede aquí](https://phrasee.co/)
+
+### **Outreach**  
+
+[Accede aquí](https://www.outreach.io/)
+
+### **ClickUp**  
+
+[Accede aquí](https://clickup.com/)
+
+### **Drift**  
+
+[Accede aquí](https://www.drift.com/)
+
+### **Emplifi**  
+
+[Accede aquí](https://emplifi.io/)
+
+---
+
+## **15. Escritura de Blogs**
+
+### **Katteb**  
+
+[Accede aquí](https://katteb.com/)
+
+### **Rewording**  
+
+[Accede aquí](https://rewording.io/)
+
+### **Elephas**  
+
+[Accede aquí](https://elephas.app/)
+
+### **Junia AI**  
+
+[Accede aquí](https://junia.ai/)
+
+### **Journalist AI**  
+
+[Accede aquí](https://journalistai.com/)
+
+---
+
+## **16. Detectores de IA**
+
+*(Algunas hacen más que solo detección, pero se mencionan en esa categoría.)*
+
+### **GPTZero**  
+
+[Accede aquí](https://gptzero.me/)
+
+### **Wordtune**  
+
+[Accede aquí](https://www.wordtune.com/)
+
+### **Copyleaks**  
+
+[Accede aquí](https://copyleaks.com/)
+
+### **BypassGPT**  
+
+[Accede aquí](https://bypassgpt.ai/)
+
+### **Grammarly**  
+
+[Accede aquí](https://grammarly.com/)
+
+--- 

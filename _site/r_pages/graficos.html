@@ -230,6 +230,10 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos">    
         <li>
+    <a class="dropdown-item" href="../recursos_pages/ia_tools.html">
+ <span class="dropdown-text">Inteligencia Artificial</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../recursos_pages/libros.html">
  <span class="dropdown-text">Libros</span></a>
   </li>  
@@ -261,10 +265,14 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#paquetes-de-r" id="toc-paquetes-de-r" class="nav-link active" data-scroll-target="#paquetes-de-r"><strong>Paquetes de R</strong></a>
   <ul class="collapse">
-  <li><a href="#ggplot2" id="toc-ggplot2" class="nav-link" data-scroll-target="#ggplot2"><strong>Ggplot2</strong></a></li>
+  <li><a href="#ggplot2" id="toc-ggplot2" class="nav-link" data-scroll-target="#ggplot2"><strong>GGplot2</strong></a></li>
   </ul></li>
-  <li><a href="#gganimate" id="toc-gganimate" class="nav-link" data-scroll-target="#gganimate"><strong>Gganimate</strong></a></li>
+  <li><a href="#gganimate" id="toc-gganimate" class="nav-link" data-scroll-target="#gganimate"><strong>GGanimate</strong></a>
+  <ul class="collapse">
+  <li><a href="#gggenes" id="toc-gggenes" class="nav-link" data-scroll-target="#gggenes"><strong>GGgenes</strong></a></li>
+  <li><a href="#ggseg" id="toc-ggseg" class="nav-link" data-scroll-target="#ggseg"><strong>GGseg</strong></a></li>
   <li><a href="#patchwork" id="toc-patchwork" class="nav-link" data-scroll-target="#patchwork"><strong>Patchwork</strong></a></li>
+  </ul></li>
   <li><a href="#elementos-decorativos-gráficos" id="toc-elementos-decorativos-gráficos" class="nav-link" data-scroll-target="#elementos-decorativos-gráficos"><strong>Elementos Decorativos Gráficos</strong></a>
   <ul class="collapse">
   <li><a href="#paleta-de-colores-en-r" id="toc-paleta-de-colores-en-r" class="nav-link" data-scroll-target="#paleta-de-colores-en-r"><strong>Paleta de Colores en R</strong></a></li>
@@ -298,9 +306,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="paquetes-de-r" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-de-r"><strong>Paquetes de R</strong></h2>
 <section id="ggplot2" class="level3">
-<h3 class="anchored" data-anchor-id="ggplot2"><strong>Ggplot2</strong></h3>
+<h3 class="anchored" data-anchor-id="ggplot2"><strong>GGplot2</strong></h3>
 <p><a href="ggplot2.tidyverse.org">Accede aquí</a></p>
-<p><code>ggplot2</code> es una biblioteca de R para la creación de gráficos basados en la <strong>gramática de gráficos</strong> (“Grammar of Graphics”). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:</p>
+<p><code>GGplot2</code> es una biblioteca de R para la creación de gráficos basados en la <strong>gramática de gráficos</strong> (“Grammar of Graphics”). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:</p>
 <ul>
 <li><strong>Modularidad</strong>: Construye gráficos por capas (<code>geom_*</code>, <code>facet_*</code>, <code>theme_*</code>) para personalizar visualizaciones paso a paso.</li>
 <li><strong>Compatibilidad con datos “tidy”</strong>: Facilita la integración con estructuras como data frames y tibbles.</li>
@@ -311,20 +319,62 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="gganimate" class="level2">
-<h2 class="anchored" data-anchor-id="gganimate"><strong>Gganimate</strong></h2>
+<h2 class="anchored" data-anchor-id="gganimate"><strong>GGanimate</strong></h2>
 <p><a href="appsilon.com/post/r-gganimate">Accede aquí</a></p>
-<p><code>gganimate</code> es una extensión de <code>ggplot2</code> que permite agregar animaciones a gráficos en R. Es ideal para visualizar datos dinámicos o que cambian a lo largo del tiempo. Sus principales características incluyen:</p>
+<p><code>GGanimate</code> es una extensión de <code>ggplot2</code> que permite agregar animaciones a gráficos en R. Es ideal para visualizar datos dinámicos o que cambian a lo largo del tiempo. Sus principales características incluyen:</p>
 <ul>
 <li><strong>Transiciones dinámicas</strong>: Facilita la animación de variables con funciones como <code>transition_time()</code> y <code>transition_states()</code>.</li>
 <li><strong>Compatibilidad con ggplot2</strong>: Aprovecha la sintaxis y funcionalidad de <code>ggplot2</code>, ampliándola con movimiento y cambios dinámicos.</li>
 <li><strong>Visualización temporal</strong>: Perfecto para analizar tendencias y patrones que evolucionan en el tiempo.</li>
 <li><strong>Opciones de personalización</strong>: Permite ajustar la velocidad, duración y efectos de las animaciones.</li>
 </ul>
-<p><code>gganimate</code> es una herramienta poderosa para transformar gráficos estáticos en visualizaciones impactantes y narrativas.</p>
+<p><code>GGanimate</code> es una herramienta poderosa para transformar gráficos estáticos en visualizaciones impactantes y narrativas.</p>
+<section id="gggenes" class="level3">
+<h3 class="anchored" data-anchor-id="gggenes"><strong>GGgenes</strong></h3>
+<p><a href="https://github.com/wilkox/gggenes">Accede aquí</a><br>
+<a href="https://cran.r-project.org/web/packages/gggenes/vignettes/introduction-to-gggenes.html">Vignettes y documentación</a></p>
+<p><code>GGgenes</code> es un paquete de R que extiende las capacidades de <code>ggplot2</code> para dibujar mapas de genes. Resulta muy útil para representar regiones genómicas, operones, plásmidos u otros esquemas que requieran mostrar la posición y orientación de los genes. Sus principales características incluyen:</p>
+<ul>
+<li><strong>Gene arrow maps</strong>: Permite añadir flechas para representar genes con sus respectivas coordenadas y direcciones en una misma pista.<br>
+</li>
+<li><strong>Flujo de trabajo “tidy”</strong>: Aprovecha la gramática de gráficos de <code>ggplot2</code>, facilitando la integración con otros paquetes del ecosistema.<br>
+</li>
+<li><strong>Personalización completa</strong>: Se pueden modificar colores, tamaños, etiquetas y otros aspectos estéticos para ajustar la visualización a distintas necesidades.<br>
+</li>
+<li><strong>Soporte para anotaciones complejas</strong>: Adecuado para representar clústeres de genes, mutaciones o elementos genéticos móviles.</li>
+</ul>
+<p><code>GGgenes</code> se ha convertido en una herramienta muy utilizada para comunicar resultados de estudios genómicos y moverse más allá de las representaciones estáticas, gracias a su flexibilidad para anotar y visualizar regiones genéticas de interés.</p>
 </section>
-<section id="patchwork" class="level2">
-<h2 class="anchored" data-anchor-id="patchwork"><strong>Patchwork</strong></h2>
+<section id="ggseg" class="level3">
+<h3 class="anchored" data-anchor-id="ggseg"><strong>GGseg</strong></h3>
+<p><a href="https://github.com/ggseg/ggseg">Accede aquí</a> <a href="https://drmowinckels.io/blog/2018/introducing-the-ggseg-r-package-for-brain-segmentations/">Vignettes y documentación</a></p>
+<p><code>GGseg</code> es un paquete de R que facilita la visualización de segmentaciones cerebrales en dos y tres dimensiones utilizando la potencia de <strong>ggplot2</strong>. Permite superponer datos sobre distintas regiones anatómicas del cerebro, convirtiéndose en una herramienta clave para investigadores en neurociencias. Algunas de sus características principales son:</p>
+<ul>
+<li><strong>Visualizaciones anatómicas</strong>: Muestra mapas cerebrales según diferentes atlas (Desikan-Killiany, Destrieux, entre otros).<br>
+</li>
+<li><strong>Integración con ggplot2</strong>: Alineado con la gramática de gráficos para añadir capas, personalizar colores y escalas, y generar figuras de alta calidad.<br>
+</li>
+<li><strong>Soporte 3D</strong>: Opciones para representar el cerebro en tres dimensiones, con rotaciones y vistas personalizadas.<br>
+</li>
+<li><strong>Adaptable para investigación clínica y básica</strong>: Ideal para estudios de conectividad, morfometría o cualquier análisis que involucre segmentos anatómicos cerebrales.</li>
+</ul>
+<p><code>GGseg</code> agiliza la producción de figuras claras y reproducibles, facilitando la comunicación de resultados en neuroimagen y análisis estadísticos basados en regiones cerebrales.</p>
+</section>
+<section id="patchwork" class="level3">
+<h3 class="anchored" data-anchor-id="patchwork"><strong>Patchwork</strong></h3>
 <p><a href="https://patchwork.data-imaginist.com">Accede aquí</a></p>
+<p><code>Patchwork</code> es un paquete de R diseñado para combinar múltiples gráficos de <strong>ggplot2</strong> en una misma salida, facilitando la creación de composiciones complejas. Sus principales características incluyen:</p>
+<ul>
+<li><strong>Layout flexible</strong>: Permite organizar paneles de gráficos uno al lado del otro, encima o debajo, con un control granular del diseño.<br>
+</li>
+<li><strong>Operadores lógicos para el diseño</strong>: Usa símbolos como <code>+</code> o <code>|</code> para describir cómo se combinan los gráficos.<br>
+</li>
+<li><strong>Integración con ggplot2</strong>: Conserva toda la funcionalidad nativa de ggplot2, lo que permite personalizaciones avanzadas.<br>
+</li>
+<li><strong>Anotaciones globales</strong>: Incluye la posibilidad de añadir títulos, leyendas y etiquetas comunes a varios gráficos a la vez.</li>
+</ul>
+<p><code>Patchwork</code> resulta esencial cuando se requiere presentar múltiples visualizaciones de manera estética y coherente, sin necesidad de manualmente administrar la complejidad de marcos o empotrados.</p>
+</section>
 </section>
 <section id="elementos-decorativos-gráficos" class="level2">
 <h2 class="anchored" data-anchor-id="elementos-decorativos-gráficos"><strong>Elementos Decorativos Gráficos</strong></h2>

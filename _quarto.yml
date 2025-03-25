@@ -71,6 +71,8 @@ website:
             href: bd_pages/bd_variantes_clinicas.qmd
       - text: Recursos
         menu:
+          - text: Inteligencia Artificial
+            href: recursos_pages/ia_tools.qmd
           - text: Libros
             href: recursos_pages/libros.qmd
           - text: Grupos Online y Concursos

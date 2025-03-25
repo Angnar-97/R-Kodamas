@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Manejo de Datos – R Kodamas</title>
+<title>Software para el Manejo de Datos – R Kodamas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Manejo de Datos – R Kodamas">
+<meta name="twitter:title" content="Software para el Manejo de Datos – R Kodamas">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -230,6 +230,10 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos">    
         <li>
+    <a class="dropdown-item" href="../recursos_pages/ia_tools.html">
+ <span class="dropdown-text">Inteligencia Artificial</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../recursos_pages/libros.html">
  <span class="dropdown-text">Libros</span></a>
   </li>  
@@ -259,14 +263,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">PAGE INDEX</h2>
    
   <ul>
-  <li><a href="#dplyr" id="toc-dplyr" class="nav-link active" data-scroll-target="#dplyr">Dplyr</a></li>
-  <li><a href="#tidyr" id="toc-tidyr" class="nav-link" data-scroll-target="#tidyr">Tidyr</a></li>
-  <li><a href="#readr" id="toc-readr" class="nav-link" data-scroll-target="#readr">Readr</a></li>
-  <li><a href="#lubridate" id="toc-lubridate" class="nav-link" data-scroll-target="#lubridate">Lubridate</a></li>
-  <li><a href="#dlookr" id="toc-dlookr" class="nav-link" data-scroll-target="#dlookr">Dlookr</a></li>
-  <li><a href="#gt" id="toc-gt" class="nav-link" data-scroll-target="#gt">Gt</a></li>
-  <li><a href="#naniar" id="toc-naniar" class="nav-link" data-scroll-target="#naniar">Naniar</a></li>
-  <li><a href="#patientlevelprediction" id="toc-patientlevelprediction" class="nav-link" data-scroll-target="#patientlevelprediction">PatientLevelPrediction</a></li>
+  <li><a href="#dplyr" id="toc-dplyr" class="nav-link active" data-scroll-target="#dplyr"><strong>Dplyr</strong></a></li>
+  <li><a href="#tidyr" id="toc-tidyr" class="nav-link" data-scroll-target="#tidyr"><strong>Tidyr</strong></a></li>
+  <li><a href="#readr" id="toc-readr" class="nav-link" data-scroll-target="#readr"><strong>Readr</strong></a></li>
+  <li><a href="#lubridate" id="toc-lubridate" class="nav-link" data-scroll-target="#lubridate"><strong>Lubridate</strong></a></li>
+  <li><a href="#dlookr" id="toc-dlookr" class="nav-link" data-scroll-target="#dlookr"><strong>Dlookr</strong></a></li>
+  <li><a href="#gt" id="toc-gt" class="nav-link" data-scroll-target="#gt"><strong>Gt</strong></a></li>
+  <li><a href="#naniar" id="toc-naniar" class="nav-link" data-scroll-target="#naniar"><strong>Naniar</strong></a></li>
+  <li><a href="#patientlevelprediction" id="toc-patientlevelprediction" class="nav-link" data-scroll-target="#patientlevelprediction"><strong>PatientLevelPrediction</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -275,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manejo de Datos</h1>
+<h1 class="title">Software para el Manejo de Datos</h1>
 </div>
 
 
@@ -293,40 +297,129 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="dplyr" class="level2">
-<h2 class="anchored" data-anchor-id="dplyr">Dplyr</h2>
-<p><a href="https://dplyr.tidyverse.org">Accede aquí</a></p>
-<p>dplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de “verbos” como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles.</p>
+<h2 class="anchored" data-anchor-id="dplyr"><strong>Dplyr</strong></h2>
+<ul>
+<li><a href="https://dplyr.tidyverse.org">Accede aquí</a></li>
+</ul>
+<p><code>Dplyr</code> es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección y mutación de datos, entre otras operaciones. Sus principales características incluyen:</p>
+<ul>
+<li><strong>Uso de “verbos” intuitivos</strong>: Funciones como <code>filter()</code>, <code>select()</code>, <code>mutate()</code>, <code>summarise()</code>, <code>arrange()</code>.<br>
+</li>
+<li><strong>Sintaxis clara</strong>: Facilita la lectura y el mantenimiento del código.<br>
+</li>
+<li><strong>Optimización de rendimiento</strong>: Ideal para manejar grandes volúmenes de datos en data frames y tibbles.<br>
+</li>
+<li><strong>Integración con el tidyverse</strong>: Se combina perfectamente con el resto de herramientas (p.&nbsp;ej. tidyr, readr).</li>
+</ul>
+<hr>
 </section>
 <section id="tidyr" class="level2">
-<h2 class="anchored" data-anchor-id="tidyr">Tidyr</h2>
-<p><a href="https://tidyr.tidyverse.org">Accede aquí</a></p>
-<p>tidyr ayuda a transformar datos a un formato “ordenado”, lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R.</p>
+<h2 class="anchored" data-anchor-id="tidyr"><strong>Tidyr</strong></h2>
+<ul>
+<li><a href="https://tidyr.tidyverse.org">Accede aquí</a></li>
+</ul>
+<p><code>Tidyr</code> ayuda a transformar datos a un formato “ordenado” (tidy), lo que facilita su análisis estadístico y gráfico. Sus características más destacadas son:</p>
+<ul>
+<li><strong>Restructuración de datos</strong>: Funciones como <code>pivot_longer()</code> y <code>pivot_wider()</code> para pasar de formato ancho a largo y viceversa.<br>
+</li>
+<li><strong>Operaciones de columnas</strong>: <code>separate()</code> y <code>unite()</code> para dividir o combinar columnas.<br>
+</li>
+<li><strong>Flujo de trabajo dinámico</strong>: Mantiene la coherencia con las demás herramientas del tidyverse.</li>
+</ul>
+<hr>
 </section>
 <section id="readr" class="level2">
-<h2 class="anchored" data-anchor-id="readr">Readr</h2>
-<p><a href="https://readr.tidyverse.org">Accede aquí</a></p>
-<p>readr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando “tibbles” que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento.</p>
+<h2 class="anchored" data-anchor-id="readr"><strong>Readr</strong></h2>
+<ul>
+<li><a href="https://readr.tidyverse.org">Accede aquí</a></li>
+</ul>
+<p><code>Readr</code> se utiliza para la importación rápida y eficiente de datos en R, con énfasis en formatos de texto (CSV, TSV, etc.). Sus puntos clave incluyen:</p>
+<ul>
+<li><strong>Lectura optimizada</strong>: Manejo veloz de archivos grandes, en comparación con funciones base como <code>read.csv()</code>.<br>
+</li>
+<li><strong>Salida en tibbles</strong>: Ofrece data frames mejorados para una manipulación de datos más cómoda.<br>
+</li>
+<li><strong>Soporte de tipos de datos</strong>: Detección y asignación automática de tipos (numérico, carácter, fecha, etc.).</li>
+</ul>
+<hr>
 </section>
 <section id="lubridate" class="level2">
-<h2 class="anchored" data-anchor-id="lubridate">Lubridate</h2>
-<p><a href="https://lubridate.tidyverse.org">Accede aquí</a></p>
-<p>lubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R.</p>
+<h2 class="anchored" data-anchor-id="lubridate"><strong>Lubridate</strong></h2>
+<ul>
+<li><a href="https://lubridate.tidyverse.org">Accede aquí</a></li>
+</ul>
+<p><code>Lubridate</code> facilita el manejo y análisis de datos de tipo fecha y hora. Sus características principales son:</p>
+<ul>
+<li><strong>Parsing intuitivo</strong>: Conversión de cadenas a formatos de fecha-hora (<code>ymd()</code>, <code>mdy()</code>, etc.).<br>
+</li>
+<li><strong>Extracción de componentes</strong>: Funciones para extraer o modificar años, meses, días, horas, entre otros.<br>
+</li>
+<li><strong>Operaciones con fechas</strong>: Simplifica la suma y resta de tiempos, así como la manipulación de intervalos y duraciones.</li>
+</ul>
+<hr>
 </section>
 <section id="dlookr" class="level2">
-<h2 class="anchored" data-anchor-id="dlookr">Dlookr</h2>
-<p><a href="https://choonghyunryu.github.io/dlookr/articles/introduce.html">Accede aquí</a></p>
+<h2 class="anchored" data-anchor-id="dlookr"><strong>Dlookr</strong></h2>
+<ul>
+<li><a href="https://choonghyunryu.github.io/dlookr/articles/introduce.html">Accede aquí</a></li>
+</ul>
+<p><code>Dlookr</code> está orientado a la exploración y diagnóstico de datos. Facilita la creación de resúmenes descriptivos, la detección de valores atípicos y la evaluación de la calidad de los datos. Sus características clave son:</p>
+<ul>
+<li><strong>Resumen automatizado</strong>: Crea reportes estadísticos con un solo comando.<br>
+</li>
+<li><strong>Diagnóstico de datos</strong>: Identifica valores perdidos, distribuciones anómalas y patrones inusuales.<br>
+</li>
+<li><strong>Funciones de profiling</strong>: Análisis detallado de cada variable, ayudando a la limpieza y la preparación de los datos.</li>
+</ul>
+<hr>
 </section>
 <section id="gt" class="level2">
-<h2 class="anchored" data-anchor-id="gt">Gt</h2>
-<p><a href="https://gt.rstudio.com/articles/gt.html">Accede aquí</a></p>
+<h2 class="anchored" data-anchor-id="gt"><strong>Gt</strong></h2>
+<ul>
+<li><a href="https://gt.rstudio.com/articles/gt.html">Accede aquí</a></li>
+</ul>
+<p><code>Gt</code> (table generator) se enfoca en la creación de tablas profesionales y personalizadas en R. Es parte del ecosistema de Posit (RStudio) y destaca por:</p>
+<ul>
+<li><strong>Diseño simple y poderoso</strong>: Sintaxis intuitiva para generar tablas a partir de data frames o tibbles.<br>
+</li>
+<li><strong>Amplia personalización</strong>: Permite formatear columnas, cabeceras, pie de página, fuentes y colores de manera flexible.<br>
+</li>
+<li><strong>Integración con tidyverse</strong>: Facilita la incorporación de tablas en flujos de trabajo basados en ggplot2, dplyr, etc.</li>
+</ul>
+<hr>
 </section>
 <section id="naniar" class="level2">
-<h2 class="anchored" data-anchor-id="naniar">Naniar</h2>
-<p><a href="https://naniar.njtierney.com/articles/naniar.html">Accede aquí</a></p>
+<h2 class="anchored" data-anchor-id="naniar"><strong>Naniar</strong></h2>
+<ul>
+<li><a href="https://naniar.njtierney.com/articles/naniar.html">Accede aquí</a></li>
+</ul>
+<p><code>Naniar</code> se especializa en el manejo, visualización y análisis de datos con valores perdidos (NA) o incompletos. Sus funciones clave incluyen:</p>
+<ul>
+<li><strong>Identificación de NA</strong>: Herramientas para descubrir patrones y proporciones de datos faltantes.<br>
+</li>
+<li><strong>Visualizaciones especializadas</strong>: Gráficos como <code>gg_miss_var()</code> o <code>gg_miss_case()</code> para mostrar la ubicación de valores perdidos.<br>
+</li>
+<li><strong>Imputación y manejo</strong>: Facilita la preparación de datos para análisis posteriores, sugiriendo estrategias de imputación y limpieza.</li>
+</ul>
+<hr>
 </section>
 <section id="patientlevelprediction" class="level2">
-<h2 class="anchored" data-anchor-id="patientlevelprediction">PatientLevelPrediction</h2>
-<p><a href="https://ohdsi.github.io/PatientLevelPrediction/index.html">Accede aquí</a></p>
+<h2 class="anchored" data-anchor-id="patientlevelprediction"><strong>PatientLevelPrediction</strong></h2>
+<ul>
+<li><a href="https://ohdsi.github.io/PatientLevelPrediction/index.html">Accede aquí</a></li>
+</ul>
+<p><code>PatientLevelPrediction</code> es parte del ecosistema <strong>OHDSI</strong> (<strong>Observational Health Data Sciences and Informatics</strong>) y se centra en la construcción de modelos predictivos a nivel de paciente. Sus principales funcionalidades son:</p>
+<ul>
+<li><strong>Modelos clínicos</strong>: Enfocado en datos de historia clínica electrónica y cohortes de pacientes.<br>
+</li>
+<li><strong>Automatización del flujo de trabajo</strong>: Desde la selección de cohortes hasta la validación de modelos.<br>
+</li>
+<li><strong>Evaluación robusta</strong>: Incluye métricas de rendimiento para modelos predictivos, como ROC, AUC y calibración.<br>
+</li>
+<li><strong>Amplio soporte de algoritmos</strong>: Compatible con métodos de machine learning y estadísticos tradicionales.</li>
+</ul>
+<hr>
+<p>Este conjunto de paquetes cubre distintos aspectos del análisis de datos y la programación en R, abarcando desde la importación y limpieza de datos hasta la visualización y el modelado predictivo. Cada herramienta se integra de manera fluida en el ecosistema del <strong>tidyverse</strong> y/o con otros paquetes especializados, lo que facilita el desarrollo de flujos de trabajo consistentes y eficientes.</p>
 
 
 </section>

@@ -1,48 +1,105 @@
 ---
-title: "Manejo de Datos"
+title: "Software para el Manejo de Datos"
 toc: true
 toc-title: "PAGE INDEX"
 editor: source
 ---
 
-## Dplyr 
+## **Dplyr**
 
-[Accede aquí](https://dplyr.tidyverse.org) 
+- [Accede aquí](https://dplyr.tidyverse.org)  
 
-dplyr es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección, y mutación de datos, entre otras operaciones. Es conocido por su sintaxis clara y por el uso de "verbos" como filter(), select(), mutate(), summarise() y arrange() para realizar transformaciones de datos de manera intuitiva y eficiente, especialmente en data frames y tibbles.
+`Dplyr` es un paquete centrado en la manipulación de datos en R, que facilita el filtrado, selección y mutación de datos, entre otras operaciones. Sus principales características incluyen:
 
-## Tidyr 
+- **Uso de “verbos” intuitivos**: Funciones como `filter()`, `select()`, `mutate()`, `summarise()`, `arrange()`.  
+- **Sintaxis clara**: Facilita la lectura y el mantenimiento del código.  
+- **Optimización de rendimiento**: Ideal para manejar grandes volúmenes de datos en data frames y tibbles.  
+- **Integración con el tidyverse**: Se combina perfectamente con el resto de herramientas (p. ej. tidyr, readr).
 
-[Accede aquí](https://tidyr.tidyverse.org) 
+---
 
-tidyr ayuda a transformar datos a un formato "ordenado", lo que facilita su análisis. Se centra en funciones como pivot_longer() y pivot_wider() para reorganizar columnas y filas, y separate() y unite() para manipular columnas, permitiendo estructurar los datos de manera más adecuada para el análisis en R.
+## **Tidyr**
 
-## Readr 
+- [Accede aquí](https://tidyr.tidyverse.org)  
 
-[Accede aquí](https://readr.tidyverse.org) 
+`Tidyr` ayuda a transformar datos a un formato “ordenado” (tidy), lo que facilita su análisis estadístico y gráfico. Sus características más destacadas son:
 
-readr se utiliza para la importación rápida y eficiente de datos en R. Permite leer archivos en formatos como CSV, TSV y otros formatos de texto de manera optimizada, generando "tibbles" que son versiones mejoradas de los data frames. Es especialmente útil cuando se trabajan con grandes conjuntos de datos debido a su velocidad de procesamiento.
+- **Restructuración de datos**: Funciones como `pivot_longer()` y `pivot_wider()` para pasar de formato ancho a largo y viceversa.  
+- **Operaciones de columnas**: `separate()` y `unite()` para dividir o combinar columnas.  
+- **Flujo de trabajo dinámico**: Mantiene la coherencia con las demás herramientas del tidyverse.
 
-## Lubridate 
+---
 
-[Accede aquí](https://lubridate.tidyverse.org) 
+## **Readr**
 
-lubridate facilita el manejo y análisis de datos de tipo fecha y hora. Ofrece funciones intuitivas para parsing, extracción, y manipulación de componentes de tiempo (como años, meses, días, horas, etc.). Simplifica el trabajo con operaciones como sumar o restar tiempos, convirtiéndolo en una herramienta esencial para el análisis de series temporales o eventos secuenciales en R.
+- [Accede aquí](https://readr.tidyverse.org)  
 
+`Readr` se utiliza para la importación rápida y eficiente de datos en R, con énfasis en formatos de texto (CSV, TSV, etc.). Sus puntos clave incluyen:
 
-## Dlookr
+- **Lectura optimizada**: Manejo veloz de archivos grandes, en comparación con funciones base como `read.csv()`.  
+- **Salida en tibbles**: Ofrece data frames mejorados para una manipulación de datos más cómoda.  
+- **Soporte de tipos de datos**: Detección y asignación automática de tipos (numérico, carácter, fecha, etc.).
 
-[Accede aquí](https://choonghyunryu.github.io/dlookr/articles/introduce.html)
+---
 
-## Gt 
+## **Lubridate**
 
-[Accede aquí](https://gt.rstudio.com/articles/gt.html)
+- [Accede aquí](https://lubridate.tidyverse.org)  
 
-## Naniar
+`Lubridate` facilita el manejo y análisis de datos de tipo fecha y hora. Sus características principales son:
 
-[Accede aquí](https://naniar.njtierney.com/articles/naniar.html)
+- **Parsing intuitivo**: Conversión de cadenas a formatos de fecha-hora (`ymd()`, `mdy()`, etc.).  
+- **Extracción de componentes**: Funciones para extraer o modificar años, meses, días, horas, entre otros.  
+- **Operaciones con fechas**: Simplifica la suma y resta de tiempos, así como la manipulación de intervalos y duraciones.
 
-## PatientLevelPrediction
+---
 
-[Accede aquí](https://ohdsi.github.io/PatientLevelPrediction/index.html)
+## **Dlookr**
+
+- [Accede aquí](https://choonghyunryu.github.io/dlookr/articles/introduce.html)
+
+`Dlookr` está orientado a la exploración y diagnóstico de datos. Facilita la creación de resúmenes descriptivos, la detección de valores atípicos y la evaluación de la calidad de los datos. Sus características clave son:
+
+- **Resumen automatizado**: Crea reportes estadísticos con un solo comando.  
+- **Diagnóstico de datos**: Identifica valores perdidos, distribuciones anómalas y patrones inusuales.  
+- **Funciones de profiling**: Análisis detallado de cada variable, ayudando a la limpieza y la preparación de los datos.
+
+---
+
+## **Gt**
+
+- [Accede aquí](https://gt.rstudio.com/articles/gt.html)
+
+`Gt` (table generator) se enfoca en la creación de tablas profesionales y personalizadas en R. Es parte del ecosistema de Posit (RStudio) y destaca por:
+
+- **Diseño simple y poderoso**: Sintaxis intuitiva para generar tablas a partir de data frames o tibbles.  
+- **Amplia personalización**: Permite formatear columnas, cabeceras, pie de página, fuentes y colores de manera flexible.  
+- **Integración con tidyverse**: Facilita la incorporación de tablas en flujos de trabajo basados en ggplot2, dplyr, etc.
+
+---
+
+## **Naniar**
+
+- [Accede aquí](https://naniar.njtierney.com/articles/naniar.html)
+
+`Naniar` se especializa en el manejo, visualización y análisis de datos con valores perdidos (NA) o incompletos. Sus funciones clave incluyen:
+
+- **Identificación de NA**: Herramientas para descubrir patrones y proporciones de datos faltantes.  
+- **Visualizaciones especializadas**: Gráficos como `gg_miss_var()` o `gg_miss_case()` para mostrar la ubicación de valores perdidos.  
+- **Imputación y manejo**: Facilita la preparación de datos para análisis posteriores, sugiriendo estrategias de imputación y limpieza.
+
+---
+
+## **PatientLevelPrediction**
+
+- [Accede aquí](https://ohdsi.github.io/PatientLevelPrediction/index.html)
+
+`PatientLevelPrediction` es parte del ecosistema **OHDSI** (**Observational Health Data Sciences and Informatics**) y se centra en la construcción de modelos predictivos a nivel de paciente. Sus principales funcionalidades son:
+
+- **Modelos clínicos**: Enfocado en datos de historia clínica electrónica y cohortes de pacientes.  
+- **Automatización del flujo de trabajo**: Desde la selección de cohortes hasta la validación de modelos.  
+- **Evaluación robusta**: Incluye métricas de rendimiento para modelos predictivos, como ROC, AUC y calibración.  
+- **Amplio soporte de algoritmos**: Compatible con métodos de machine learning y estadísticos tradicionales.
+
+---
 

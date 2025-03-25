@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Herramientas de Inteligencia Artificial – R Kodamas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/icon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta name="twitter:title" content="Herramientas de Inteligencia Artificial – R Kodamas">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">R Kodamas</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r">    
+        <li>
+    <a class="dropdown-item" href="../r_pages/bioconductor.html">
+ <span class="dropdown-text">Bioconductor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/manejo-datos.html">
+ <span class="dropdown-text">Análisis de Datos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/graficos.html">
+ <span class="dropdown-text">Visualización</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/imagenes.html">
+ <span class="dropdown-text">Imágenes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/mapas.html">
+ <span class="dropdown-text">Mapas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/estadistica.html">
+ <span class="dropdown-text">Estadística</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/modelizacion.html">
+ <span class="dropdown-text">Modelización</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/shiny.html">
+ <span class="dropdown-text">Shiny</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../r_pages/quarto.html">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-python" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Python</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-python">    
+        <li>
+    <a class="dropdown-item" href="../python_pages/analisis_visualizacion_python.html">
+ <span class="dropdown-text">Análisis Exploratorio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../python_pages/series_temporales_python.html">
+ <span class="dropdown-text">Series Temporales</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../python_pages/sql_python.html">
+ <span class="dropdown-text">SQL en Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../python_pages/validacion_python.html">
+ <span class="dropdown-text">Validación de Datos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../python_pages/calidad_codigo.html">
+ <span class="dropdown-text">Calidad de Código</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../python_pages/documentacion_python.html">
+ <span class="dropdown-text">Documentación</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../python_pages/integracion_r_python.html">
+ <span class="dropdown-text">Integración R y Python</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bases-de-datos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Bases de Datos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bases-de-datos">    
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_socioeconomicas.html">
+ <span class="dropdown-text">Bases de Datos Socioeconómicas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_salud_y_demografia.html">
+ <span class="dropdown-text">Bases de Datos de Salud y Demografía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_recursos_agricolas_y_medioambientales.html">
+ <span class="dropdown-text">Bases de Datos Medioambientales y de Recursos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_genomica.html">
+ <span class="dropdown-text">Bases de Datos de Genómica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_proteomica.html">
+ <span class="dropdown-text">Bases de Datos de Proteómica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_transcriptomica.html">
+ <span class="dropdown-text">Bases de Datos de Transcriptómica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_metabolismo.html">
+ <span class="dropdown-text">Bases de Datos de Metabolismo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_interacciones_y_redes_moleculares.html">
+ <span class="dropdown-text">Bases de Datos de Interacciones y Redes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_organismos_modelo.html">
+ <span class="dropdown-text">Bases de Datos de Organismos Modelo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bd_pages/bd_variantes_clinicas.html">
+ <span class="dropdown-text">Bases de Datos de Variantes, Fenotipos y Cáncer</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos">    
+        <li>
+    <a class="dropdown-item" href="../recursos_pages/ia_tools.html">
+ <span class="dropdown-text">Inteligencia Artificial</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../recursos_pages/libros.html">
+ <span class="dropdown-text">Libros</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../recursos_pages/grupos-concursos.html">
+ <span class="dropdown-text">Grupos Online y Concursos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../recursos_pages/referentes.html">
+ <span class="dropdown-text">Referentes</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">PAGE INDEX</h2>
+   
+  <ul>
+  <li><a href="#herramientas-de-inteligencia-artificial" id="toc-herramientas-de-inteligencia-artificial" class="nav-link active" data-scroll-target="#herramientas-de-inteligencia-artificial"><strong>Herramientas de Inteligencia Artificial</strong></a>
+  <ul class="collapse">
+  <li><a href="#generales" id="toc-generales" class="nav-link" data-scroll-target="#generales"><strong>1. Generales</strong></a>
+  <ul class="collapse">
+  <li><a href="#chatgpt" id="toc-chatgpt" class="nav-link" data-scroll-target="#chatgpt"><strong>ChatGPT</strong></a></li>
+  <li><a href="#gemini-google-ai" id="toc-gemini-google-ai" class="nav-link" data-scroll-target="#gemini-google-ai"><strong>Gemini (Google AI)</strong></a></li>
+  <li><a href="#bing-chat" id="toc-bing-chat" class="nav-link" data-scroll-target="#bing-chat"><strong>Bing Chat</strong></a></li>
+  <li><a href="#perplexity" id="toc-perplexity" class="nav-link" data-scroll-target="#perplexity"><strong>Perplexity</strong></a></li>
+  <li><a href="#claude-anthropic" id="toc-claude-anthropic" class="nav-link" data-scroll-target="#claude-anthropic"><strong>Claude</strong> (Anthropic)</a></li>
+  <li><a href="#elicit" id="toc-elicit" class="nav-link" data-scroll-target="#elicit"><strong>Elicit</strong></a></li>
+  <li><a href="#deepseekr-deepseek" id="toc-deepseekr-deepseek" class="nav-link" data-scroll-target="#deepseekr-deepseek"><strong>Deepseekr (DeepSeek)</strong></a></li>
+  </ul></li>
+  <li><a href="#diseño-de-páginas-web" id="toc-diseño-de-páginas-web" class="nav-link" data-scroll-target="#diseño-de-páginas-web"><strong>2. Diseño de Páginas Web </strong></a>
+  <ul class="collapse">
+  <li><a href="#dora" id="toc-dora" class="nav-link" data-scroll-target="#dora"><strong>Dora</strong></a></li>
+  <li><a href="#durable" id="toc-durable" class="nav-link" data-scroll-target="#durable"><strong>Durable</strong></a></li>
+  <li><a href="#wegic" id="toc-wegic" class="nav-link" data-scroll-target="#wegic"><strong>Wegic</strong></a></li>
+  <li><a href="#framer" id="toc-framer" class="nav-link" data-scroll-target="#framer"><strong>Framer</strong></a></li>
+  <li><a href="#web" id="toc-web" class="nav-link" data-scroll-target="#web"><strong>10Web</strong></a></li>
+  </ul></li>
+  <li><a href="#herramientas-de-escritura" id="toc-herramientas-de-escritura" class="nav-link" data-scroll-target="#herramientas-de-escritura"><strong>3. Herramientas de Escritura</strong></a>
+  <ul class="collapse">
+  <li><a href="#jasper" id="toc-jasper" class="nav-link" data-scroll-target="#jasper"><strong>Jasper</strong></a></li>
+  <li><a href="#rytr" id="toc-rytr" class="nav-link" data-scroll-target="#rytr"><strong>Rytr</strong></a></li>
+  <li><a href="#textblaze" id="toc-textblaze" class="nav-link" data-scroll-target="#textblaze"><strong>TextBlaze</strong></a></li>
+  <li><a href="#sudowrite" id="toc-sudowrite" class="nav-link" data-scroll-target="#sudowrite"><strong>Sudowrite</strong></a></li>
+  <li><a href="#writesonic" id="toc-writesonic" class="nav-link" data-scroll-target="#writesonic"><strong>Writesonic</strong></a></li>
+  <li><a href="#paperpal" id="toc-paperpal" class="nav-link" data-scroll-target="#paperpal"><strong>Paperpal</strong></a></li>
+  </ul></li>
+  <li><a href="#para-reuniones" id="toc-para-reuniones" class="nav-link" data-scroll-target="#para-reuniones"><strong>4. Para Reuniones</strong></a>
+  <ul class="collapse">
+  <li><a href="#tldv" id="toc-tldv" class="nav-link" data-scroll-target="#tldv"><strong>TLDV</strong></a></li>
+  <li><a href="#krisp" id="toc-krisp" class="nav-link" data-scroll-target="#krisp"><strong>Krisp</strong></a></li>
+  <li><a href="#otter" id="toc-otter" class="nav-link" data-scroll-target="#otter"><strong>Otter</strong></a></li>
+  <li><a href="#avoma" id="toc-avoma" class="nav-link" data-scroll-target="#avoma"><strong>Avoma</strong></a></li>
+  <li><a href="#fireflies" id="toc-fireflies" class="nav-link" data-scroll-target="#fireflies"><strong>Fireflies</strong></a></li>
+  </ul></li>
+  <li><a href="#chatbots" id="toc-chatbots" class="nav-link" data-scroll-target="#chatbots"><strong>5. Chatbots</strong></a>
+  <ul class="collapse">
+  <li><a href="#monica-ai" id="toc-monica-ai" class="nav-link" data-scroll-target="#monica-ai"><strong>Monica AI</strong></a></li>
+  <li><a href="#maxiai.me" id="toc-maxiai.me" class="nav-link" data-scroll-target="#maxiai.me"><strong>MaxiAI.me</strong></a></li>
+  <li><a href="#poe" id="toc-poe" class="nav-link" data-scroll-target="#poe"><strong>Poe</strong></a></li>
+  <li><a href="#copilot-github-copilot" id="toc-copilot-github-copilot" class="nav-link" data-scroll-target="#copilot-github-copilot"><strong>Copilot</strong> (GitHub Copilot)</a></li>
+  <li><a href="#liner" id="toc-liner" class="nav-link" data-scroll-target="#liner"><strong>Liner</strong></a></li>
+  </ul></li>
+  <li><a href="#herramientas-de-marketing" id="toc-herramientas-de-marketing" class="nav-link" data-scroll-target="#herramientas-de-marketing"><strong>6. Herramientas de Marketing</strong></a>
+  <ul class="collapse">
+  <li><a href="#adcopy" id="toc-adcopy" class="nav-link" data-scroll-target="#adcopy"><strong>AdCopy</strong></a></li>
+  <li><a href="#predis-ai" id="toc-predis-ai" class="nav-link" data-scroll-target="#predis-ai"><strong>Predis AI</strong></a></li>
+  <li><a href="#howler-ai" id="toc-howler-ai" class="nav-link" data-scroll-target="#howler-ai"><strong>Howler AI</strong></a></li>
+  <li><a href="#bardeen-ai" id="toc-bardeen-ai" class="nav-link" data-scroll-target="#bardeen-ai"><strong>Bardeen AI</strong></a></li>
+  <li><a href="#adcreative" id="toc-adcreative" class="nav-link" data-scroll-target="#adcreative"><strong>AdCreative</strong></a></li>
+  </ul></li>
+  <li><a href="#herramientas-speech-to-text" id="toc-herramientas-speech-to-text" class="nav-link" data-scroll-target="#herramientas-speech-to-text"><strong>7. Herramientas Speech to Text</strong></a>
+  <ul class="collapse">
+  <li><a href="#fluentlyai" id="toc-fluentlyai" class="nav-link" data-scroll-target="#fluentlyai"><strong>FluentlyAI</strong></a></li>
+  <li><a href="#descript" id="toc-descript" class="nav-link" data-scroll-target="#descript"><strong>Descript</strong></a></li>
+  <li><a href="#rev-ai" id="toc-rev-ai" class="nav-link" data-scroll-target="#rev-ai"><strong>Rev AI</strong></a></li>
+  <li><a href="#clipto" id="toc-clipto" class="nav-link" data-scroll-target="#clipto"><strong>Clipto</strong></a></li>
+  <li><a href="#textcortex" id="toc-textcortex" class="nav-link" data-scroll-target="#textcortex"><strong>TextCortex</strong></a></li>
+  </ul></li>
+  <li><a href="#herramientas-text-to-speech" id="toc-herramientas-text-to-speech" class="nav-link" data-scroll-target="#herramientas-text-to-speech"><strong>8. Herramientas Text to Speech</strong></a>
+  <ul class="collapse">
+  <li><a href="#udio" id="toc-udio" class="nav-link" data-scroll-target="#udio"><strong>Udio</strong></a></li>
+  <li><a href="#suno-ai" id="toc-suno-ai" class="nav-link" data-scroll-target="#suno-ai"><strong>Suno AI</strong></a></li>
+  <li><a href="#deepgram" id="toc-deepgram" class="nav-link" data-scroll-target="#deepgram"><strong>Deepgram</strong></a></li>
+  <li><a href="#speechify" id="toc-speechify" class="nav-link" data-scroll-target="#speechify"><strong>Speechify</strong></a></li>
+  <li><a href="#elevenlabs" id="toc-elevenlabs" class="nav-link" data-scroll-target="#elevenlabs"><strong>ElevenLabs</strong></a></li>
+  </ul></li>
+  <li><a href="#diseño-uiux" id="toc-diseño-uiux" class="nav-link" data-scroll-target="#diseño-uiux"><strong>9. Diseño UI/UX</strong></a>
+  <ul class="collapse">
+  <li><a href="#galileo-ai" id="toc-galileo-ai" class="nav-link" data-scroll-target="#galileo-ai"><strong>Galileo AI</strong></a></li>
+  <li><a href="#khroma" id="toc-khroma" class="nav-link" data-scroll-target="#khroma"><strong>Khroma</strong></a></li>
+  <li><a href="#uizard" id="toc-uizard" class="nav-link" data-scroll-target="#uizard"><strong>Uizard</strong></a></li>
+  <li><a href="#visily" id="toc-visily" class="nav-link" data-scroll-target="#visily"><strong>Visily</strong></a></li>
+  <li><a href="#visualeyes" id="toc-visualeyes" class="nav-link" data-scroll-target="#visualeyes"><strong>VisualEyes</strong></a></li>
+  </ul></li>
+  <li><a href="#imagen" id="toc-imagen" class="nav-link" data-scroll-target="#imagen"><strong>10. Imagen</strong></a>
+  <ul class="collapse">
+  <li><a href="#dzine" id="toc-dzine" class="nav-link" data-scroll-target="#dzine"><strong>Dzine</strong></a></li>
+  <li><a href="#freepik" id="toc-freepik" class="nav-link" data-scroll-target="#freepik"><strong>Freepik</strong></a></li>
+  <li><a href="#phygital" id="toc-phygital" class="nav-link" data-scroll-target="#phygital"><strong>Phygital+</strong></a></li>
+  <li><a href="#dalle" id="toc-dalle" class="nav-link" data-scroll-target="#dalle"><strong>DALL·E</strong></a></li>
+  <li><a href="#bing-create" id="toc-bing-create" class="nav-link" data-scroll-target="#bing-create"><strong>Bing Create</strong></a></li>
+  </ul></li>
+  <li><a href="#vídeo" id="toc-vídeo" class="nav-link" data-scroll-target="#vídeo"><strong>11. Vídeo</strong></a>
+  <ul class="collapse">
+  <li><a href="#pictory" id="toc-pictory" class="nav-link" data-scroll-target="#pictory"><strong>Pictory</strong></a></li>
+  <li><a href="#heygen" id="toc-heygen" class="nav-link" data-scroll-target="#heygen"><strong>HeyGen</strong></a></li>
+  <li><a href="#nullface-ai" id="toc-nullface-ai" class="nav-link" data-scroll-target="#nullface-ai"><strong>Nullface AI</strong></a></li>
+  <li><a href="#invideo-ai" id="toc-invideo-ai" class="nav-link" data-scroll-target="#invideo-ai"><strong>Invideo AI</strong></a></li>
+  <li><a href="#synthesia" id="toc-synthesia" class="nav-link" data-scroll-target="#synthesia"><strong>Synthesia</strong></a></li>
+  </ul></li>
+  <li><a href="#diseño" id="toc-diseño" class="nav-link" data-scroll-target="#diseño"><strong>12. Diseño</strong></a>
+  <ul class="collapse">
+  <li><a href="#looka" id="toc-looka" class="nav-link" data-scroll-target="#looka"><strong>Looka</strong></a></li>
+  <li><a href="#clipdrop" id="toc-clipdrop" class="nav-link" data-scroll-target="#clipdrop"><strong>Clipdrop</strong></a></li>
+  <li><a href="#autodraw" id="toc-autodraw" class="nav-link" data-scroll-target="#autodraw"><strong>Autodraw</strong></a></li>
+  <li><a href="#vance-ai" id="toc-vance-ai" class="nav-link" data-scroll-target="#vance-ai"><strong>Vance AI</strong></a></li>
+  <li><a href="#designs-ai" id="toc-designs-ai" class="nav-link" data-scroll-target="#designs-ai"><strong>Designs AI</strong></a></li>
+  </ul></li>
+  <li><a href="#generación-de-presentaciones" id="toc-generación-de-presentaciones" class="nav-link" data-scroll-target="#generación-de-presentaciones"><strong>13. Generación de Presentaciones</strong></a>
+  <ul class="collapse">
+  <li><a href="#beautiful.ai" id="toc-beautiful.ai" class="nav-link" data-scroll-target="#beautiful.ai"><strong>Beautiful.ai</strong></a></li>
+  <li><a href="#slidebean" id="toc-slidebean" class="nav-link" data-scroll-target="#slidebean"><strong>Slidebean</strong></a></li>
+  <li><a href="#pitch" id="toc-pitch" class="nav-link" data-scroll-target="#pitch"><strong>Pitch</strong></a></li>
+  <li><a href="#gamma" id="toc-gamma" class="nav-link" data-scroll-target="#gamma"><strong>Gamma</strong></a></li>
+  <li><a href="#tome" id="toc-tome" class="nav-link" data-scroll-target="#tome"><strong>Tome</strong></a></li>
+  </ul></li>
+  <li><a href="#automatización" id="toc-automatización" class="nav-link" data-scroll-target="#automatización"><strong>14. Automatización</strong></a>
+  <ul class="collapse">
+  <li><a href="#phrasee" id="toc-phrasee" class="nav-link" data-scroll-target="#phrasee"><strong>Phrasee</strong></a></li>
+  <li><a href="#outreach" id="toc-outreach" class="nav-link" data-scroll-target="#outreach"><strong>Outreach</strong></a></li>
+  <li><a href="#clickup" id="toc-clickup" class="nav-link" data-scroll-target="#clickup"><strong>ClickUp</strong></a></li>
+  <li><a href="#drift" id="toc-drift" class="nav-link" data-scroll-target="#drift"><strong>Drift</strong></a></li>
+  <li><a href="#emplifi" id="toc-emplifi" class="nav-link" data-scroll-target="#emplifi"><strong>Emplifi</strong></a></li>
+  </ul></li>
+  <li><a href="#escritura-de-blogs" id="toc-escritura-de-blogs" class="nav-link" data-scroll-target="#escritura-de-blogs"><strong>15. Escritura de Blogs</strong></a>
+  <ul class="collapse">
+  <li><a href="#katteb" id="toc-katteb" class="nav-link" data-scroll-target="#katteb"><strong>Katteb</strong></a></li>
+  <li><a href="#rewording" id="toc-rewording" class="nav-link" data-scroll-target="#rewording"><strong>Rewording</strong></a></li>
+  <li><a href="#elephas" id="toc-elephas" class="nav-link" data-scroll-target="#elephas"><strong>Elephas</strong></a></li>
+  <li><a href="#junia-ai" id="toc-junia-ai" class="nav-link" data-scroll-target="#junia-ai"><strong>Junia AI</strong></a></li>
+  <li><a href="#journalist-ai" id="toc-journalist-ai" class="nav-link" data-scroll-target="#journalist-ai"><strong>Journalist AI</strong></a></li>
+  </ul></li>
+  <li><a href="#detectores-de-ia" id="toc-detectores-de-ia" class="nav-link" data-scroll-target="#detectores-de-ia"><strong>16. Detectores de IA</strong></a>
+  <ul class="collapse">
+  <li><a href="#gptzero" id="toc-gptzero" class="nav-link" data-scroll-target="#gptzero"><strong>GPTZero</strong></a></li>
+  <li><a href="#wordtune" id="toc-wordtune" class="nav-link" data-scroll-target="#wordtune"><strong>Wordtune</strong></a></li>
+  <li><a href="#copyleaks" id="toc-copyleaks" class="nav-link" data-scroll-target="#copyleaks"><strong>Copyleaks</strong></a></li>
+  <li><a href="#bypassgpt" id="toc-bypassgpt" class="nav-link" data-scroll-target="#bypassgpt"><strong>BypassGPT</strong></a></li>
+  <li><a href="#grammarly" id="toc-grammarly" class="nav-link" data-scroll-target="#grammarly"><strong>Grammarly</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Herramientas de Inteligencia Artificial</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="herramientas-de-inteligencia-artificial" class="level1">
+<h1><strong>Herramientas de Inteligencia Artificial</strong></h1>
+<hr>
+<section id="generales" class="level2">
+<h2 class="anchored" data-anchor-id="generales"><strong>1. Generales</strong></h2>
+<section id="chatgpt" class="level3">
+<h3 class="anchored" data-anchor-id="chatgpt"><strong>ChatGPT</strong></h3>
+<p><a href="https://chatgpt.com">Accede aquí</a></p>
+<p>ChatGPT es un modelo de lenguaje desarrollado por OpenAI que se especializa en la generación y comprensión de texto en conversaciones naturales. Ofrece respuestas contextuales y detalladas, cubriendo una amplia variedad de temas y aportando ideas para proyectos, investigaciones o simplemente para satisfacer curiosidades. Gracias a su extensa base de entrenamiento, puede adaptarse a diferentes estilos de comunicación y necesidades de información.</p>
+</section>
+<section id="gemini-google-ai" class="level3">
+<h3 class="anchored" data-anchor-id="gemini-google-ai"><strong>Gemini (Google AI)</strong></h3>
+<p><a href="https://gemini.google.com">Accede aquí</a></p>
+<p>Gemini es un proyecto de Google enfocado en desarrollar un modelo de IA de última generación que combine capacidades multimodales y un alto nivel de razonamiento. Aún en fase previa al lanzamiento público, se espera que mejore sustancialmente la interacción con el usuario en tareas que van desde la asistencia conversacional hasta la generación de contenido complejo. La visión de Google es integrar Gemini en todo su ecosistema de productos, aumentando la eficiencia y la creatividad en múltiples ámbitos.</p>
+</section>
+<section id="bing-chat" class="level3">
+<h3 class="anchored" data-anchor-id="bing-chat"><strong>Bing Chat</strong></h3>
+<p><a href="https://www.bing.com/chat">Accede aquí</a></p>
+</section>
+<section id="perplexity" class="level3">
+<h3 class="anchored" data-anchor-id="perplexity"><strong>Perplexity</strong></h3>
+<p><a href="https://www.perplexity.ai/">Accede aquí</a></p>
+</section>
+<section id="claude-anthropic" class="level3">
+<h3 class="anchored" data-anchor-id="claude-anthropic"><strong>Claude</strong> (Anthropic)</h3>
+<p><a href="https://claude.ai/">Accede aquí</a></p>
+</section>
+<section id="elicit" class="level3">
+<h3 class="anchored" data-anchor-id="elicit"><strong>Elicit</strong></h3>
+<p><a href="https://elicit.org/">Accede aquí</a></p>
+</section>
+<section id="deepseekr-deepseek" class="level3">
+<h3 class="anchored" data-anchor-id="deepseekr-deepseek"><strong>Deepseekr (DeepSeek)</strong></h3>
+<p><a href="https://chat.deepseek.com/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="diseño-de-páginas-web" class="level2">
+<h2 class="anchored" data-anchor-id="diseño-de-páginas-web"><strong>2. Diseño de Páginas Web </strong></h2>
+<section id="dora" class="level3">
+<h3 class="anchored" data-anchor-id="dora"><strong>Dora</strong></h3>
+<p><a href="https://www.dora.run/">Accede aquí</a></p>
+</section>
+<section id="durable" class="level3">
+<h3 class="anchored" data-anchor-id="durable"><strong>Durable</strong></h3>
+<p><a href="https://durable.co/">Accede aquí</a></p>
+</section>
+<section id="wegic" class="level3">
+<h3 class="anchored" data-anchor-id="wegic"><strong>Wegic</strong></h3>
+<p><a href="https://wegic.co/">Accede aquí</a></p>
+</section>
+<section id="framer" class="level3">
+<h3 class="anchored" data-anchor-id="framer"><strong>Framer</strong></h3>
+<p><a href="https://www.framer.com/">Accede aquí</a></p>
+</section>
+<section id="web" class="level3">
+<h3 class="anchored" data-anchor-id="web"><strong>10Web</strong></h3>
+<p><a href="https://10web.io/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="herramientas-de-escritura" class="level2">
+<h2 class="anchored" data-anchor-id="herramientas-de-escritura"><strong>3. Herramientas de Escritura</strong></h2>
+<section id="jasper" class="level3">
+<h3 class="anchored" data-anchor-id="jasper"><strong>Jasper</strong></h3>
+<p><a href="https://www.jasper.ai/">Accede aquí</a></p>
+</section>
+<section id="rytr" class="level3">
+<h3 class="anchored" data-anchor-id="rytr"><strong>Rytr</strong></h3>
+<p><a href="https://rytr.me/">Accede aquí</a></p>
+</section>
+<section id="textblaze" class="level3">
+<h3 class="anchored" data-anchor-id="textblaze"><strong>TextBlaze</strong></h3>
+<p><a href="https://blaze.today/">Accede aquí</a></p>
+</section>
+<section id="sudowrite" class="level3">
+<h3 class="anchored" data-anchor-id="sudowrite"><strong>Sudowrite</strong></h3>
+<p><a href="https://www.sudowrite.com/">Accede aquí</a></p>
+</section>
+<section id="writesonic" class="level3">
+<h3 class="anchored" data-anchor-id="writesonic"><strong>Writesonic</strong></h3>
+<p><a href="https://writesonic.com/">Accede aquí</a></p>
+</section>
+<section id="paperpal" class="level3">
+<h3 class="anchored" data-anchor-id="paperpal"><strong>Paperpal</strong></h3>
+<p><a href="https://paperpal.com/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="para-reuniones" class="level2">
+<h2 class="anchored" data-anchor-id="para-reuniones"><strong>4. Para Reuniones</strong></h2>
+<section id="tldv" class="level3">
+<h3 class="anchored" data-anchor-id="tldv"><strong>TLDV</strong></h3>
+<p><a href="https://tldv.io/">Accede aquí</a></p>
+</section>
+<section id="krisp" class="level3">
+<h3 class="anchored" data-anchor-id="krisp"><strong>Krisp</strong></h3>
+<p><a href="https://krisp.ai/">Accede aquí</a></p>
+</section>
+<section id="otter" class="level3">
+<h3 class="anchored" data-anchor-id="otter"><strong>Otter</strong></h3>
+<p><a href="https://otter.ai/">Accede aquí</a></p>
+</section>
+<section id="avoma" class="level3">
+<h3 class="anchored" data-anchor-id="avoma"><strong>Avoma</strong></h3>
+<p><a href="https://www.avoma.com/">Accede aquí</a></p>
+</section>
+<section id="fireflies" class="level3">
+<h3 class="anchored" data-anchor-id="fireflies"><strong>Fireflies</strong></h3>
+<p><a href="https://fireflies.ai/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="chatbots" class="level2">
+<h2 class="anchored" data-anchor-id="chatbots"><strong>5. Chatbots</strong></h2>
+<section id="monica-ai" class="level3">
+<h3 class="anchored" data-anchor-id="monica-ai"><strong>Monica AI</strong></h3>
+<p><a href="https://monica.im/">Accede aquí</a></p>
+</section>
+<section id="maxiai.me" class="level3">
+<h3 class="anchored" data-anchor-id="maxiai.me"><strong>MaxiAI.me</strong></h3>
+<p><a href="https://maxiai.me/">Accede aquí</a></p>
+</section>
+<section id="poe" class="level3">
+<h3 class="anchored" data-anchor-id="poe"><strong>Poe</strong></h3>
+<p><a href="https://poe.com/">Accede aquí</a></p>
+</section>
+<section id="copilot-github-copilot" class="level3">
+<h3 class="anchored" data-anchor-id="copilot-github-copilot"><strong>Copilot</strong> (GitHub Copilot)</h3>
+<p><a href="https://github.com/features/copilot">Accede aquí</a></p>
+</section>
+<section id="liner" class="level3">
+<h3 class="anchored" data-anchor-id="liner"><strong>Liner</strong></h3>
+<p><a href="https://getliner.com/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="herramientas-de-marketing" class="level2">
+<h2 class="anchored" data-anchor-id="herramientas-de-marketing"><strong>6. Herramientas de Marketing</strong></h2>
+<section id="adcopy" class="level3">
+<h3 class="anchored" data-anchor-id="adcopy"><strong>AdCopy</strong></h3>
+<p><a href="https://adcopy.ai/">Accede aquí</a></p>
+</section>
+<section id="predis-ai" class="level3">
+<h3 class="anchored" data-anchor-id="predis-ai"><strong>Predis AI</strong></h3>
+<p><a href="https://predis.ai/">Accede aquí</a></p>
+</section>
+<section id="howler-ai" class="level3">
+<h3 class="anchored" data-anchor-id="howler-ai"><strong>Howler AI</strong></h3>
+<p><a href="https://howler.ai/">Accede aquí</a></p>
+</section>
+<section id="bardeen-ai" class="level3">
+<h3 class="anchored" data-anchor-id="bardeen-ai"><strong>Bardeen AI</strong></h3>
+<p><a href="https://www.bardeen.ai/">Accede aquí</a></p>
+</section>
+<section id="adcreative" class="level3">
+<h3 class="anchored" data-anchor-id="adcreative"><strong>AdCreative</strong></h3>
+<p><a href="https://www.adcreative.ai/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="herramientas-speech-to-text" class="level2">
+<h2 class="anchored" data-anchor-id="herramientas-speech-to-text"><strong>7. Herramientas Speech to Text</strong></h2>
+<section id="fluentlyai" class="level3">
+<h3 class="anchored" data-anchor-id="fluentlyai"><strong>FluentlyAI</strong></h3>
+<p><a href="https://fluently.ai/">Accede aquí</a></p>
+</section>
+<section id="descript" class="level3">
+<h3 class="anchored" data-anchor-id="descript"><strong>Descript</strong></h3>
+<p><a href="https://www.descript.com/">Accede aquí</a></p>
+</section>
+<section id="rev-ai" class="level3">
+<h3 class="anchored" data-anchor-id="rev-ai"><strong>Rev AI</strong></h3>
+<p><a href="https://www.rev.ai/">Accede aquí</a></p>
+</section>
+<section id="clipto" class="level3">
+<h3 class="anchored" data-anchor-id="clipto"><strong>Clipto</strong></h3>
+<p><a href="https://clipto.app/">Accede aquí</a></p>
+</section>
+<section id="textcortex" class="level3">
+<h3 class="anchored" data-anchor-id="textcortex"><strong>TextCortex</strong></h3>
+<p><a href="https://textcortex.com/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="herramientas-text-to-speech" class="level2">
+<h2 class="anchored" data-anchor-id="herramientas-text-to-speech"><strong>8. Herramientas Text to Speech</strong></h2>
+<section id="udio" class="level3">
+<h3 class="anchored" data-anchor-id="udio"><strong>Udio</strong></h3>
+<p><a href="https://udio.ai/">Accede aquí</a></p>
+</section>
+<section id="suno-ai" class="level3">
+<h3 class="anchored" data-anchor-id="suno-ai"><strong>Suno AI</strong></h3>
+<p><a href="https://suno.ai/">Accede aquí</a></p>
+</section>
+<section id="deepgram" class="level3">
+<h3 class="anchored" data-anchor-id="deepgram"><strong>Deepgram</strong></h3>
+<p><a href="https://deepgram.com/">Accede aquí</a></p>
+</section>
+<section id="speechify" class="level3">
+<h3 class="anchored" data-anchor-id="speechify"><strong>Speechify</strong></h3>
+<p><a href="https://speechify.com/">Accede aquí</a></p>
+</section>
+<section id="elevenlabs" class="level3">
+<h3 class="anchored" data-anchor-id="elevenlabs"><strong>ElevenLabs</strong></h3>
+<p><a href="https://elevenlabs.io/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="diseño-uiux" class="level2">
+<h2 class="anchored" data-anchor-id="diseño-uiux"><strong>9. Diseño UI/UX</strong></h2>
+<section id="galileo-ai" class="level3">
+<h3 class="anchored" data-anchor-id="galileo-ai"><strong>Galileo AI</strong></h3>
+<p><a href="https://www.usegalileo.ai/">Accede aquí</a></p>
+</section>
+<section id="khroma" class="level3">
+<h3 class="anchored" data-anchor-id="khroma"><strong>Khroma</strong></h3>
+<p><a href="https://khroma.co/">Accede aquí</a></p>
+</section>
+<section id="uizard" class="level3">
+<h3 class="anchored" data-anchor-id="uizard"><strong>Uizard</strong></h3>
+<p><a href="https://uizard.io/">Accede aquí</a></p>
+</section>
+<section id="visily" class="level3">
+<h3 class="anchored" data-anchor-id="visily"><strong>Visily</strong></h3>
+<p><a href="https://www.visily.ai/">Accede aquí</a></p>
+</section>
+<section id="visualeyes" class="level3">
+<h3 class="anchored" data-anchor-id="visualeyes"><strong>VisualEyes</strong></h3>
+<p><a href="https://visualeyes.design/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="imagen" class="level2">
+<h2 class="anchored" data-anchor-id="imagen"><strong>10. Imagen</strong></h2>
+<section id="dzine" class="level3">
+<h3 class="anchored" data-anchor-id="dzine"><strong>Dzine</strong></h3>
+<p><em>(No se ha localizado un enlace oficial fiable; podría corresponder a otros proyectos con nombre similar.)</em></p>
+</section>
+<section id="freepik" class="level3">
+<h3 class="anchored" data-anchor-id="freepik"><strong>Freepik</strong></h3>
+<p><a href="https://www.freepik.com/">Accede aquí</a></p>
+</section>
+<section id="phygital" class="level3">
+<h3 class="anchored" data-anchor-id="phygital"><strong>Phygital+</strong></h3>
+<p><a href="https://phygitalplus.com/">Accede aquí</a></p>
+</section>
+<section id="dalle" class="level3">
+<h3 class="anchored" data-anchor-id="dalle"><strong>DALL·E</strong></h3>
+<p><a href="https://labs.openai.com/">Accede aquí</a></p>
+</section>
+<section id="bing-create" class="level3">
+<h3 class="anchored" data-anchor-id="bing-create"><strong>Bing Create</strong></h3>
+<p><a href="https://bing.com/create">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="vídeo" class="level2">
+<h2 class="anchored" data-anchor-id="vídeo"><strong>11. Vídeo</strong></h2>
+<section id="pictory" class="level3">
+<h3 class="anchored" data-anchor-id="pictory"><strong>Pictory</strong></h3>
+<p><a href="https://pictory.ai/">Accede aquí</a></p>
+</section>
+<section id="heygen" class="level3">
+<h3 class="anchored" data-anchor-id="heygen"><strong>HeyGen</strong></h3>
+<p><a href="https://www.heygen.com/">Accede aquí</a></p>
+</section>
+<section id="nullface-ai" class="level3">
+<h3 class="anchored" data-anchor-id="nullface-ai"><strong>Nullface AI</strong></h3>
+<p><a href="https://nullface.ai/">Accede aquí</a></p>
+</section>
+<section id="invideo-ai" class="level3">
+<h3 class="anchored" data-anchor-id="invideo-ai"><strong>Invideo AI</strong></h3>
+<p><a href="https://invideo.io/">Accede aquí</a></p>
+</section>
+<section id="synthesia" class="level3">
+<h3 class="anchored" data-anchor-id="synthesia"><strong>Synthesia</strong></h3>
+<p><a href="https://www.synthesia.io/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="diseño" class="level2">
+<h2 class="anchored" data-anchor-id="diseño"><strong>12. Diseño</strong></h2>
+<section id="looka" class="level3">
+<h3 class="anchored" data-anchor-id="looka"><strong>Looka</strong></h3>
+<p><a href="https://looka.com/">Accede aquí</a></p>
+</section>
+<section id="clipdrop" class="level3">
+<h3 class="anchored" data-anchor-id="clipdrop"><strong>Clipdrop</strong></h3>
+<p><a href="https://clipdrop.co/">Accede aquí</a></p>
+</section>
+<section id="autodraw" class="level3">
+<h3 class="anchored" data-anchor-id="autodraw"><strong>Autodraw</strong></h3>
+<p><a href="https://www.autodraw.com/">Accede aquí</a></p>
+</section>
+<section id="vance-ai" class="level3">
+<h3 class="anchored" data-anchor-id="vance-ai"><strong>Vance AI</strong></h3>
+<p><a href="https://vanceai.com/">Accede aquí</a></p>
+</section>
+<section id="designs-ai" class="level3">
+<h3 class="anchored" data-anchor-id="designs-ai"><strong>Designs AI</strong></h3>
+<p><a href="https://designs.ai/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="generación-de-presentaciones" class="level2">
+<h2 class="anchored" data-anchor-id="generación-de-presentaciones"><strong>13. Generación de Presentaciones</strong></h2>
+<section id="beautiful.ai" class="level3">
+<h3 class="anchored" data-anchor-id="beautiful.ai"><strong>Beautiful.ai</strong></h3>
+<p><a href="https://www.beautiful.ai/">Accede aquí</a></p>
+</section>
+<section id="slidebean" class="level3">
+<h3 class="anchored" data-anchor-id="slidebean"><strong>Slidebean</strong></h3>
+<p><a href="https://slidebean.com/">Accede aquí</a></p>
+</section>
+<section id="pitch" class="level3">
+<h3 class="anchored" data-anchor-id="pitch"><strong>Pitch</strong></h3>
+<p><a href="https://pitch.com/">Accede aquí</a></p>
+</section>
+<section id="gamma" class="level3">
+<h3 class="anchored" data-anchor-id="gamma"><strong>Gamma</strong></h3>
+<p><a href="https://gamma.app/">Accede aquí</a></p>
+</section>
+<section id="tome" class="level3">
+<h3 class="anchored" data-anchor-id="tome"><strong>Tome</strong></h3>
+<p><a href="https://tome.app/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="automatización" class="level2">
+<h2 class="anchored" data-anchor-id="automatización"><strong>14. Automatización</strong></h2>
+<section id="phrasee" class="level3">
+<h3 class="anchored" data-anchor-id="phrasee"><strong>Phrasee</strong></h3>
+<p><a href="https://phrasee.co/">Accede aquí</a></p>
+</section>
+<section id="outreach" class="level3">
+<h3 class="anchored" data-anchor-id="outreach"><strong>Outreach</strong></h3>
+<p><a href="https://www.outreach.io/">Accede aquí</a></p>
+</section>
+<section id="clickup" class="level3">
+<h3 class="anchored" data-anchor-id="clickup"><strong>ClickUp</strong></h3>
+<p><a href="https://clickup.com/">Accede aquí</a></p>
+</section>
+<section id="drift" class="level3">
+<h3 class="anchored" data-anchor-id="drift"><strong>Drift</strong></h3>
+<p><a href="https://www.drift.com/">Accede aquí</a></p>
+</section>
+<section id="emplifi" class="level3">
+<h3 class="anchored" data-anchor-id="emplifi"><strong>Emplifi</strong></h3>
+<p><a href="https://emplifi.io/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="escritura-de-blogs" class="level2">
+<h2 class="anchored" data-anchor-id="escritura-de-blogs"><strong>15. Escritura de Blogs</strong></h2>
+<section id="katteb" class="level3">
+<h3 class="anchored" data-anchor-id="katteb"><strong>Katteb</strong></h3>
+<p><a href="https://katteb.com/">Accede aquí</a></p>
+</section>
+<section id="rewording" class="level3">
+<h3 class="anchored" data-anchor-id="rewording"><strong>Rewording</strong></h3>
+<p><a href="https://rewording.io/">Accede aquí</a></p>
+</section>
+<section id="elephas" class="level3">
+<h3 class="anchored" data-anchor-id="elephas"><strong>Elephas</strong></h3>
+<p><a href="https://elephas.app/">Accede aquí</a></p>
+</section>
+<section id="junia-ai" class="level3">
+<h3 class="anchored" data-anchor-id="junia-ai"><strong>Junia AI</strong></h3>
+<p><a href="https://junia.ai/">Accede aquí</a></p>
+</section>
+<section id="journalist-ai" class="level3">
+<h3 class="anchored" data-anchor-id="journalist-ai"><strong>Journalist AI</strong></h3>
+<p><a href="https://journalistai.com/">Accede aquí</a></p>
+<hr>
+</section>
+</section>
+<section id="detectores-de-ia" class="level2">
+<h2 class="anchored" data-anchor-id="detectores-de-ia"><strong>16. Detectores de IA</strong></h2>
+<p><em>(Algunas hacen más que solo detección, pero se mencionan en esa categoría.)</em></p>
+<section id="gptzero" class="level3">
+<h3 class="anchored" data-anchor-id="gptzero"><strong>GPTZero</strong></h3>
+<p><a href="https://gptzero.me/">Accede aquí</a></p>
+</section>
+<section id="wordtune" class="level3">
+<h3 class="anchored" data-anchor-id="wordtune"><strong>Wordtune</strong></h3>
+<p><a href="https://www.wordtune.com/">Accede aquí</a></p>
+</section>
+<section id="copyleaks" class="level3">
+<h3 class="anchored" data-anchor-id="copyleaks"><strong>Copyleaks</strong></h3>
+<p><a href="https://copyleaks.com/">Accede aquí</a></p>
+</section>
+<section id="bypassgpt" class="level3">
+<h3 class="anchored" data-anchor-id="bypassgpt"><strong>BypassGPT</strong></h3>
+<p><a href="https://bypassgpt.ai/">Accede aquí</a></p>
+</section>
+<section id="grammarly" class="level3">
+<h3 class="anchored" data-anchor-id="grammarly"><strong>Grammarly</strong></h3>
+<p><a href="https://grammarly.com/">Accede aquí</a></p>
+<hr>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/r-kodamas\.netlify\.app");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

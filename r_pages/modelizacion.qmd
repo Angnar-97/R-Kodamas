@@ -45,3 +45,8 @@ Es una herramienta poderosa para auditar y explicar modelos complejos, mejorando
 
 `renv` es esencial para proyectos colaborativos y de largo plazo, donde la reproducibilidad y estabilidad de los entornos de trabajo son fundamentales.
 
+
+### **RandomForestSRC **
+
+https://www.randomforestsrc.org/articles/getstarted.html
+

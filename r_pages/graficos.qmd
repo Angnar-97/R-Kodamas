@@ -7,12 +7,11 @@ editor: source
 
 ## **Paquetes de R**
 
-### **Ggplot2**
+### **GGplot2**
 
 [Accede aquí](ggplot2.tidyverse.org)
 
-
-`ggplot2` es una biblioteca de R para la creación de gráficos basados en la **gramática de gráficos** ("Grammar of Graphics"). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:
+`GGplot2` es una biblioteca de R para la creación de gráficos basados en la **gramática de gráficos** ("Grammar of Graphics"). Es una de las herramientas más potentes y flexibles para la visualización de datos. Sus principales características incluyen:
 
 - **Modularidad**: Construye gráficos por capas (`geom_*`, `facet_*`, `theme_*`) para personalizar visualizaciones paso a paso.
 - **Compatibilidad con datos "tidy"**: Facilita la integración con estructuras como data frames y tibbles.
@@ -21,27 +20,61 @@ editor: source
 
 Es ideal para explorar datos, comunicar hallazgos y crear visualizaciones de alta calidad en proyectos de análisis y ciencia de datos.
 
-## **Gganimate** 
+## **GGanimate** 
 
 [Accede aquí](appsilon.com/post/r-gganimate)
 
-`gganimate` es una extensión de `ggplot2` que permite agregar animaciones a gráficos en R. Es ideal para visualizar datos dinámicos o que cambian a lo largo del tiempo. Sus principales características incluyen:
+`GGanimate` es una extensión de `ggplot2` que permite agregar animaciones a gráficos en R. Es ideal para visualizar datos dinámicos o que cambian a lo largo del tiempo. Sus principales características incluyen:
 
 - **Transiciones dinámicas**: Facilita la animación de variables con funciones como `transition_time()` y `transition_states()`.
 - **Compatibilidad con ggplot2**: Aprovecha la sintaxis y funcionalidad de `ggplot2`, ampliándola con movimiento y cambios dinámicos.
 - **Visualización temporal**: Perfecto para analizar tendencias y patrones que evolucionan en el tiempo.
 - **Opciones de personalización**: Permite ajustar la velocidad, duración y efectos de las animaciones.
 
-`gganimate` es una herramienta poderosa para transformar gráficos estáticos en visualizaciones impactantes y narrativas.
+`GGanimate` es una herramienta poderosa para transformar gráficos estáticos en visualizaciones impactantes y narrativas.
+
+### **GGgenes**
+
+[Accede aquí](https://github.com/wilkox/gggenes)  
+[Vignettes y documentación](https://cran.r-project.org/web/packages/gggenes/vignettes/introduction-to-gggenes.html)
+
+`GGgenes` es un paquete de R que extiende las capacidades de `ggplot2` para dibujar mapas de genes. Resulta muy útil para representar regiones genómicas, operones, plásmidos u otros esquemas que requieran mostrar la posición y orientación de los genes. Sus principales características incluyen:
+
+- **Gene arrow maps**: Permite añadir flechas para representar genes con sus respectivas coordenadas y direcciones en una misma pista.  
+- **Flujo de trabajo “tidy”**: Aprovecha la gramática de gráficos de `ggplot2`, facilitando la integración con otros paquetes del ecosistema.  
+- **Personalización completa**: Se pueden modificar colores, tamaños, etiquetas y otros aspectos estéticos para ajustar la visualización a distintas necesidades.  
+- **Soporte para anotaciones complejas**: Adecuado para representar clústeres de genes, mutaciones o elementos genéticos móviles.
+
+`GGgenes` se ha convertido en una herramienta muy utilizada para comunicar resultados de estudios genómicos y moverse más allá de las representaciones estáticas, gracias a su flexibilidad para anotar y visualizar regiones genéticas de interés. 
 
 
+### **GGseg**
 
-## **Patchwork**
+[Accede aquí](https://github.com/ggseg/ggseg)
+[Vignettes y documentación](https://drmowinckels.io/blog/2018/introducing-the-ggseg-r-package-for-brain-segmentations/)
+
+`GGseg` es un paquete de R que facilita la visualización de segmentaciones cerebrales en dos y tres dimensiones utilizando la potencia de **ggplot2**. Permite superponer datos sobre distintas regiones anatómicas del cerebro, convirtiéndose en una herramienta clave para investigadores en neurociencias. Algunas de sus características principales son:
+  
+  - **Visualizaciones anatómicas**: Muestra mapas cerebrales según diferentes atlas (Desikan-Killiany, Destrieux, entre otros).  
+- **Integración con ggplot2**: Alineado con la gramática de gráficos para añadir capas, personalizar colores y escalas, y generar figuras de alta calidad.  
+- **Soporte 3D**: Opciones para representar el cerebro en tres dimensiones, con rotaciones y vistas personalizadas.  
+- **Adaptable para investigación clínica y básica**: Ideal para estudios de conectividad, morfometría o cualquier análisis que involucre segmentos anatómicos cerebrales.
+
+`GGseg` agiliza la producción de figuras claras y reproducibles, facilitando la comunicación de resultados en neuroimagen y análisis estadísticos basados en regiones cerebrales. 
+
+
+### **Patchwork**
 
 [Accede aquí](https://patchwork.data-imaginist.com)
 
+`Patchwork` es un paquete de R diseñado para combinar múltiples gráficos de **ggplot2** en una misma salida, facilitando la creación de composiciones complejas. Sus principales características incluyen:
 
+- **Layout flexible**: Permite organizar paneles de gráficos uno al lado del otro, encima o debajo, con un control granular del diseño.  
+- **Operadores lógicos para el diseño**: Usa símbolos como `+` o `|` para describir cómo se combinan los gráficos.  
+- **Integración con ggplot2**: Conserva toda la funcionalidad nativa de ggplot2, lo que permite personalizaciones avanzadas.  
+- **Anotaciones globales**: Incluye la posibilidad de añadir títulos, leyendas y etiquetas comunes a varios gráficos a la vez.
 
+`Patchwork` resulta esencial cuando se requiere presentar múltiples visualizaciones de manera estética y coherente, sin necesidad de manualmente administrar la complejidad de marcos o empotrados. 
 
 ## **Elementos Decorativos Gráficos**
 
